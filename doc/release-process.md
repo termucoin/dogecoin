@@ -180,7 +180,7 @@ Commit your signature to gitian.sigs:
 Wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [noncecash-detached-sigs](https://github.com/doge/noncecash-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [noncecash-detached-sigs](https://github.com/nncc/noncecash-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 

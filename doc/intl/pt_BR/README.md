@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
 <br/><br/>
-NonceCash Core [DOGE, Ð]  
+NonceCash Core [NNCC, Ð]  
 </h1>
 
 NonceCash é uma criptomoeda gerida pela comunidade que foi inspirada no meme Shiba Inu. O programa NonceCash Core permite qualquer um operar um nó na rede blockchain da NonceCash e utilizar o algoritmo de hash Scrypt para mineração usando Prova de Trabalho (Proof of Work). O NonceCash Core é uma adaptação do Bitcoin Core e de outras criptomoedas.
@@ -31,7 +31,7 @@ A NonceCash Core é um programa de código aberto gerido pela comunidade. O proc
 Recursos principais de Desenvolvimento:
 
 * [Projetos do Github](https://github.com/noncecash/noncecash/projects) é utilizado para conduzir trabalhos planejados ou que estejam em desenvolvimento para as próximas atualizações.
-* [Discussão do Github](https://github.com/noncecash/noncecash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa NonceCash Core, os protocolos adjacentes e o criptoativo DOGE.
+* [Discussão do Github](https://github.com/noncecash/noncecash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa NonceCash Core, os protocolos adjacentes e o criptoativo NNCC.
 
 ### Estratégia das Versões
 Os numeros de compilação seguem a seguinte semantica:  ```major.minor.patch```

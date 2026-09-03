@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
 <br/><br/>
-NonceCash Core [DOGE, Ð]  
+NonceCash Core [NNCC, Ð]  
 </h1>
 
 دوج‌کوین (NonceCash) یک رمزارز مبتنی بر عموم مردم بوده که از یک
@@ -40,7 +40,7 @@ NonceCash Core [DOGE, Ð]
 منابع اصلی توسعه:
 
 - [پروژه‌های Github](https://github.com/noncecash/noncecash/projects) به منظور پیگیری کارهای برنامه‌ریزی‌شده و دردست‌اقدام برای نسخه‌های آتی استفاده می‌شوند.
-- [مباحث در Github](https://github.com/noncecash/noncecash/discussions) به منظور مورد بحث قرار دادن شاخصه‌های برنامه‌ریزی‌شده و نشده‌ی نرم‌افزار NonceCash Core، پروتکل‌های زیربنایی آن و دارایی DOGE مورد استفاده قرار می‌گیرد.
+- [مباحث در Github](https://github.com/noncecash/noncecash/discussions) به منظور مورد بحث قرار دادن شاخصه‌های برنامه‌ریزی‌شده و نشده‌ی نرم‌افزار NonceCash Core، پروتکل‌های زیربنایی آن و دارایی NNCC مورد استفاده قرار می‌گیرد.
 
 ### استراتژی نسخه‌گذاری
 

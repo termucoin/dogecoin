@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
 <br/><br/>
-NonceCash Core [DOGE, Ð]  
+NonceCash Core [NNCC, Ð]  
 </h1>
 
 **IMPORTANT: Starting August 2024, the `master` branch has become the primary
@@ -46,7 +46,7 @@ Main development resources:
   follow planned and in-progress work for upcoming releases.
 * [GitHub Discussions](https://github.com/noncecash/noncecash/discussions) is used
   to discuss features, planned and unplanned, related to both the development of
-  the NonceCash Core software, the underlying protocols and the DOGE asset.
+  the NonceCash Core software, the underlying protocols and the NNCC asset.
 
 ### Version strategy
 Version numbers are following ```major.minor.patch``` semantics.

@@ -24,7 +24,7 @@ CFeeRate GetNonceCashFeeRate(int priority)
     switch(priority)
     {
     case SUCH_EXPENSIVE:
-        return CFeeRate(COIN / 100 * 521); // 5.21 DOGE, but very carefully avoiding floating point maths
+        return CFeeRate(COIN / 100 * 521); // 5.21 NNCC, but very carefully avoiding floating point maths
     case MANY_GENEROUS:
         return CFeeRate(CWallet::minTxFee.GetFeePerK() * 100);
     case AMAZE:

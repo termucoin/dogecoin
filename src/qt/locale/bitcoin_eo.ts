@@ -100,11 +100,11 @@
     </message>
     <message>
         <source>These are your NonceCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Dogemon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <translation>Jen viaj Nnccmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
         <source>These are your NonceCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj dogemonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation>Jen viaj nnccmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -352,7 +352,7 @@
     </message>
     <message>
         <source>Send coins to a NonceCash address</source>
-        <translation>Sendi monon al Dogemon-adreso</translation>
+        <translation>Sendi monon al Nnccmon-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <source>NonceCash</source>
-        <translation>Dogemono</translation>
+        <translation>Nnccmono</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -404,11 +404,11 @@
     </message>
     <message>
         <source>Sign messages with your NonceCash addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Dogemon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <translation>Subskribi mesaĝojn per via Nnccmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified NonceCash addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Dogemon-adresoj</translation>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Nnccmon-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -1149,7 +1149,7 @@
     </message>
     <message>
         <source>Automatically open the NonceCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Dogemono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <translation>Aŭtomate malfermi la kursilan pordon por Nnccmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1586,7 +1586,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of DOGE you wish to send to each wallet:</source>
+        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of NNCC you wish to send to each wallet:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1599,7 +1599,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Dogemonon</translation>
+        <translation type="unfinished">Sendi Nnccmonon</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2458,7 +2458,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Dogemonon</translation>
+        <translation>Sendi Nnccmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2862,7 +2862,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this NonceCash address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Dogemon-adreso</translation>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Nnccmon-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2882,7 +2882,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified NonceCash address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Dogemon-adreso</translation>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Nnccmon-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3477,7 +3477,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Dogemonon</translation>
+        <translation type="unfinished">Sendi Nnccmonon</translation>
     </message>
 </context>
 <context>
@@ -3543,7 +3543,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>NonceCash Core</source>
-        <translation>Kerno de Dogemono</translation>
+        <translation>Kerno de Nnccmono</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

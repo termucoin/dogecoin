@@ -21,7 +21,7 @@ or similar capturing the key from memory or interfering with its generation.
 * Disable Transifex based translation process (not used by NonceCash Core)
 * Add checkpoints around AuxPoW switchover block (371,337)
 * Disable connections from pre-1.8 NonceCash Core clients
-* Use HTTPS with dogechain.info
+* Use HTTPS with nnccchain.info
 * Remove unreachable code introduced with AuxPoW support
 * "blocknotify" option now supports %i as a format parameter, which is replaced by block height
 * New option "maxoutconnections" to set the maximum number of outbound peer connections. Defaults to 8, minimum is 2, maximum is whatever "maxconnections" is set to (default 125).
@@ -46,8 +46,8 @@ Currently looking at solutions, which primarily either involve JSON which is not
 to the specification, or making the RPC layer slightly incompatible with the conventional
 Bitcoin API.
 
-This only affects values significantly below 1 Doge, however merchants may wish to round to
-the nearest Doge on all transactions for now.
+This only affects values significantly below 1 Nncc, however merchants may wish to round to
+the nearest Nncc on all transactions for now.
 
 ## Credits
 

@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
 <br/><br/>
-NonceCash Core [DOGE, Ð]  
+NonceCash Core [NNCC, Ð]  
 </h1>
 
 狗狗币是一款受柴犬表情包启发，由社区驱动的加密货币。通过狗狗币内核软件，任何人都可以在狗狗币区块链网络中建立一个节点。节点采用Scrypt哈希算法来实现工作量证明(Proof of Work)。狗狗币内核是从比特币内核和其它加密货币演化而来。
