@@ -1,40 +1,58 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
+<img src="https://raw.githubusercontent.com/termucoin/termucoin/master/share/pixmaps/termucoin256.svg" alt="Termucoin" width="256"/>
 <br/><br/>
-NonceCash Core [NNCC, Ð]  
+NonceCash Core  
 </h1>
 
-**IMPORTANT: Starting August 2024, the `master` branch has become the primary
-integration branch and has become unstable. Please check out a tagged version
-before compiling production binaries.**
+<p align="center">
+  <strong>NonceCash: Payment Protocol And Decentralized Financial Network.</strong><br>
+  Open Source | High-Speed Settlement | Permissionless Infrastructure
+</p>
 
-For internationalized documentation, see the index at [doc/intl](doc/intl/README.md).
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Mainnet--Ready-green" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
+  <img src="https://img.shields.io/badge/Network-Layer--1-orange" alt="Layer-1">
+</p>
 
-NonceCash is a community-driven cryptocurrency that was inspired by a Shiba Inu meme. The NonceCash Core software allows anyone to operate a node in the NonceCash blockchain networks and uses the Scrypt hashing method for Proof of Work. It is adapted from Bitcoin Core and other cryptocurrencies.
+## What is NonceCash?
 
-For information about the default fees used on the NonceCash network, please
-refer to the [fee recommendation](doc/fee-recommendation.md).
+**NonceCash (NNCC)** is an innovative, decentralized cryptocurrency designed to function as a primary medium of exchange. NonceCash provides a secure, transparent, and immutable ledger for global peer-to-peer transactions.
 
-## Usage 💻
+The mission of NonceCash is to provide a functional alternative to traditional currencies by offering a scalable payment infrastructure that is not controlled by any central authority. 
 
-To start your journey with NonceCash Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
+### Peer-to-Peer Network
+NonceCash operates on a distributed network of nodes. Every node maintains a full copy of the blockchain, ensuring that the history of all transactions is transparent and verifiable by anyone, anywhere.
 
-The JSON-RPC API provided by NonceCash Core is self-documenting and can be browsed with `noncecash-cli help`, while detailed information for each command can be viewed with `noncecash-cli help <command>`.
+### Transaction Processing & Settlement
+Unlike slower legacy systems, Termucoin is engineered for speed. With a **3 minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
 
-### Such ports
+### Network Security
+The network is secured via the **Scrypt Algorithm**. Miners provide computational power to validate transactions and secure the blockchain against double-spending attacks. In exchange for this work, miners receive a block reward, ensuring a fair and decentralized distribution of the currency.
 
-NonceCash Core by default uses port `9883` for peer-to-peer communication that
+### Difficulty Management
+To maintain the stability of the 3 Minutes block interval, Termucoin utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
+
+## Usage
+
+To start your journey with Termucoin Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
+
+The JSON-RPC API provided by Termucoin Core is self-documenting and can be browsed with `termucoin-cli help`, while detailed information for each command can be viewed with `termucoin-cli help <command>`.
+
+### Ports
+
+NonceCash Core by default uses port `8599` for peer-to-peer communication that
 is needed to synchronize the "mainnet" blockchain and stay informed of new
 transactions and blocks. Additionally, a JSONRPC port can be opened, which
-defaults to port `9882` for mainnet nodes. It is strongly recommended to not
+defaults to port `8598` for mainnet nodes. It is strongly recommended to not
 expose RPC ports to the public internet.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   9883 |   19225 |   15877 |
-| RPC      |   9882 |   19224 |   15876 |
+| P2P      |   9883 |   12253 |   8433 |
+| RPC      |   9882 |   12252 |   8432 |
 
-## Ongoing development - Moon plan 🌒
+## Ongoing development
 
 NonceCash Core is an open source and community driven software. The development
 process is open and publicly visible; anyone can see, discuss and work on the
@@ -42,14 +60,11 @@ software.
 
 Main development resources:
 
-* [GitHub Projects](https://github.com/noncecash/noncecash/projects) is used to
+* [GitHub Projects](https://github.com/NonceCash/NonceCash/projects) is used to
   follow planned and in-progress work for upcoming releases.
-* [GitHub Discussions](https://github.com/noncecash/noncecash/discussions) is used
+* [GitHub Discussions](https://github.com/NonceCash/NonceCash/discussions) is used
   to discuss features, planned and unplanned, related to both the development of
-  the NonceCash Core software, the underlying protocols and the NNCC asset.
-
-### Version strategy
-Version numbers are following ```major.minor.patch``` semantics.
+  the NonceCash Core software, the underlying protocols and the TERM asset.
 
 ### Branches
 There are 4 types of branches in this repository:
@@ -67,23 +82,6 @@ There are 4 types of branches in this repository:
 *planned, a development branch will be created and commits from master will*
 *be cherry-picked into these by maintainers.*
 
-## Contributing 🤝
-
-If you find a bug or experience issues with this software, please report it
-using the [issue system](https://github.com/noncecash/noncecash/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
-
-Please see [the contribution guide](CONTRIBUTING.md) to see how you can
-participate in the development of NonceCash Core. There are often
-[topics seeking help](https://github.com/noncecash/noncecash/labels/help%20wanted)
-where your contributions will have high impact and get very appreciation. wow.
-
-## Very Much Frequently Asked Questions ❓
-
-Do you have a question regarding NonceCash? An answer is perhaps already in the
-[FAQ](doc/FAQ.md) or the
-[Q&A section](https://github.com/noncecash/noncecash/discussions/categories/q-a)
-of the discussion board!
-
-## License - Much license ⚖️
-NonceCash Core is released under the terms of the MIT license. See
+## License ⚖️
+Termucoin Core is released under the terms of the MIT license. See
 [COPYING](COPYING) for more information.
