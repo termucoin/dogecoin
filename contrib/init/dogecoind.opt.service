@@ -3,17 +3,17 @@
 #
 # The relevant paths are:
 #
-#/opt/dogecoin/dogecoind
-#/etc/opt/dogecoin/
-#/var/opt/dogecoin/
+#/opt/noncecash/noncecashd
+#/etc/opt/noncecash/
+#/var/opt/noncecash/
 
 [Unit]
-Description=Dogecoin's distributed currency daemon
+Description=NonceCash's distributed currency daemon
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/dogecoin/bin/dogecoind -conf=/etc/opt/dogecoin/dogecoin.conf -datadir=/var/opt/dogecoin
+ExecStart=/opt/noncecash/bin/noncecashd -conf=/etc/opt/noncecash/noncecash.conf -datadir=/var/opt/noncecash
 
 KillSignal=SIGINT
 Restart=always
@@ -23,8 +23,8 @@ TimeoutStartSec=5
 StartLimitIntervalSec=120
 StartLimitBurst=5
 
-User=dogecoin
-Group=dogecoin
+User=noncecash
+Group=noncecash
 
 ### Restrict resource consumption
 MemoryAccounting=yes
@@ -41,8 +41,8 @@ TemporaryFileSystem=/:ro
 BindReadOnlyPaths=/etc/ /lib/ /lib64/
 
 # Add daemon paths
-BindReadOnlyPaths=/opt/dogecoin/ /etc/opt/dogecoin/
-BindPaths=/var/opt/dogecoin/
+BindReadOnlyPaths=/opt/noncecash/ /etc/opt/noncecash/
+BindPaths=/var/opt/noncecash/
 
 ### Restrict access to system.
 

@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
-OS X:    org.dogecoin.dogecoind.plist
+SystemD: noncecashd.service
+Upstart: noncecashd.conf
+OpenRC:  noncecashd.openrc
+         noncecashd.openrcconf
+CentOS:  noncecashd.init
+OS X:    org.noncecash.noncecashd.plist
 
 have been made available to assist packagers in creating node packages here.
 

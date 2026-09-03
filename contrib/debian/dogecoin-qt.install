@@ -1,6 +1,6 @@
-usr/local/bin/dogecoin-qt usr/bin
-share/pixmaps/dogecoin32.xpm usr/share/pixmaps
-share/pixmaps/dogecoin16.xpm usr/share/pixmaps
-share/pixmaps/dogecoin128.png usr/share/pixmaps
-debian/dogecoin-qt.desktop usr/share/applications
-debian/dogecoin-qt.protocol usr/share/kde4/services/
+usr/local/bin/noncecash-qt usr/bin
+share/pixmaps/noncecash32.xpm usr/share/pixmaps
+share/pixmaps/noncecash16.xpm usr/share/pixmaps
+share/pixmaps/noncecash128.png usr/share/pixmaps
+debian/noncecash-qt.desktop usr/share/applications
+debian/noncecash-qt.protocol usr/share/kde4/services/

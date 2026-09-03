@@ -4,10 +4,10 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/dogecoind}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/dogecoin-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/dogecoin-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/dogecoin-qt}
+BITCOIND=${BITCOIND:-$SRCDIR/noncecashd}
+BITCOINCLI=${BITCOINCLI:-$SRCDIR/noncecash-cli}
+BITCOINTX=${BITCOINTX:-$SRCDIR/noncecash-tx}
+BITCOINQT=${BITCOINQT:-$SRCDIR/qt/noncecash-qt}
 
 [ ! -x $BITCOIND ] && echo "$BITCOIND not found or not executable." && exit 1
 
@@ -15,8 +15,8 @@ BITCOINQT=${BITCOINQT:-$SRCDIR/qt/dogecoin-qt}
 BTCVER=($($BITCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
-# This gets autodetected fine for dogecoind if --version-string is not set,
-# but has different outcomes for dogecoin-qt and dogecoin-cli.
+# This gets autodetected fine for noncecashd if --version-string is not set,
+# but has different outcomes for noncecash-qt and noncecash-cli.
 echo "[COPYRIGHT]" > footer.h2m
 $BITCOIND --version | sed -n '1!p' >> footer.h2m
 
