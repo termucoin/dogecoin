@@ -74,7 +74,6 @@ private:
 public:
     CMainParams() {
         strNetworkID = "main";
-        // Blocks 0 - 144999 are conventional difficulty calculation
         consensus.nSubsidyHalvingInterval = 7250000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
@@ -147,7 +146,7 @@ public:
         pchMessageStart[1] = 0xdb;
         pchMessageStart[2] = 0xbc;
         pchMessageStart[3] = 0xcb;
-        nDefaultPort = 9845;
+        nDefaultPort = 9883;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1386325540, 99943, 0x1e0ffff0, 1, 50 * COIN);
