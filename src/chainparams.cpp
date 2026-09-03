@@ -160,7 +160,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("multinncc.org", "seed.multinncc.org", true));
         // vSeeds.push_back(CDNSSeedData("multinncc.org", "seed2.multinncc.org"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,158);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xfa)(0xca)(0xfd).convert_to_container<std::vector<unsigned char> >();
