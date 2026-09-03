@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/termucoin/termucoin/master/share/pixmaps/termucoin256.svg" alt="Termucoin" width="256"/>
+<img src="https://raw.githubusercontent.com/NonceCash/NonceCash/master/share/pixmaps/termucoin256.svg" alt="NonceCash" width="256"/>
 <br/><br/>
 NonceCash Core  
 </h1>
@@ -25,19 +25,19 @@ The mission of NonceCash is to provide a functional alternative to traditional c
 NonceCash operates on a distributed network of nodes. Every node maintains a full copy of the blockchain, ensuring that the history of all transactions is transparent and verifiable by anyone, anywhere.
 
 ### Transaction Processing & Settlement
-Unlike slower legacy systems, Termucoin is engineered for speed. With a **3 minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
+Unlike slower legacy systems, NonceCash is engineered for speed. With a **3 minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
 
 ### Network Security
 The network is secured via the **Scrypt Algorithm**. Miners provide computational power to validate transactions and secure the blockchain against double-spending attacks. In exchange for this work, miners receive a block reward, ensuring a fair and decentralized distribution of the currency.
 
 ### Difficulty Management
-To maintain the stability of the 3 Minutes block interval, Termucoin utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
+To maintain the stability of the 3 Minutes block interval, NonceCash utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
 
 ## Usage
 
-To start your journey with Termucoin Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
+To start your journey with NonceCash Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
 
-The JSON-RPC API provided by Termucoin Core is self-documenting and can be browsed with `termucoin-cli help`, while detailed information for each command can be viewed with `termucoin-cli help <command>`.
+The JSON-RPC API provided by NonceCash Core is self-documenting and can be browsed with `NonceCash-cli help`, while detailed information for each command can be viewed with `NonceCash-cli help <command>`.
 
 ### Ports
 
@@ -83,5 +83,5 @@ There are 4 types of branches in this repository:
 *be cherry-picked into these by maintainers.*
 
 ## License ⚖️
-Termucoin Core is released under the terms of the MIT license. See
+NonceCash Core is released under the terms of the MIT license. See
 [COPYING](COPYING) for more information.
