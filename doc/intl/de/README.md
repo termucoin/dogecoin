@@ -23,17 +23,17 @@ Die in NonceCash Core enthaltene JSON-RPC-API ist selbstdokumentiert und kann mi
  
 ### Viele Ports
 
-NonceCash Core verwendet den Port `22556` als Standart-Port zur Kommunikation
+NonceCash Core verwendet den Port `9883` als Standart-Port zur Kommunikation
 mit dem Peer-to-Peer Netzwerk und um die "Mainnet" Blockchain zu synchronisieren.
 Dies ist notwendig um über neue Transaktionen und Blöcke informiert zu bleiben.
-Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `22555` als Standart-Port für Mainnet-Nodes verwendet.
+Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `9882` als Standart-Port für Mainnet-Nodes verwendet.
 
 **Es wird STRENGSTENS davon abgeraten, RPC-Ports im öffentlichen Internet sichtbar zu machen!**
 
 | Funktion | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+| P2P      |   9883 |   44556 |   18444 |
+| RPC      |   9882 |   44555 |   18332 |
 
 ## Laufende Entwicklungen - Fahrplan zum Mond 🌒
 

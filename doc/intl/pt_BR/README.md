@@ -17,12 +17,12 @@ A API JSON-RPC fornecida pelo NonceCash Core é auto documentada e pode ser busc
 
 ### Quais as portas
 
-A NonceCash Core utiliza por padrão a porta `22556` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `22555` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
+A NonceCash Core utiliza por padrão a porta `9883` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `9882` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
 
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+| P2P      |   9883 |   44556 |   18444 |
+| RPC      |   9882 |   44555 |   18332 |
 
 ## Desenvolvimento continuo - Plano Lua 🌒
 

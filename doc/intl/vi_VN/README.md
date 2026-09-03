@@ -17,15 +17,15 @@ API JSON-RPC được cung cấp bởi NonceCash Core là self-documenting và c
 
 ### Such ports
 
-NonceCash Core theo mặc định sử dụng cổng `22556` để giao tiếp peer-to-peer điều đó
+NonceCash Core theo mặc định sử dụng cổng `9883` để giao tiếp peer-to-peer điều đó
 là cần thiết để đồng bộ hóa blockchain "mainnet" và cập nhật thông tin về các giao dịch
-và blocks mới. Ngoài ra, cổng JSONRPC có thể mở được, mặc định là cổng `22555` cho mainnet nodes.
+và blocks mới. Ngoài ra, cổng JSONRPC có thể mở được, mặc định là cổng `9882` cho mainnet nodes.
 Chúng tôi đặc biệt khuyến nghị không để lộ các cổng RPC với internet công cộng.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+| P2P      |   9883 |   44556 |   18444 |
+| RPC      |   9882 |   44555 |   18332 |
 
 ## Đang phát triển - Kế hoạch Moon 🌒
 

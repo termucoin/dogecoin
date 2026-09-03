@@ -23,16 +23,16 @@ The JSON-RPC API provided by NonceCash Core is self-documenting and can be brows
 
 ### Such ports
 
-NonceCash Core by default uses port `22556` for peer-to-peer communication that
+NonceCash Core by default uses port `9883` for peer-to-peer communication that
 is needed to synchronize the "mainnet" blockchain and stay informed of new
 transactions and blocks. Additionally, a JSONRPC port can be opened, which
-defaults to port `22555` for mainnet nodes. It is strongly recommended to not
+defaults to port `9882` for mainnet nodes. It is strongly recommended to not
 expose RPC ports to the public internet.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+| P2P      |   9883 |   44556 |   18444 |
+| RPC      |   9882 |   44555 |   18332 |
 
 ## Ongoing development - Moon plan 🌒
 
