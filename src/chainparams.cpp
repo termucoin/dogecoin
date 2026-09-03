@@ -83,8 +83,8 @@ public:
         consensus.BIP65Height = 3464751; // 34cd2cbba4ba366f47e5aa0db5f02c19eba2adf679ceb6653ac003bdc9a0ef1f - first v4 block after the last v3 block
         consensus.BIP66Height = 1034383; // 80d1364201e5df97e696c03bdd24dc885e8617b9de51e453c10a4f629b1e797a - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
-        consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // pre-digishield: 3 days
-        consensus.nPowTargetSpacing = 2 * 60; // 2 minute
+        consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
+        consensus.nPowTargetSpacing = 3 * 60; // 3 minute
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.nCoinbaseMaturity = 100;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -124,7 +124,7 @@ public:
         digishieldConsensus.nHeightEffective = 145000;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
-        digishieldConsensus.nPowTargetTimespan = 2 * 60; // post-digishield: 2 minute
+        digishieldConsensus.nPowTargetTimespan = 3 * 60; // post-digishield: 3 minute
         digishieldConsensus.nCoinbaseMaturity = 150;
 
         // Blocks 371337+ are AuxPoW
@@ -203,7 +203,7 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nHeightEffective = 0;
-        consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // pre-digishield: 3 days
+        consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.nCoinbaseMaturity = 100;
         consensus.fPowAllowMinDifficultyBlocks = true;
@@ -217,8 +217,8 @@ public:
         consensus.BIP65Height = 1854705; // 955bd496d23790aba1ecfacb722b089a6ae7ddabaedf7d8fb0878f48308a71f9
         consensus.BIP66Height = 708658; // 21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // pre-digishield: 3 days
-        consensus.nPowTargetSpacing = 2 * 60; // 2 minute
+        consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
+        consensus.nPowTargetSpacing = 3 * 60; // 3 minute
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 2880; // 2 days (note this is significantly lower than Bitcoin standard)
         consensus.nMinerConfirmationWindow = 10080; // 60 * 24 * 7 = 10,080 blocks, or one week
@@ -251,7 +251,7 @@ public:
         // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 145000;
-        digishieldConsensus.nPowTargetTimespan = 2 * 60; // post-digishield: 1 minute
+        digishieldConsensus.nPowTargetTimespan = 3 * 60; // post-digishield: 3 minute
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fPowAllowMinDifficultyBlocks = false;
@@ -342,7 +342,7 @@ public:
         consensus.BIP65Height = 1351; // BIP65 activated on regtest (Used in rpc activation tests)
         consensus.BIP66Height = 1251; // BIP66 activated on regtest (Used in rpc activation tests)
         consensus.powLimit = uint256S("0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1;
-        consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // pre-digishield: 3 days
+        consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
         consensus.nPowTargetSpacing = 1; // regtest: 1 second blocks
         consensus.fDigishieldDifficultyCalculation = false;
         consensus.fPowAllowMinDifficultyBlocks = true;
