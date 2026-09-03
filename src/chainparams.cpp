@@ -202,7 +202,6 @@ private:
 public:
     CTestNetParams() {
         strNetworkID = "test";
-        // Blocks 0 - 144999 are pre-Digishield
         consensus.nHeightEffective = 0;
         consensus.nPowTargetTimespan = 3 * 24 * 60 * 60; // pre-digishield: 3 days
         consensus.fDigishieldDifficultyCalculation = false;
