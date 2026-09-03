@@ -43,7 +43,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/noncecash-service/
 	HiddenServicePort 9883 127.0.0.1:9883
-	HiddenServicePort 44556 127.0.0.1:44556
+	HiddenServicePort 19225 127.0.0.1:19225
 
 The directory can be different of course, but (both) port numbers should be equal to
 your noncecashd's P2P listen port (9883 by default).

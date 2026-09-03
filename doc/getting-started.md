@@ -370,8 +370,8 @@ A node can expose 2 different ports: one port for the **Peer to Peer Network** (
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   9883 |   44556 |   18444 |
-| RPC      |   9882 |   44555 |   18332 |
+| P2P      |   9883 |   19225 |   15877 |
+| RPC      |   9882 |   19224 |   15876 |
 
 To configure them use the `-port` and `-rpcport` parameters.
 
