@@ -5,9 +5,9 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "chainparams.h"
+
 #include "consensus/merkle.h"
 #include "chainparamsseeds.h"
-
 #include "tinyformat.h"
 #include "util.h"
 #include "utilstrencodings.h"
