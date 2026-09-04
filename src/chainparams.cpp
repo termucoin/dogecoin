@@ -78,10 +78,10 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
-        consensus.BIP34Height = 12473;
+        consensus.BIP34Height = 322473;
         consensus.BIP34Hash = uint256S("0x0");
-        consensus.BIP65Height = 34681; // 0 - first v4 block after the last v3 block
-        consensus.BIP66Height = 13383; // 0 - this is the last block that could be v2, 1900 blocks past the last v2 block
+        consensus.BIP65Height = 419081; // 0 - first v4 block after the last v3 block
+        consensus.BIP66Height = 585383; // 0 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
         consensus.nPowTargetSpacing = 3 * 60; // 3 minute
@@ -209,10 +209,10 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 501;
         consensus.nMajorityRejectBlockOutdated = 750;
         consensus.nMajorityWindow = 1000;
-        consensus.BIP34Height = 708658;
+        consensus.BIP34Height = 408658;
         consensus.BIP34Hash = uint256S("0x0");
-        consensus.BIP65Height = 185472; // 0
-        consensus.BIP66Height = 708658; // 0 - this is the last block that could be v2, 1900 blocks past the last v2 block
+        consensus.BIP65Height = 489872; // 0
+        consensus.BIP66Height = 608658; // 0 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
         consensus.nPowTargetSpacing = 3 * 60; // 3 minute
