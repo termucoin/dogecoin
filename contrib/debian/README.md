@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package noncecashd/noncecash-qt
-for Debian-based Linux systems. If you compile noncecashd/noncecash-qt yourself, there are some useful files here.
+This directory contains files used to package noncecashd/nerocash-qt
+for Debian-based Linux systems. If you compile noncecashd/nerocash-qt yourself, there are some useful files here.
 
-## noncecash: URI support ##
+## nerocash: URI support ##
 
 
-noncecash-qt.desktop  (Gnome / Open Desktop)
+nerocash-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install noncecash-qt.desktop
+	sudo desktop-file-install nerocash-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your noncecash-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your nerocash-qt binary to `/usr/bin`
 and the `../../share/pixmaps/noncecash128.png` to `/usr/share/pixmaps`
 
-noncecash-qt.protocol (KDE)
+nerocash-qt.protocol (KDE)
 

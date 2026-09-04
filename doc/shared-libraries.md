@@ -5,7 +5,7 @@ Shared Libraries
 
 ## noncecashconsensus
 
-The purpose of this library is to make the verification functionality that is critical to NonceCash's consensus available to other applications, e.g. to language bindings.
+The purpose of this library is to make the verification functionality that is critical to Nerocash's consensus available to other applications, e.g. to language bindings.
 
 ### API
 
@@ -45,4 +45,4 @@ The interface is defined in the C header `noncecashconsensus.h` located in  `src
 - `noncecashconsensus_ERR_AMOUNT_REQUIRED` - Returned by `noncecashconsensus_verify_script` when `VERIFY_WITNESS` is set; use `noncecashconsensus_verify_script_with_amount` for witness validation.
 
 ### Example Implementation
-- No known NonceCash-specific third-party binding examples are currently listed here.
+- No known Nerocash-specific third-party binding examples are currently listed here.

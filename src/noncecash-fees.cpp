@@ -1,4 +1,4 @@
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,11 +7,11 @@
 
 #include "policy/policy.h"
 #include "arith_uint256.h"
-#include "noncecash.h"
+#include "nerocash.h"
 #include "txmempool.h"
 #include "util.h"
 #include "validation.h"
-#include "noncecash-fees.h"
+#include "nerocash-fees.h"
 #include "amount.h"
 #ifdef ENABLE_WALLET
 #include "wallet/wallet.h"

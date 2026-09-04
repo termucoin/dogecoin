@@ -16,7 +16,7 @@ from typing import List, Dict
 import lief #type:ignore
 
 # MAX_VERSIONS defines the maximum versions for dynamic symbols defined in linux
-# binaries for release. These are static for each major version of NonceCash Core.
+# binaries for release. These are static for each major version of Nerocash Core.
 #
 # Debian 6.0.9 (Squeeze) has:
 #
@@ -49,7 +49,7 @@ MAX_VERSIONS = {
 },
 'CXXABI':  (1,3,3),
 'GLIBCXX': (3,4,13),
-'V':         (0,5,0),  # xkb (noncecash-qt only)
+'V':         (0,5,0),  # xkb (nerocash-qt only)
 }
 
 # Ignore symbols that are exported as part of every executable
@@ -84,7 +84,7 @@ ELF_INTERPRETER_NAMES: Dict[lief.ELF.ARCH, Dict[lief.ENDIANNESS, str]] = {
 
 # Allowed NEEDED libraries
 ELF_ALLOWED_LIBRARIES = {
-# noncecashd and noncecash-qt
+# noncecashd and nerocash-qt
 'libgcc_s.so.1', # GCC base support
 'libc.so.6', # C library
 'libpthread.so.0', # threading
@@ -95,7 +95,7 @@ ELF_ALLOWED_LIBRARIES = {
 'ld-linux.so.2', # 32-bit dynamic linker
 'ld-linux-aarch64.so.1', # 64-bit ARM dynamic linker
 'ld-linux-armhf.so.3', # 32-bit ARM dynamic linker
-# noncecash-qt only
+# nerocash-qt only
 'libxcb.so.1', # part of X11
 'libxkbcommon.so.0', # keyboard keymapping
 'libxkbcommon-x11.so.0', # keyboard keymapping

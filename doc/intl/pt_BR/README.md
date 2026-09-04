@@ -1,23 +1,23 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
+<img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-NonceCash Core [NNCC, Ð]  
+Nerocash Core [NNCC, Ð]  
 </h1>
 
-NonceCash é uma criptomoeda gerida pela comunidade que foi inspirada no meme Shiba Inu. O programa NonceCash Core permite qualquer um operar um nó na rede blockchain da NonceCash e utilizar o algoritmo de hash Scrypt para mineração usando Prova de Trabalho (Proof of Work). O NonceCash Core é uma adaptação do Bitcoin Core e de outras criptomoedas.
+Nerocash é uma criptomoeda gerida pela comunidade que foi inspirada no meme Shiba Inu. O programa Nerocash Core permite qualquer um operar um nó na rede blockchain da Nerocash e utilizar o algoritmo de hash Scrypt para mineração usando Prova de Trabalho (Proof of Work). O Nerocash Core é uma adaptação do Bitcoin Core e de outras criptomoedas.
 
-Para maiores informações acerca das taxas de transação usadas na rede NonceCash, por favor acesse: 
+Para maiores informações acerca das taxas de transação usadas na rede Nerocash, por favor acesse: 
 [taxas recomendadas](doc/fee-recommendation.md).
 
 ## Uso 💻
 
-Para começar a sua jornada com o NonceCash Core, veja o [manual de instalação](INSTALL.md) e o [guia para iniciantes](doc/getting-started.md).
+Para começar a sua jornada com o Nerocash Core, veja o [manual de instalação](INSTALL.md) e o [guia para iniciantes](doc/getting-started.md).
 
-A API JSON-RPC fornecida pelo NonceCash Core é auto documentada e pode ser buscada pelo comando `noncecash-cli help`, informações mais detalhadas sobre cada comando podem ser encontradas usando `noncecash-cli help <command>`.
+A API JSON-RPC fornecida pelo Nerocash Core é auto documentada e pode ser buscada pelo comando `nerocash-cli help`, informações mais detalhadas sobre cada comando podem ser encontradas usando `nerocash-cli help <command>`.
 
 ### Quais as portas
 
-A NonceCash Core utiliza por padrão a porta `9883` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `9882` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
+A Nerocash Core utiliza por padrão a porta `9883` para comunicação par-a-par, que é necessária para sincronizar a blockchain da "rede principal" e se manter informada de novas transações e blocos. Outrosim, uma porta JSONRPC pode ser aberta, que por padrão é a porta `9882` para nós da rede principal. Recomendamos fortemente não expor portas RPC para a internet pública. 
 
 |  Função  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
@@ -26,12 +26,12 @@ A NonceCash Core utiliza por padrão a porta `9883` para comunicação par-a-par
 
 ## Desenvolvimento continuo - Plano Lua 🌒
 
-A NonceCash Core é um programa de código aberto gerido pela comunidade. O processo de desenvolvimento é aberto e visivel publicamente; qualquer um pode ver, discutir e trabalhar no programa.
+A Nerocash Core é um programa de código aberto gerido pela comunidade. O processo de desenvolvimento é aberto e visivel publicamente; qualquer um pode ver, discutir e trabalhar no programa.
 
 Recursos principais de Desenvolvimento:
 
-* [Projetos do Github](https://github.com/noncecash/noncecash/projects) é utilizado para conduzir trabalhos planejados ou que estejam em desenvolvimento para as próximas atualizações.
-* [Discussão do Github](https://github.com/noncecash/noncecash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa NonceCash Core, os protocolos adjacentes e o criptoativo NNCC.
+* [Projetos do Github](https://github.com/nerocash/nerocash/projects) é utilizado para conduzir trabalhos planejados ou que estejam em desenvolvimento para as próximas atualizações.
+* [Discussão do Github](https://github.com/nerocash/nerocash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa Nerocash Core, os protocolos adjacentes e o criptoativo NNCC.
 
 ### Estratégia das Versões
 Os numeros de compilação seguem a seguinte semantica:  ```major.minor.patch```
@@ -50,19 +50,19 @@ Este repositório possui 3 principais ramificações (branchs), são essas:
 
 ## Contribuindo 🤝
 
-Se você achar um bug ou passar por alguma experiência incomum com este programa, por favor reporte o ocorrido usado o [sistema de problemas (issues)](https://github.com/noncecash/noncecash/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
+Se você achar um bug ou passar por alguma experiência incomum com este programa, por favor reporte o ocorrido usado o [sistema de problemas (issues)](https://github.com/nerocash/nerocash/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
 
 Por favor, acesse o [guia de contribuições](CONTRIBUTING.md) para ver como você pode participar
-do desenvolvimento do NonceCash Core. Existem alguns [pedidos de ajuda](https://github.com/noncecash/noncecash/labels/help%20wanted)
+do desenvolvimento do Nerocash Core. Existem alguns [pedidos de ajuda](https://github.com/nerocash/nerocash/labels/help%20wanted)
 onde os contribuintes terão grande importância e apreço. wow.
 
 ## Perguntas frequentes ❓
 
-Você possui alguma questão relacionada à NonceCash? Talvez uma resposta já esteja disponivel no
+Você possui alguma questão relacionada à Nerocash? Talvez uma resposta já esteja disponivel no
 [FAQ](doc/FAQ.md) ou na
-[seção Q&A](https://github.com/noncecash/noncecash/discussions/categories/q-a)
+[seção Q&A](https://github.com/nerocash/nerocash/discussions/categories/q-a)
 do nosso quadro de discussão!
 
 ## Licenças ⚖️
-NonceCash Core é disponibilizada sob os termos de uso da licença MIT. Veja,
+Nerocash Core é disponibilizada sob os termos de uso da licença MIT. Veja,
 [COPYING](COPYING) para mais informações.

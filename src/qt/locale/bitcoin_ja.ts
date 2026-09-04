@@ -99,11 +99,11 @@
         <translation>受け取りアドレス</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの NonceCash アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Nerocash アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>これらは支払いを受け取るためのドージコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
@@ -206,7 +206,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの NonceCash はすべて失われます&lt;/b&gt;!</translation>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Nerocash はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -367,8 +367,8 @@
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-        <source>Send coins to a NonceCash address</source>
-        <translation>NonceCash アドレスにコインを送る</translation>
+        <source>Send coins to a Nerocash address</source>
+        <translation>Nerocash アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -391,8 +391,8 @@
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-        <source>NonceCash</source>
-        <translation>NonceCash</translation>
+        <source>Nerocash</source>
+        <translation>Nerocash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -419,12 +419,12 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your NonceCash addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの NonceCash アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your Nerocash addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの Nerocash アドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified NonceCash addresses</source>
-        <translation>指定された NonceCash アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
+        <translation>指定された Nerocash アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -443,8 +443,8 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and noncecash: URIs)</source>
-        <translation>支払いを要求する (QRコードとnoncecash:ではじまるURIを生成する)</translation>
+        <source>Request payments (generates QR codes and nerocash: URIs)</source>
+        <translation>支払いを要求する (QRコードとnerocash:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -455,17 +455,17 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a noncecash: URI or payment request</source>
-        <translation>noncecash: URIまたは支払いリクエストを開く</translation>
+        <source>Open a nerocash: URI or payment request</source>
+        <translation>nerocash: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to NonceCash network</source>
+        <source>%n active connection(s) to Nerocash network</source>
         <translation>
-            <numerusform>%n の NonceCash ネットワークへのアクティブな接続</numerusform>
+            <numerusform>%n の Nerocash ネットワークへのアクティブな接続</numerusform>
         </translation>
     </message>
     <message>
@@ -511,8 +511,8 @@
         <translation>バージョンは最新です</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible NonceCash command-line options</source>
-        <translation>有効な NonceCash のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+        <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
+        <translation>有効な Nerocash のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -581,8 +581,8 @@
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. NonceCash can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。NonceCash は安全に継続することができず終了するでしょう。</translation>
+        <source>A fatal error occurred. Nerocash can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Nerocash は安全に継続することができず終了するでしょう。</translation>
     </message>
     <message>
         <source>&amp;Print paper wallets</source>
@@ -605,7 +605,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a NonceCash private key</source>
+        <source>Import a Nerocash private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -807,8 +807,8 @@
         <translation>送信アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid NonceCash address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; は無効な NonceCash アドレスです。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Nerocash address.</source>
+        <translation>入力されたアドレス &quot;%1&quot; は無効な Nerocash アドレスです。</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -979,7 +979,7 @@
         <translation>これはプログラム最初の起動です。%1 がデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the NonceCash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the Nerocash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 は、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも %2 ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
@@ -1022,7 +1022,7 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the noncecash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nerocash network, as detailed below.</source>
         <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
@@ -1184,16 +1184,16 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the NonceCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の NonceCash クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Nerocash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Nerocash クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP を使ってポートを割り当てる (&amp;U)</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でNonceCashネットワークに接続する</translation>
+        <source>Connect to the Nerocash network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由でNerocashネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1232,8 +1232,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でNonceCashネットワークに接続する</translation>
+        <source>Connect to the Nerocash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でNerocashネットワークに接続する</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1347,8 +1347,8 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NonceCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは NonceCash ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nerocash network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Nerocash ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1459,7 +1459,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the NonceCash Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Nerocash Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1645,8 +1645,8 @@ p, li { white-space: pre-wrap; }
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start noncecash: click-to-pay handler</source>
-        <translation>NonceCash を起動できません: click-to-pay handler</translation>
+        <source>Cannot start nerocash: click-to-pay handler</source>
+        <translation>Nerocash を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1661,8 +1661,8 @@ p, li { white-space: pre-wrap; }
         <translation>支払いのアドレス「%1」は無効です</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid NonceCash address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な NonceCash アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Nerocash address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Nerocash アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1806,8 +1806,8 @@ Use this functionality with extreme caution.</source>
         <translation>総額</translation>
     </message>
     <message>
-        <source>Enter a NonceCash address (e.g. %1)</source>
-        <translation>NonceCashアドレスを入力してください (例 %1)</translation>
+        <source>Enter a Nerocash address (e.g. %1)</source>
+        <translation>Nerocashアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2294,8 +2294,8 @@ Use this functionality with extreme caution.</source>
         <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NonceCash network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはNonceCashネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nerocash network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはNerocashネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2523,8 +2523,8 @@ Use this functionality with extreme caution.</source>
         <translation>最小手数料</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for noncecash transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどnoncecashトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nerocash transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどnerocashトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2663,8 +2663,8 @@ Use this functionality with extreme caution.</source>
         <translation>要求手数料 %1 のみを支払う</translation>
     </message>
     <message>
-        <source>Warning: Invalid NonceCash address</source>
-        <translation>警告：無効なNonceCashアドレスです</translation>
+        <source>Warning: Invalid Nerocash address</source>
+        <translation>警告：無効なNerocashアドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2734,8 +2734,8 @@ Use this functionality with extreme caution.</source>
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The NonceCash address to send the payment to</source>
-        <translation>支払の送金先NonceCashアドレス</translation>
+        <source>The Nerocash address to send the payment to</source>
+        <translation>支払の送金先Nerocashアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2778,8 +2778,8 @@ Use this functionality with extreme caution.</source>
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the noncecash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NonceCash network.</source>
-        <translation>noncecash: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはNonceCashネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
+        <translation>nerocash: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはNerocashネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2827,8 +2827,8 @@ Use this functionality with extreme caution.</source>
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたドージコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The NonceCash address to sign the message with</source>
-        <translation>メッセージを署名するNonceCashアドレス</translation>
+        <source>The Nerocash address to sign the message with</source>
+        <translation>メッセージを署名するNerocashアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2859,8 +2859,8 @@ Use this functionality with extreme caution.</source>
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NonceCash address</source>
-        <translation>この NonceCash アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this Nerocash address</source>
+        <translation>この Nerocash アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2883,12 +2883,12 @@ Use this functionality with extreme caution.</source>
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-        <source>The NonceCash address the message was signed with</source>
-        <translation>メッセージの署名に使われたNonceCashアドレス</translation>
+        <source>The Nerocash address the message was signed with</source>
+        <translation>メッセージの署名に使われたNerocashアドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NonceCash address</source>
-        <translation>指定された NonceCash アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified Nerocash address</source>
+        <translation>指定された Nerocash アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3595,8 +3595,8 @@ Use this functionality with extreme caution.</source>
         <translation>HTTPサーバを開始できませんでした。詳細はデバッグログをご確認ください。</translation>
     </message>
     <message>
-        <source>NonceCash Core</source>
-        <translation>NonceCash のコア</translation>
+        <source>Nerocash Core</source>
+        <translation>Nerocash のコア</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -4444,7 +4444,7 @@ Use this functionality with extreme caution.</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <source>Bitcoin Core and NonceCash Core</source>
+        <source>Bitcoin Core and Nerocash Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

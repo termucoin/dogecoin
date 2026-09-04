@@ -1,6 +1,6 @@
 [Protocol]
-exec=noncecash-qt '%u'
-protocol=noncecash
+exec=nerocash-qt '%u'
+protocol=nerocash
 input=none
 output=none
 helper=true

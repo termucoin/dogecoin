@@ -9,8 +9,8 @@ noncecashd on archlinux:
 
 ```sh
 pacman -S git base-devel boost libevent python db
-git clone https://github.com/noncecash/noncecash.git
-cd noncecash/
+git clone https://github.com/nerocash/nerocash.git
+cd nerocash/
 ./autogen.sh
 ./configure --without-gui --without-miniupnpc
 make

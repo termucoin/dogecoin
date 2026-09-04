@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,7 +18,7 @@
 
 #include "base58.h"
 #include "chainparams.h"
-#include "noncecash-fees.h"
+#include "nerocash-fees.h"
 #include "wallet/coincontrol.h"
 #include "validation.h" // mempool and minRelayTxFeeRate
 #include "ui_interface.h"
@@ -577,7 +577,7 @@ void SendCoinsDialog::updateFeeSectionControls()
 {
     ui->sliderSmartFee          ->setEnabled(ui->radioSmartFee->isChecked());
     ui->labelPriority           ->setEnabled(ui->radioSmartFee->isChecked());
-    // NonceCash: We don't use smart fees in the UI, so don't need to warn they're not available
+    // Nerocash: We don't use smart fees in the UI, so don't need to warn they're not available
     // ui->labelPriority2          ->setEnabled(ui->radioSmartFee->isChecked());
     ui->labelPriority3          ->setEnabled(ui->radioSmartFee->isChecked());
     ui->labelFeeEstimation      ->setEnabled(ui->radioSmartFee->isChecked());
@@ -602,7 +602,7 @@ void SendCoinsDialog::updateGlobalFeeVariables()
         CoinControlDialog::coinControl->nMinimumTotalFee = 0;
 
         // show the estimated required time for confirmation
-        // NonceCash: We manually set height well past the last hard fork here
+        // Nerocash: We manually set height well past the last hard fork here
         ui->confirmationTargetLabel->setText(GetNonceCashPriorityLabel(nPriority).c_str());
     }
     else
@@ -660,7 +660,7 @@ void SendCoinsDialog::updateFeeLabel()
         ui->labelPriority->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(),
                                                                 std::max(feeRate.GetFeePerK(), CWallet::GetRequiredFee(1000))) + "/kB");
         // ui->labelPriority2->hide();
-        // NonceCash: We don't use smart fees, so we don't have the data to estimate when it will get in
+        // Nerocash: We don't use smart fees, so we don't have the data to estimate when it will get in
         ui->labelFeeEstimation->setText("");
         // ui->labelFeeEstimation->setText(tr("Estimated to begin confirmation within %n block(s).", "", estimateFoundAtBlocks));
         ui->fallbackFeeWarningLabel->setVisible(false);
@@ -765,7 +765,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid NonceCash address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Nerocash address"));
         }
         else // Valid address
         {

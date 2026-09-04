@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copyright (c) 2016 The Bitcoin Core developers
-# Copyright (c) 2021 The NonceCash Core developers
+# Copyright (c) 2021 The Nerocash Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ test=false
 # Other Basic variables
 SIGNER=
 VERSION=
-url=https://github.com/noncecash/noncecash
+url=https://github.com/nerocash/nerocash
 proc=2
 mem=2000
 scriptName=$(basename -- "$0")
@@ -46,7 +46,7 @@ outputDir=$(pwd)/gitian-output
 read -r -d '' usage <<-EOF
 Usage: $scriptName [options] version
 
-Standalone script to perform the gitian build of NonceCash Core. Perform
+Standalone script to perform the gitian build of Nerocash Core. Perform
 deterministic build for multiples Operating System, using Docker, LXC or
 KVM for virtualization. Sign binaries using PGP.
 
@@ -69,7 +69,7 @@ Options:
 -j proc             Number of processes to use. Default $proc
 -m n                Memory to allocate in MiB. Default $mem
 -c|--commit         Indicate that the version argument is for a commit or branch
--u|--url repo       Specify the URL of the repository. Default is https://github.com/noncecash/noncecash
+-u|--url repo       Specify the URL of the repository. Default is https://github.com/nerocash/nerocash
 --test              CI TEST. Uses Docker
 -h|--help           Print this help message
 EOF
@@ -200,7 +200,7 @@ function download_file () {
 }
 
 function move_build_files() {
-    find build/out -type f -exec mv '{}' $outputDir/noncecash-binaries/${VERSION}/ \;
+    find build/out -type f -exec mv '{}' $outputDir/nerocash-binaries/${VERSION}/ \;
 }
 
 function download_descriptor() {
@@ -257,8 +257,8 @@ fi
 ### Setup ###
 
 if [[ $setup == true ]]; then
-    git clone https://github.com/noncecash/gitian.sigs.git
-    git clone https://github.com/noncecash/noncecash-detached-sigs.git
+    git clone https://github.com/nerocash/gitian.sigs.git
+    git clone https://github.com/nerocash/nerocash-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
 
     pushd ./gitian-builder
@@ -310,21 +310,21 @@ popd
 
 if [[ $build == true ]]; then
     # Make output folder
-    mkdir -p $outputDir/noncecash-binaries/"$VERSION"
+    mkdir -p $outputDir/nerocash-binaries/"$VERSION"
 
     pushd ./gitian-builder || exit 1
 
-    # Clean noncecash git directory because of old caching
-    if [ -d inputs/noncecash/ ]; then
-        echo "Cleaning NonceCash directory..."
-        rm -rf inputs/noncecash/
+    # Clean nerocash git directory because of old caching
+    if [ -d inputs/nerocash/ ]; then
+        echo "Cleaning Nerocash directory..."
+        rm -rf inputs/nerocash/
     fi
 
     for descriptor in "${DESCRIPTORS[@]}"; do
         echo ""
         echo "Compiling ${VERSION} ${descriptor}"
         echo ""
-        ./bin/gbuild -j "$proc" -m "$mem" --commit noncecash="$COMMIT" --url noncecash="$url" ../gitian-descriptors/gitian-"$descriptor".yml  || exit 1
+        ./bin/gbuild -j "$proc" -m "$mem" --commit nerocash="$COMMIT" --url nerocash="$url" ../gitian-descriptors/gitian-"$descriptor".yml  || exit 1
 
         if [ -n "$SIGNER" ]; then
             ./bin/gsign --signer "$SIGNER" --release "$VERSION"-"$descriptor" \

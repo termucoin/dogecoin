@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1552,7 +1552,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "NonceCash " + FormatFullVersion();
+        std::string strDesc = "Nerocash " + FormatFullVersion();
 
         try {
             while (true) {

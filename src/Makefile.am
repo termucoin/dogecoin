@@ -70,7 +70,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += noncecash-cli noncecash-tx
+  bin_PROGRAMS += nerocash-cli nerocash-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -100,10 +100,10 @@ BITCOIN_CORE_H = \
   core_io.h \
   core_memusage.h \
   cuckoocache.h \
-  noncecash.cpp \
-  noncecash.h \
-  noncecash-fees.cpp \
-  noncecash-fees.h \
+  nerocash.cpp \
+  nerocash.h \
+  nerocash-fees.cpp \
+  nerocash-fees.h \
   fs.h \
   httprpc.h \
   httpserver.h \

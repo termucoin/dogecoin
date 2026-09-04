@@ -9,9 +9,9 @@
 #define UNUSED
 #endif
 static const char UNUSED *bitcoin_strings[] = {
-QT_TRANSLATE_NOOP("bitcoin-core", "NonceCash Core"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Nerocash Core"),
 QT_TRANSLATE_NOOP("bitcoin-core", "The %s developers"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Bitcoin Core and NonceCash Core"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Bitcoin Core and Nerocash Core"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),

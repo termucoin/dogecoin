@@ -7,19 +7,19 @@ define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, false)
 define(_COPYRIGHT_YEAR, 2026)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Bitcoin Core and NonceCash Core]])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Bitcoin Core and Nerocash Core]])
 define(_CURRENT_RELEASE_DATE,[[2024-09-04]])
 define(_EXPECTED_DAYS_TO_NEXT_RELEASE,[270])
-AC_INIT([NonceCash Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/noncecash/noncecash/issues],[noncecash],[https://noncecash.com/])
+AC_INIT([Nerocash Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/nerocash/nerocash/issues],[nerocash],[https://nerocash.com/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 BITCOIN_DAEMON_NAME=noncecashd
-BITCOIN_GUI_NAME=noncecash-qt
-BITCOIN_CLI_NAME=noncecash-cli
-BITCOIN_TX_NAME=noncecash-tx
+BITCOIN_GUI_NAME=nerocash-qt
+BITCOIN_CLI_NAME=nerocash-cli
+BITCOIN_TX_NAME=nerocash-tx
 
 AC_CANONICAL_HOST
 
@@ -1040,7 +1040,7 @@ AC_MSG_CHECKING([whether to build noncecashd])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (noncecash-cli noncecash-tx)])
+AC_MSG_CHECKING([whether to build utils (nerocash-cli nerocash-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 

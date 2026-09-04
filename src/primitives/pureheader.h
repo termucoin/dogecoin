@@ -150,7 +150,7 @@ public:
     inline bool IsLegacy() const
     {
         return nVersion == 1
-            // NonceCash: We have a random v2 block with no AuxPoW, treat as legacy
+            // Nerocash: We have a random v2 block with no AuxPoW, treat as legacy
             || (nVersion == 2 && GetChainId() == 0);
     }
 };

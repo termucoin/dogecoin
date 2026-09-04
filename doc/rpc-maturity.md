@@ -1,7 +1,7 @@
 RPC method maturity
 -------------------
 
-This document records the maturity of each method made available by the NonceCash
+This document records the maturity of each method made available by the Nerocash
 Core RPC. Maturity is expressed over 3 stages:
 
 1. UNSTABLE - These methods are often new, and can change within minor version

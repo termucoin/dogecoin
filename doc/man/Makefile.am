@@ -5,9 +5,9 @@ if BUILD_BITCOIND
 endif
 
 if ENABLE_QT
-  dist_man1_MANS+=noncecash-qt.1
+  dist_man1_MANS+=nerocash-qt.1
 endif
 
 if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=noncecash-cli.1 noncecash-tx.1
+  dist_man1_MANS+=nerocash-cli.1 nerocash-tx.1
 endif

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
     ui(new Ui::OpenURIDialog)
 {
     ui->setupUi(this);
-    ui->uriEdit->setPlaceholderText("noncecash:");
+    ui->uriEdit->setPlaceholderText("nerocash:");
 }
 
 OpenURIDialog::~OpenURIDialog()
@@ -47,5 +47,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("noncecash:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("nerocash:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

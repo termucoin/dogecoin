@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,7 +106,7 @@ using namespace std;
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "noncecash.conf";
+const char * const BITCOIN_CONF_FILENAME = "nerocash.conf";
 const char * const BITCOIN_PID_FILENAME = "noncecashd.pid";
 
 CCriticalSection cs_args;
@@ -465,7 +465,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "noncecash";
+    const char* pszModule = "nerocash";
 #endif
     if (pex)
         return strprintf(
@@ -490,7 +490,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "NonceCash";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Nerocash";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -500,10 +500,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/NonceCash";
+    return pathRet / "Library/Application Support/Nerocash";
 #else
     // Unix
-    return pathRet / ".noncecash";
+    return pathRet / ".nerocash";
 #endif
 #endif
 }

@@ -1,7 +1,7 @@
-# NonceCash Core 1.8.1
+# Nerocash Core 1.8.1
 
-NonceCash Core 1.8.1 is primarily a bugfix release, bringing NonceCash Core in
-line with Bitcoin 0.9.3. NonceCash Core 1.8.1 also adds in support for printing
+Nerocash Core 1.8.1 is primarily a bugfix release, bringing Nerocash Core in
+line with Bitcoin 0.9.3. Nerocash Core 1.8.1 also adds in support for printing
 paper wallets, and disables connections to pre-1.8 clients. This is a RECOMMENDED
 upgrade due to the large number of bug fixes, but is not a required one.
 
@@ -15,12 +15,12 @@ computer that's disconnected from the Internet. While the wallet generator
 does not save the keys it generates, this ensures there is no risk of a virus
 or similar capturing the key from memory or interfering with its generation.
 
-## NonceCash Core Release Notes
+## Nerocash Core Release Notes
 
 * Translation improvements and corrections
-* Disable Transifex based translation process (not used by NonceCash Core)
+* Disable Transifex based translation process (not used by Nerocash Core)
 * Add checkpoints around AuxPoW switchover block (371,337)
-* Disable connections from pre-1.8 NonceCash Core clients
+* Disable connections from pre-1.8 Nerocash Core clients
 * Use HTTPS with nnccchain.info
 * Remove unreachable code introduced with AuxPoW support
 * "blocknotify" option now supports %i as a format parameter, which is replaced by block height
@@ -40,7 +40,7 @@ below:
 
 ## Known Issues
 
-There is a known issue with quantities in JSON used by the RPC interface (https://github.com/noncecash/noncecash/issues/134).
+There is a known issue with quantities in JSON used by the RPC interface (https://github.com/nerocash/nerocash/issues/134).
 This stems from the use of a floating point precision number to hold fixed precision data.
 Currently looking at solutions, which primarily either involve JSON which is not compliant
 to the specification, or making the RPC layer slightly incompatible with the conventional
@@ -53,7 +53,7 @@ the nearest Nncc on all transactions for now.
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into NonceCash Core:
+into Nerocash Core:
 
 * Abderraouf Adjal
 * Andymeows

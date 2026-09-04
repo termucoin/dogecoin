@@ -99,11 +99,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -279,8 +279,8 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>NonceCash</source>
-        <translation>NonceCash</translation>
+        <source>Nerocash</source>
+        <translation>Nerocash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -327,7 +327,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send coins to a NonceCash address</source>
+        <source>Send coins to a Nerocash address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -335,7 +335,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and noncecash: URIs)</source>
+        <source>Request payments (generates QR codes and nerocash: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -411,11 +411,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign messages with your NonceCash addresses to prove you own them</source>
+        <source>Sign messages with your Nerocash addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified NonceCash addresses</source>
+        <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -455,7 +455,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open a noncecash: URI or payment request</source>
+        <source>Open a nerocash: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -463,7 +463,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a NonceCash private key</source>
+        <source>Import a Nerocash private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -471,7 +471,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible NonceCash command-line options</source>
+        <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -487,7 +487,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to NonceCash network</source>
+        <source>%n active connection(s) to Nerocash network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -606,7 +606,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>A fatal error occurred. NonceCash can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Nerocash can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -800,7 +800,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid NonceCash address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Nerocash address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -976,7 +976,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the NonceCash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the Nerocash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1017,7 +1017,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the noncecash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nerocash network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1187,7 +1187,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Automatically open the NonceCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Nerocash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1203,7 +1203,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Nerocash network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1243,7 +1243,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Nerocash network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1346,7 +1346,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NonceCash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nerocash network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1450,7 +1450,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the NonceCash Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Nerocash Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cannot start noncecash: click-to-pay handler</source>
+        <source>Cannot start nerocash: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1656,7 +1656,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid NonceCash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Nerocash address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1801,7 +1801,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enter a NonceCash address (e.g. %1)</source>
+        <source>Enter a Nerocash address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2279,7 +2279,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NonceCash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nerocash network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2544,7 +2544,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for noncecash transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nerocash transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2684,7 +2684,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Warning: Invalid NonceCash address</source>
+        <source>Warning: Invalid Nerocash address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2723,7 +2723,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The NonceCash address to send the payment to</source>
+        <source>The Nerocash address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2763,7 +2763,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>A message that was attached to the noncecash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NonceCash network.</source>
+        <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2828,7 +2828,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The NonceCash address to sign the message with</source>
+        <source>The Nerocash address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2856,7 +2856,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NonceCash address</source>
+        <source>Sign the message to prove you own this Nerocash address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2876,11 +2876,11 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The NonceCash address the message was signed with</source>
+        <source>The Nerocash address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NonceCash address</source>
+        <source>Verify the message to ensure it was signed with the specified Nerocash address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3517,7 +3517,7 @@ Use this functionality with extreme caution.</source>
         <translation>Ката</translation>
     </message>
     <message>
-        <source>NonceCash Core</source>
+        <source>Nerocash Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3525,7 +3525,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Bitcoin Core and NonceCash Core</source>
+        <source>Bitcoin Core and Nerocash Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

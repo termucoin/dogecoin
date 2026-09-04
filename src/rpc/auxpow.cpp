@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2011 Vince Durham
 // Copyright (c) 2014-2016 Daniel Kraft
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,11 +41,11 @@ void AuxMiningCheck()
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
 
     if (g_connman->GetNodeCount(CConnman::CONNECTIONS_ALL) == 0 && !Params().MineBlocksOnDemand())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "NonceCash is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Nerocash is not connected!");
 
     if (IsInitialBlockDownload() && !Params().MineBlocksOnDemand())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD,
-                           "NonceCash is downloading blocks...");
+                           "Nerocash is downloading blocks...");
 
     /* This should never fail, since the chain is already
        past the point of merge-mining start.  Check nevertheless.  */
@@ -66,7 +66,7 @@ static UniValue AuxMiningCreateBlock(const CScript& scriptPubKey)
     static uint64_t nStart;
     static unsigned nExtraNonce = 0;
 
-    // NonceCash: Never mine witness tx
+    // Nerocash: Never mine witness tx
     const bool fMineWitnessTx = false;
 
     /* Search for cached blocks with given scriptPubKey and assign it to pBlock

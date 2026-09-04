@@ -2,7 +2,7 @@
 # Copyright (c) 2010 ArtForz -- public domain half-a-node
 # Copyright (c) 2012 Jeff Garzik
 # Copyright (c) 2010-2016 The Bitcoin Core developers
-# Copyright (c) 2022-2023 The NonceCash Core developers
+# Copyright (c) 2022-2023 The Nerocash Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 # This python code was modified from ArtForz' public domain  half-a-node, as
 # found in the mini-node branch of http://github.com/jgarzik/pynode.
 #
-# NodeConn: an object which manages p2p connectivity to a noncecash node
+# NodeConn: an object which manages p2p connectivity to a nerocash node
 # NodeConnCB: a base class that describes the interface for receiving
 #             callbacks with network messages from a NodeConn
 # CBlock, CTransaction, CBlockHeader, CTxIn, CTxOut, etc....:
@@ -49,7 +49,7 @@ MAX_INV_SZ = 50000
 MAX_LOCATOR_SZ = 101
 MAX_BLOCK_BASE_SIZE = 1000000
 
-COIN = 100000000 # mlumin 5/2021: In terms of NonceCash, 1 noncecash or 100,000,000 koinu.
+COIN = 100000000 # mlumin 5/2021: In terms of Nerocash, 1 nerocash or 100,000,000 koinu.
 
 NODE_NETWORK = (1 << 0)
 NODE_GETUTXO = (1 << 1)
@@ -1667,7 +1667,7 @@ class NodeConn(asyncore.dispatcher):
             vt.addrFrom.port = 0
             self.send_message(vt, True)
 
-        print('MiniNode: Connecting to NonceCash Node IP # ' + dstaddr + ':' \
+        print('MiniNode: Connecting to Nerocash Node IP # ' + dstaddr + ':' \
             + str(dstport))
 
         try:

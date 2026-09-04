@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=NonceCash Core
-Comment=Connect to the NonceCash P2P Network
-Comment[de]=Verbinde mit dem NonceCash peer-to-peer Netzwerk
-Comment[fr]=NonceCash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=NonceCash, eşten eşe kriptografik sanal para birimi
-Exec=noncecash-qt %u
+Name=Nerocash Core
+Comment=Connect to the Nerocash P2P Network
+Comment[de]=Verbinde mit dem Nerocash peer-to-peer Netzwerk
+Comment[fr]=Nerocash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nerocash, eşten eşe kriptografik sanal para birimi
+Exec=nerocash-qt %u
 Terminal=false
 Type=Application
 Icon=noncecash128
-MimeType=x-scheme-handler/noncecash;
+MimeType=x-scheme-handler/nerocash;
 Categories=Office;Finance;

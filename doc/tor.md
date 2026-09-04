@@ -1,16 +1,16 @@
-TOR SUPPORT IN NONCECASH
+TOR SUPPORT IN NEROCASH
 =======================
 
-It is possible to run NonceCash as a Tor hidden service, and connect to such services.
+It is possible to run Nerocash as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions default to having a SOCKS proxy listening on port 9050, but others may not. In particular, the Tor Browser Bundle defaults to listening on port 9150. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) for how to properly
 configure Tor.
 
 
-1. Run NonceCash behind a Tor proxy
+1. Run Nerocash behind a Tor proxy
 ---------------------------------
 
-The first step is running NonceCash behind a Tor proxy. This will already make all
+The first step is running Nerocash behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -31,27 +31,27 @@ outgoing connections be anonymized, but more is possible.
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-	./noncecash -proxy=127.0.0.1:9050
+	./nerocash -proxy=127.0.0.1:9050
 
 
-2. Run a NonceCash hidden server
+2. Run a Nerocash hidden server
 ------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-	HiddenServiceDir /var/lib/tor/noncecash-service/
+	HiddenServiceDir /var/lib/tor/nerocash-service/
 	HiddenServicePort 9883 127.0.0.1:9883
 	HiddenServicePort 19225 127.0.0.1:19225
 
 The directory can be different of course, but (both) port numbers should be equal to
 your noncecashd's P2P listen port (9883 by default).
 
-	-externalip=X   You can tell NonceCash about its publicly reachable address using
+	-externalip=X   You can tell Nerocash about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
-	                /var/lib/tor/noncecash-service/hostname. Onion addresses are given
+	                /var/lib/tor/nerocash-service/hostname. Onion addresses are given
 	                preference for your node to advertise itself with, for connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs).
@@ -86,7 +86,7 @@ and open port 9883 on your firewall (or use -upnp).
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./noncecash -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+	./nerocash -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
 
 3. Automatically listen on Tor
 --------------------------------
@@ -96,10 +96,10 @@ API, to create and destroy 'ephemeral' hidden services programmatically.
 Bitcoin Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authentication has been configured),
-NonceCash Core automatically creates a hidden service to listen on. This will positively 
+Nerocash Core automatically creates a hidden service to listen on. This will positively 
 affect the number of available .onion nodes.
 
-This new feature is enabled by default if NonceCash Core is listening (`-listen`), and
+This new feature is enabled by default if Nerocash Core is listening (`-listen`), and
 requires a Tor connection to work. It can be explicitly disabled with `-listenonion=0`
 and, if not disabled, configured using the `-torcontrol` and `-torpassword` settings.
 To show verbose debugging information, pass `-debug=tor`.
@@ -118,7 +118,7 @@ Tor configuration.
 4. Privacy recommendations
 ---------------------------
 
-- Do not add anything but noncecash ports to the hidden service created in section 2.
+- Do not add anything but nerocash ports to the hidden service created in section 2.
   If you run a web service too, create a new hidden service for that.
   Otherwise it is trivial to link them, which may reduce privacy. Hidden
   services created automatically (as in section 3) always have only one port

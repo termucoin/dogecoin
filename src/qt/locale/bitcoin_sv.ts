@@ -99,12 +99,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina NonceCash adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar NonceCashs.</translation>
+        <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Nerocash adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar NonceCashs.</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina NonceCash adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina Nerocash adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -207,7 +207,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA NONCECASH&lt;/b&gt;!</translation>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA NEROCASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -376,8 +376,8 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a NonceCash address</source>
-        <translation>Skicka noncecashs till en NonceCash-adress</translation>
+        <source>Send coins to a Nerocash address</source>
+        <translation>Skicka noncecashs till en Nerocash-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -400,8 +400,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>NonceCash</source>
-        <translation>NonceCash</translation>
+        <source>Nerocash</source>
+        <translation>Nerocash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -428,12 +428,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your NonceCash addresses to prove you own them</source>
-        <translation>Signera meddelanden med din NonceCash-adress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Nerocash addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Nerocash-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified NonceCash addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade NonceCash-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Nerocash-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -452,8 +452,8 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för tabbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and noncecash: URIs)</source>
-        <translation>Begär betalning (genererar QR-koder och noncecash-URI)</translation>
+        <source>Request payments (generates QR codes and nerocash: URIs)</source>
+        <translation>Begär betalning (genererar QR-koder och nerocash-URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -464,18 +464,18 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a noncecash: URI or payment request</source>
-        <translation>Öppna en noncecash: URI eller betalningsbegäran</translation>
+        <source>Open a nerocash: URI or payment request</source>
+        <translation>Öppna en nerocash: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to NonceCash network</source>
+        <source>%n active connection(s) to Nerocash network</source>
         <translation>
-            <numerusform>%n aktiva anslutningar till NonceCash-nätverket.</numerusform>
-            <numerusform>%n aktiva anslutningar till NonceCash-nätverket.</numerusform>
+            <numerusform>%n aktiva anslutningar till Nerocash-nätverket.</numerusform>
+            <numerusform>%n aktiva anslutningar till Nerocash-nätverket.</numerusform>
         </translation>
     </message>
     <message>
@@ -522,8 +522,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible NonceCash command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga NonceCash kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Nerocash kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -584,8 +584,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. NonceCash can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. NonceCash kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Nerocash can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. Nerocash kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
     <message>
         <source>&amp;Print paper wallets</source>
@@ -608,7 +608,7 @@ Var vänlig och försök igen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a NonceCash private key</source>
+        <source>Import a Nerocash private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -818,7 +818,7 @@ Var vänlig och försök igen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid NonceCash address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Nerocash address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -986,8 +986,8 @@ Var vänlig och försök igen.</translation>
         <translation>Eftersom detta är första gången programmet startas får du välja var %1 skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the NonceCash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 kommer att ladda ner och spara en kopia av NonceCash blockkedjan. Åtminstone %2GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>%1 will download and store a copy of the Nerocash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 kommer att ladda ner och spara en kopia av Nerocash blockkedjan. Åtminstone %2GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1059,7 +1059,7 @@ Var vänlig och försök igen.</translation>
         <translation>Okänd. Synkar huvuden (%1)...</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the noncecash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nerocash network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1193,16 +1193,16 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the NonceCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt NonceCash-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Nerocash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Nerocash-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a SOCKS5 proxy.</source>
-        <translation>Anslut till NonceCash-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Nerocash network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Nerocash-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1241,8 +1241,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till NonceCash-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the Nerocash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till Nerocash-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1356,8 +1356,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NonceCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med NonceCash-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nerocash network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Nerocash-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1464,7 +1464,7 @@ Var vänlig och försök igen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the NonceCash Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Nerocash Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1666,7 +1666,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cannot start noncecash: click-to-pay handler</source>
+        <source>Cannot start nerocash: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid NonceCash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Nerocash address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1815,8 +1815,8 @@ Use this functionality with extreme caution.</source>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a NonceCash address (e.g. %1)</source>
-        <translation>Ange en NonceCash-adress (t.ex. %1)</translation>
+        <source>Enter a Nerocash address (e.g. %1)</source>
+        <translation>Ange en Nerocash-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2301,7 +2301,7 @@ Use this functionality with extreme caution.</source>
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NonceCash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nerocash network.</source>
         <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över NonceCashnätverket.</translation>
     </message>
     <message>
@@ -2534,8 +2534,8 @@ Use this functionality with extreme caution.</source>
         <translation>totalt minst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for noncecash transactions than the network can process.</source>
-        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på noncecash transaktioner än nätverket kan bearbeta.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nerocash transactions than the network can process.</source>
+        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på nerocash transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2721,7 +2721,7 @@ Use this functionality with extreme caution.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Warning: Invalid NonceCash address</source>
+        <source>Warning: Invalid Nerocash address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2760,7 +2760,7 @@ Use this functionality with extreme caution.</source>
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The NonceCash address to send the payment to</source>
+        <source>The Nerocash address to send the payment to</source>
         <translation>NonceCashadress att sända betalning till</translation>
     </message>
     <message>
@@ -2804,8 +2804,8 @@ Use this functionality with extreme caution.</source>
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the noncecash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NonceCash network.</source>
-        <translation>Ett meddelande som bifogades noncecash-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över NonceCashnätverket.</translation>
+        <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
+        <translation>Ett meddelande som bifogades nerocash-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över NonceCashnätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2853,7 +2853,7 @@ Use this functionality with extreme caution.</source>
         <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot noncecashs som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The NonceCash address to sign the message with</source>
+        <source>The Nerocash address to sign the message with</source>
         <translation>NonceCashadress att signera meddelandet med</translation>
     </message>
     <message>
@@ -2885,7 +2885,7 @@ Use this functionality with extreme caution.</source>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NonceCash address</source>
+        <source>Sign the message to prove you own this Nerocash address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2909,12 +2909,12 @@ Use this functionality with extreme caution.</source>
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanrum, flikar, etc. exakt) och signatur nedan för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva undertecknade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att undertecknad tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The NonceCash address the message was signed with</source>
+        <source>The Nerocash address the message was signed with</source>
         <translation>NonceCashadressen som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NonceCash address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna NonceCash-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Nerocash address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Nerocash-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3590,8 +3590,8 @@ Use this functionality with extreme caution.</source>
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>NonceCash Core</source>
-        <translation>NonceCash Core</translation>
+        <source>Nerocash Core</source>
+        <translation>Nerocash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -4338,7 +4338,7 @@ Use this functionality with extreme caution.</source>
         <translation>Fel</translation>
     </message>
     <message>
-        <source>Bitcoin Core and NonceCash Core</source>
+        <source>Bitcoin Core and Nerocash Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

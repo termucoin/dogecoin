@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,8 +13,8 @@
 #include "consensus/consensus.h"
 #include "consensus/merkle.h"
 #include "consensus/validation.h"
-#include "noncecash.h"
-#include "noncecash-fees.h"
+#include "nerocash.h"
+#include "nerocash-fees.h"
 #include "fs.h"
 #include "hash.h"
 #include "init.h"
@@ -51,7 +51,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "NonceCash cannot be compiled without assertions."
+# error "Nerocash cannot be compiled without assertions."
 #endif
 
 /**
@@ -98,7 +98,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "NonceCash Signed Message:\n";
+const std::string strMessageMagic = "Nerocash Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1428,7 +1428,7 @@ bool CheckTxInputs(const CChainParams& params, const CTransaction& tx, CValidati
 
             // If prev is coinbase, check that it's matured
             if (coins->IsCoinBase()) {
-                // NonceCash: Switch maturity at depth 145,000
+                // Nerocash: Switch maturity at depth 145,000
                 int nCoinbaseMaturity = params.GetConsensus(coins->nHeight).nCoinbaseMaturity;
                 if (nSpendHeight - coins->nHeight < nCoinbaseMaturity)
                     return state.Invalid(false,
@@ -1722,7 +1722,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("noncecash-scriptch");
+    RenameThread("nerocash-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -1864,7 +1864,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes during their
     // initial block download.
-    // NonceCash: BIP30 has been active since inception
+    // Nerocash: BIP30 has been active since inception
     bool fEnforceBIP30 = true;
 
     // Once BIP34 activated it was not possible to create new duplicate coinbases and thus other than starting
@@ -1887,7 +1887,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     }
 
     // BIP16 didn't become active until Apr 1 2012
-    // NonceCash: BIP16 has been enabled since inception
+    // Nerocash: BIP16 has been enabled since inception
     bool fStrictPayToScriptHash = true;
 
     unsigned int flags = fStrictPayToScriptHash ? SCRIPT_VERIFY_P2SH : SCRIPT_VERIFY_NONE;
@@ -3000,7 +3000,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
 bool IsWitnessEnabled(const CBlockIndex* pindexPrev, const Consensus::Params& params)
 {
-    // NonceCash: Disable SegWit
+    // Nerocash: Disable SegWit
     return false;
     // LOCK(cs_main);
     // return (VersionBitsState(pindexPrev, params, Consensus::DEPLOYMENT_SEGWIT, versionbitscache) == THRESHOLD_ACTIVE);
@@ -3075,7 +3075,7 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
                                     __func__),
                          REJECT_INVALID, "late-legacy-block");
 
-    // NonceCash: Disallow AuxPow blocks before it is activated.
+    // Nerocash: Disallow AuxPow blocks before it is activated.
     // TODO: Remove this test, as checkpoints will enforce this for us now
     // NOTE: Previously this had its own fAllowAuxPoW flag, but that's always the opposite of fAllowLegacyBlocks
     if (consensusParams.fAllowLegacyBlocks
@@ -3108,7 +3108,7 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
 
     // Reject outdated version blocks when 95% (75% on testnet) of the network has upgraded:
     // check for version 2, 3 and 4 upgrades
-    // NonceCash: Version 2 enforcement was never used
+    // Nerocash: Version 2 enforcement was never used
     if ((block.GetBaseVersion() < 3 && nHeight >= consensusParams.BIP66Height) ||
        (block.GetBaseVersion() < 4 && nHeight >= consensusParams.BIP65Height))
             return state.Invalid(false, REJECT_OBSOLETE, strprintf("bad-version(0x%08x)", block.GetBaseVersion()),
@@ -3124,7 +3124,7 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, const CB
     const Consensus::Params& consensusParams = chainParams.GetConsensus(nHeight);
 
     // Start enforcing BIP113 (Median Time Past) using versionbits logic.
-    // NonceCash: We probably want to disable this
+    // Nerocash: We probably want to disable this
     int nLockTimeFlags = 0;
     if (VersionBitsState(pindexPrev, consensusParams, Consensus::DEPLOYMENT_CSV, versionbitscache) == THRESHOLD_ACTIVE) {
         nLockTimeFlags |= LOCKTIME_MEDIAN_TIME_PAST;

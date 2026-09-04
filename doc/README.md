@@ -1,9 +1,9 @@
-NonceCash Core 0.14.2
+Nerocash Core 0.14.2
 =====================
 
 Development
 ---------------------
-The NonceCash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Nerocash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -18,8 +18,8 @@ The NonceCash repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [NonceCash thread](https://bitcointalk.org/index.php?topic=361813.0).
-* Discuss on [#noncecash-dev](http://webchat.freenode.net/?channels=noncecash-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=noncecash-dev).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Nerocash thread](https://bitcointalk.org/index.php?topic=361813.0).
+* Discuss on [#nerocash-dev](http://webchat.freenode.net/?channels=nerocash-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=nerocash-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
@@ -33,6 +33,6 @@ The NonceCash repo's [root README](/README.md) contains relevant information on 
 License
 ---------------------
 Distributed under the [MIT software license](/COPYING).
-This product includes software developed by the Bitcoin developers for use in [NonceCash Core](https://www.bitcoin.org/). 
+This product includes software developed by the Bitcoin developers for use in [Nerocash Core](https://www.bitcoin.org/). 
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

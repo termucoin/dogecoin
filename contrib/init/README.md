@@ -5,7 +5,7 @@ Upstart: noncecashd.conf
 OpenRC:  noncecashd.openrc
          noncecashd.openrcconf
 CentOS:  noncecashd.init
-OS X:    org.noncecash.noncecashd.plist
+OS X:    org.nerocash.noncecashd.plist
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -196,7 +196,7 @@ void Shutdown()
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("noncecash-shutoff");
+    RenameThread("nerocash-shutoff");
     mempool.AddTransactionsUpdated(1);
 
     StopHTTPRPC();
@@ -204,7 +204,7 @@ void Shutdown()
     StopRPC();
     StopHTTPServer();
 #ifdef ENABLE_WALLET
-    // NonceCash 1.14 TODO: ShutdownRPCMining();
+    // Nerocash 1.14 TODO: ShutdownRPCMining();
     if (pwalletMain)
         pwalletMain->Flush(false);
 #endif
@@ -514,8 +514,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/noncecash/noncecash>";
-    const std::string URL_WEBSITE = "<https://noncecash.com>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/nerocash/nerocash>";
+    const std::string URL_WEBSITE = "<https://nerocash.com>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2013, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -619,7 +619,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<fs::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("noncecash-loadblk");
+    RenameThread("nerocash-loadblk");
 
     {
     CImportingNow imp;
@@ -803,7 +803,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("NonceCash version %s\n", FormatFullVersion());
+    LogPrintf("Nerocash version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only
@@ -1711,7 +1711,7 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
 
     // ********************************************************* Step 12: finished
 
-    // NonceCash: Do we need to do any RPC mining init here?
+    // Nerocash: Do we need to do any RPC mining init here?
 
     SetRPCWarmupFinished();
     uiInterface.InitMessage(_("Done loading"));

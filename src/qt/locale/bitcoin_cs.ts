@@ -99,11 +99,11 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Tohle jsou tvé noncecashové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your NonceCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Tohle jsou tvé noncecashové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
     </message>
     <message>
@@ -218,7 +218,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
-        <translation>%1 se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých noncecashů malwarem, kterým se může počítač nakazit.</translation>
+        <translation>%1 se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých nerocashů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -375,7 +375,7 @@
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a NonceCash address</source>
+        <source>Send coins to a Nerocash address</source>
         <translation>Pošli mince na noncecashovou adresu</translation>
     </message>
     <message>
@@ -399,8 +399,8 @@
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>NonceCash</source>
-        <translation>NonceCash</translation>
+        <source>Nerocash</source>
+        <translation>Nerocash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -427,11 +427,11 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your NonceCash addresses to prove you own them</source>
+        <source>Sign messages with your Nerocash addresses to prove you own them</source>
         <translation>Podepiš zprávy svými noncecashovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified NonceCash addresses</source>
+        <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými noncecashovými adresami</translation>
     </message>
     <message>
@@ -451,8 +451,8 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and noncecash: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a noncecash: URI)</translation>
+        <source>Request payments (generates QR codes and nerocash: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a nerocash: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -463,15 +463,15 @@
         <translation>Ukaž seznam použitých přijímacích adres a jejich označení</translation>
     </message>
     <message>
-        <source>Open a noncecash: URI or payment request</source>
-        <translation>Načti noncecash: URI nebo platební požadavek</translation>
+        <source>Open a nerocash: URI or payment request</source>
+        <translation>Načti nerocash: URI nebo platební požadavek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to NonceCash network</source>
+        <source>%n active connection(s) to Nerocash network</source>
         <translation>
             <numerusform>%n aktivní spojení do noncecashové sítě</numerusform>
             <numerusform>%n aktivní spojení do noncecashové sítě</numerusform>
@@ -523,7 +523,7 @@
         <translation>Aktuální</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible NonceCash command-line options</source>
+        <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
         <translation>Seznam argumentů NonceCashu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
@@ -593,8 +593,8 @@
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. NonceCash can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. NonceCash nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Nerocash can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Nerocash nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
     <message>
         <source>&amp;Print paper wallets</source>
@@ -617,7 +617,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a NonceCash private key</source>
+        <source>Import a Nerocash private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -819,7 +819,7 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid NonceCash address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Nerocash address.</source>
         <translation>Zadaná adresa „%1“ není platná noncecashová adresa.</translation>
     </message>
     <message>
@@ -991,7 +991,7 @@
         <translation>Tohle je poprvé, co spouštíš %1, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the NonceCash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the Nerocash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %2 GB dat – toto číslo bude navíc v průběhu času růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
@@ -1038,12 +1038,12 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the noncecash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nerocash network, as detailed below.</source>
         <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s noncecashovou sítí (viz informace níže), tak už bude stav správně.</translation>
     </message>
     <message>
         <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Utrácení noncecashů, které už utratily zatím nezobrazené transakce, nebude noncecashovou sítí umožněno.</translation>
+        <translation>Utrácení nerocashů, které už utratily zatím nezobrazené transakce, nebude noncecashovou sítí umožněno.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1200,7 +1200,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the NonceCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Nerocash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1208,7 +1208,7 @@
         <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Nerocash network through a SOCKS5 proxy.</source>
         <translation>Připojí se do noncecashové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1248,7 +1248,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the NonceCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Nerocash network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Připojí se do noncecashové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
@@ -1363,7 +1363,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NonceCash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nerocash network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s noncecashovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -1471,7 +1471,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the NonceCash Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Nerocash Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1661,8 +1661,8 @@ p, li { white-space: pre-wrap; }
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start noncecash: click-to-pay handler</source>
-        <translation>Nemůžu spustit noncecash: obsluha click-to-pay</translation>
+        <source>Cannot start nerocash: click-to-pay handler</source>
+        <translation>Nemůžu spustit nerocash: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1677,7 +1677,7 @@ p, li { white-space: pre-wrap; }
         <translation>Neplatná platební adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid NonceCash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Nerocash address or malformed URI parameters.</source>
         <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná noncecashová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -1826,7 +1826,7 @@ Use this functionality with extreme caution.</source>
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a NonceCash address (e.g. %1)</source>
+        <source>Enter a Nerocash address (e.g. %1)</source>
         <translation>Zadej noncecashovou adresu (např. %1)</translation>
     </message>
     <message>
@@ -2318,7 +2318,7 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NonceCash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nerocash network.</source>
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po noncecashové síti.</translation>
     </message>
     <message>
@@ -2551,7 +2551,7 @@ Use this functionality with extreme caution.</source>
         <translation>přinejmenším</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for noncecash transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nerocash transactions than the network can process.</source>
         <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po noncecashových transakcích, než síť zvládne zpracovat.</translation>
     </message>
     <message>
@@ -2723,7 +2723,7 @@ Use this functionality with extreme caution.</source>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid NonceCash address</source>
+        <source>Warning: Invalid Nerocash address</source>
         <translation>Upozornění: Neplatná noncecashová adresa</translation>
     </message>
     <message>
@@ -2790,7 +2790,7 @@ Use this functionality with extreme caution.</source>
         <translation>Tohle je normální platba.</translation>
     </message>
     <message>
-        <source>The NonceCash address to send the payment to</source>
+        <source>The Nerocash address to send the payment to</source>
         <translation>NonceCashová adresa příjemce</translation>
     </message>
     <message>
@@ -2811,7 +2811,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně noncecashů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
+        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně nerocashů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2834,8 +2834,8 @@ Use this functionality with extreme caution.</source>
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the noncecash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NonceCash network.</source>
-        <translation>Zpráva, která byla připojena k noncecash: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po noncecashové síti.</translation>
+        <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
+        <translation>Zpráva, která byla připojena k nerocash: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po noncecashové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2883,7 +2883,7 @@ Use this functionality with extreme caution.</source>
         <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout noncecashy. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The NonceCash address to sign the message with</source>
+        <source>The Nerocash address to sign the message with</source>
         <translation>NonceCashová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
@@ -2915,7 +2915,7 @@ Use this functionality with extreme caution.</source>
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NonceCash address</source>
+        <source>Sign the message to prove you own this Nerocash address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této noncecashové adresy</translation>
     </message>
     <message>
@@ -2939,11 +2939,11 @@ Use this functionality with extreme caution.</source>
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The NonceCash address the message was signed with</source>
+        <source>The Nerocash address the message was signed with</source>
         <translation>NonceCashová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified NonceCash address</source>
+        <source>Verify the message to ensure it was signed with the specified Nerocash address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou noncecashovou adresou</translation>
     </message>
     <message>
@@ -3659,8 +3659,8 @@ Use this functionality with extreme caution.</source>
         <translation>Nemohu spustit HTTP server. Detaily viz v debug.log.</translation>
     </message>
     <message>
-        <source>NonceCash Core</source>
-        <translation>NonceCash Core</translation>
+        <source>Nerocash Core</source>
+        <translation>Nerocash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -4511,7 +4511,7 @@ Use this functionality with extreme caution.</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <source>Bitcoin Core and NonceCash Core</source>
+        <source>Bitcoin Core and Nerocash Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

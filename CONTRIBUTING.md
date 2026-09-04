@@ -1,16 +1,16 @@
-# Contributing to NonceCash Core
+# Contributing to Nerocash Core
 
-NonceCash Core is open source software, and we would welcome contributions
+Nerocash Core is open source software, and we would welcome contributions
 which improve the state of the software. For those wanting to discuss changes,
 or look for work that needs doing, please see:
 
-* [Help requests](https://github.com/noncecash/noncecash/labels/help%20wanted)
-* [Projects](https://github.com/noncecash/noncecash/projects)
+* [Help requests](https://github.com/nerocash/nerocash/labels/help%20wanted)
+* [Projects](https://github.com/nerocash/nerocash/projects)
 * [NonceCashdev on reddit](https://www.reddit.com/r/noncecashdev/)
 
 ## Branch Strategy
 
-NonceCash Core's default branch is intentionally a stable release, so that anyone
+Nerocash Core's default branch is intentionally a stable release, so that anyone
 downloading the code and compiling it gets a stable release. Active development
 occurs on the `master` branch. When raising PRs, please raise them against
 `master`.
@@ -101,13 +101,13 @@ in the future, they may be removed.
 
 ### Refactoring
 
-NonceCash Core is a direct fork of Bitcoin Core and therefore benefits from as
+Nerocash Core is a direct fork of Bitcoin Core and therefore benefits from as
 little refactoring as possible on code that is created upstream. If you see any
 structural issues with upstream code, please propose these fixes for
-[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) and future NonceCash Core
+[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) and future Nerocash Core
 releases will automatically benefit from these.
 
-When refactoring NonceCash-specific code, please keep refactoring requests short,
+When refactoring Nerocash-specific code, please keep refactoring requests short,
 low complexity and easy to verify.
 
 ### Experimental features and optimizations
@@ -126,23 +126,23 @@ For more information, see the
 
 ## "Decision Making" Process
 
-The following applies to code changes to NonceCash Core, and is not to be
-confused with overall NonceCash Network Protocol consensus changes. All consensus
+The following applies to code changes to Nerocash Core, and is not to be
+confused with overall Nerocash Network Protocol consensus changes. All consensus
 changes **must** be ratified by miners; a proposal to implement protocol changes
 does not guarantee activation on the mainnet, not even when a binary gets
 released by maintainers.
 
-Whether a pull request is merged into NonceCash Core rests with the repository
+Whether a pull request is merged into Nerocash Core rests with the repository
 maintainers.
 
 Maintainers will take into consideration if a patch is in line with the general
-principles of NonceCash; meets the minimum standards for inclusion; and will
+principles of Nerocash; meets the minimum standards for inclusion; and will
 take into account the consensus among frequent contributors.
 
 In general, all pull requests must:
 
   - have a clear use case, fix a demonstrable bug or serve the greater good of
-    NonceCash;
+    Nerocash;
   - be peer reviewed;
   - have unit tests and functional tests;
   - follow code style guidelines;
@@ -173,11 +173,11 @@ there is consensus to merge a pull request.
 
 Maintainers reserve the right to weigh the opinions of peer reviewers
 using common sense judgement and also may weight based on meritocracy: Those
-that have demonstrated a deeper commitment and understanding towards NonceCash
+that have demonstrated a deeper commitment and understanding towards Nerocash
 (over time) or have clear domain expertise may naturally have more weight, as
 one would expect in all walks of life.
 
-Where a patch set proposes to change the NonceCash consensus, it must have been
+Where a patch set proposes to change the Nerocash consensus, it must have been
 discussed extensively, be accompanied by widely discussed documentation and have
 a generally widely perceived technical consensus of being a worthwhile change,
 based on the judgement of the maintainers.

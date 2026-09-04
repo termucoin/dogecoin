@@ -5,9 +5,9 @@ SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
 BITCOIND=${BITCOIND:-$SRCDIR/noncecashd}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/noncecash-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/noncecash-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/noncecash-qt}
+BITCOINCLI=${BITCOINCLI:-$SRCDIR/nerocash-cli}
+BITCOINTX=${BITCOINTX:-$SRCDIR/nerocash-tx}
+BITCOINQT=${BITCOINQT:-$SRCDIR/qt/nerocash-qt}
 
 [ ! -x $BITCOIND ] && echo "$BITCOIND not found or not executable." && exit 1
 
@@ -16,7 +16,7 @@ BTCVER=($($BITCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
 # This gets autodetected fine for noncecashd if --version-string is not set,
-# but has different outcomes for noncecash-qt and noncecash-cli.
+# but has different outcomes for nerocash-qt and nerocash-cli.
 echo "[COPYRIGHT]" > footer.h2m
 $BITCOIND --version | sed -n '1!p' >> footer.h2m
 

@@ -3,16 +3,16 @@
 # The relevant paths are:
 #
 #/usr/local/bin/noncecashd
-#/usr/local/etc/noncecash/
-#/var/local/noncecash/
+#/usr/local/etc/nerocash/
+#/var/local/nerocash/
 
 [Unit]
-Description=NonceCash's distributed currency daemon
+Description=Nerocash's distributed currency daemon
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/noncecashd -conf=/usr/local/etc/noncecash/noncecash.conf -datadir=/var/local/noncecash
+ExecStart=/usr/local/bin/noncecashd -conf=/usr/local/etc/nerocash/nerocash.conf -datadir=/var/local/nerocash
 
 KillSignal=SIGINT
 Restart=always
@@ -22,8 +22,8 @@ TimeoutStartSec=5
 StartLimitIntervalSec=120
 StartLimitBurst=5
 
-User=noncecash
-Group=noncecash
+User=nerocash
+Group=nerocash
 
 ### Restrict resource consumption
 MemoryAccounting=yes
@@ -40,8 +40,8 @@ TemporaryFileSystem=/:ro
 BindReadOnlyPaths=/etc/ /lib/ /lib64/
 
 # Add daemon paths
-BindReadOnlyPaths=/usr/local/bin/noncecashd /usr/local/etc/noncecash/
-BindPaths=/var/local/noncecash/
+BindReadOnlyPaths=/usr/local/bin/noncecashd /usr/local/etc/nerocash/
+BindPaths=/var/local/nerocash/
 
 ### Restrict access to system.
 

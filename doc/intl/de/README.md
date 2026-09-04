@@ -1,7 +1,7 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/noncecash/noncecash/master/share/pixmaps/noncecash256.svg" alt="NonceCash" width="256"/>
+<img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-NonceCash Core [NNCC, Ð]  
+Nerocash Core [NNCC, Ð]  
 </h1>
 
 **WICHTIG: Seit August 2024 ist der `master` Branch die primäre Integrationsverzweigung geworden und daher Instabil.
@@ -9,21 +9,21 @@ Bevor Sie die Binärdateien selbst kompilieren, überprüfen Sie bitte, ob eine 
  
 Eine internationale Dokumentation finden Sie unter [doc/intl](doc/intl/README.md).
  
-NonceCash ist eine als Gemeinschaftsprojekt betriebene Kryptowährung, die von einem Shiba-Inu-Meme inspiriert wurde.
-Die NonceCash-Core-Software ermöglicht es Jedem, einen Knotenpunkt, (sog. "Nodes") im NonceCash-Blockchain-Netzwerk zu betreiben.
-NonceCash verwendet das Scrypt-Hashing-Verfahren für "Proof of Work" und wurde von Bitcoin Core und anderen Kryptowährungen adaptiert.
+Nerocash ist eine als Gemeinschaftsprojekt betriebene Kryptowährung, die von einem Shiba-Inu-Meme inspiriert wurde.
+Die Nerocash-Core-Software ermöglicht es Jedem, einen Knotenpunkt, (sog. "Nodes") im Nerocash-Blockchain-Netzwerk zu betreiben.
+Nerocash verwendet das Scrypt-Hashing-Verfahren für "Proof of Work" und wurde von Bitcoin Core und anderen Kryptowährungen adaptiert.
  
-Informationen über anfallende Standard-Transaktionsgebühren auf dem NonceCash-Netzwerk finden Sie unter [Transaktionsgebühren](doc/fee-recommendation.md).
+Informationen über anfallende Standard-Transaktionsgebühren auf dem Nerocash-Netzwerk finden Sie unter [Transaktionsgebühren](doc/fee-recommendation.md).
  
 ## Verwendung 💻
  
-Um NonceCash Core zu verwenden, sehen Sie sich Bitte die [Installations-Anleitung](INSTALL.md) und das [Einstiegstutorial](doc/getting-started.md) an.
+Um Nerocash Core zu verwenden, sehen Sie sich Bitte die [Installations-Anleitung](INSTALL.md) und das [Einstiegstutorial](doc/getting-started.md) an.
  
-Die in NonceCash Core enthaltene JSON-RPC-API ist selbstdokumentiert und kann mit dem Befehl `noncecash-cli help` eingesehen werden. Detailliertere Informationen zu jedem Befehl finden Sie unter `noncecash-cli help <command>`.
+Die in Nerocash Core enthaltene JSON-RPC-API ist selbstdokumentiert und kann mit dem Befehl `nerocash-cli help` eingesehen werden. Detailliertere Informationen zu jedem Befehl finden Sie unter `nerocash-cli help <command>`.
  
 ### Viele Ports
 
-NonceCash Core verwendet den Port `9883` als Standart-Port zur Kommunikation
+Nerocash Core verwendet den Port `9883` als Standart-Port zur Kommunikation
 mit dem Peer-to-Peer Netzwerk und um die "Mainnet" Blockchain zu synchronisieren.
 Dies ist notwendig um über neue Transaktionen und Blöcke informiert zu bleiben.
 Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `9882` als Standart-Port für Mainnet-Nodes verwendet.
@@ -37,15 +37,15 @@ Zusätzlich kann ein JSON-RPC-Port geöffnet werden, welcher den Port `9882` als
 
 ## Laufende Entwicklungen - Fahrplan zum Mond 🌒
 
-NonceCash Core ist eine Open-Source-Software und wird von der Community entwickelt.
+Nerocash Core ist eine Open-Source-Software und wird von der Community entwickelt.
 Der Entwicklungsprozess ist transparent und öffentlich einsehbar; jeder kann ihn sehen, darüber diskutieren und daran teilhaben!
 
 Die wichtigsten Entwicklungsressourcen:
 
-* [GitHub Projekte](https://github.com/noncecash/noncecash/projects) 
+* [GitHub Projekte](https://github.com/nerocash/nerocash/projects) 
   Wird verwendet, um den bereits geplanten und derzeit in Entwicklung befindlichen Releases zu folgen.
-* [GitHub Diskussionen](https://github.com/noncecash/noncecash/discussions)
-  Wird verwendet, um geplante und ungeplante Funktionen (Features) zu diskutieren, die sich auf die Entwicklung der NonceCash Core-Software, die zugrunde liegenden Protokolle und das NNCC-Asset beziehen.
+* [GitHub Diskussionen](https://github.com/nerocash/nerocash/discussions)
+  Wird verwendet, um geplante und ungeplante Funktionen (Features) zu diskutieren, die sich auf die Entwicklung der Nerocash Core-Software, die zugrunde liegenden Protokolle und das NNCC-Asset beziehen.
 
 ### Versionsstrategie
 
@@ -65,17 +65,17 @@ Es gibt 4 Arten von sog. "Branches" (Unterverzweigungen) in diesem Repository:
 
 ## Beitragen 🤝
  
-Falls Sie einen Fehler oder Probleme beim Verwenden dieser Software finden, melden Sie diese über das vorhandene [Ticket System](https://github.com/noncecash/noncecash/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
+Falls Sie einen Fehler oder Probleme beim Verwenden dieser Software finden, melden Sie diese über das vorhandene [Ticket System](https://github.com/nerocash/nerocash/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
  
-Wenn Sie an der Mithilfe oder der Entwicklung von NonceCash Core interessiert sind, sehen Sie sich bitte den [Beitragsleitfaden](CONTRIBUTING.md) an.
-Oft gibt es Themen, die [Hilfe](https://github.com/noncecash/noncecash/labels/help%20wanted) benötigen. Ihr Beitrag könnte einen hohen Stellenwert haben und wird daher auch sehr geschätzt.
+Wenn Sie an der Mithilfe oder der Entwicklung von Nerocash Core interessiert sind, sehen Sie sich bitte den [Beitragsleitfaden](CONTRIBUTING.md) an.
+Oft gibt es Themen, die [Hilfe](https://github.com/nerocash/nerocash/labels/help%20wanted) benötigen. Ihr Beitrag könnte einen hohen Stellenwert haben und wird daher auch sehr geschätzt.
  
 ## Oftmals gestellte Fragen: ❓
  
-Haben Sie eine Frage zu NonceCash? Eine Antwort könnte vielleicht bereits in der [FAQ](doc/FAQ.md) oder im
-[Q&A](https://github.com/noncecash/noncecash/discussions/categories/q-a) hier auf Github vorhanden sein!
+Haben Sie eine Frage zu Nerocash? Eine Antwort könnte vielleicht bereits in der [FAQ](doc/FAQ.md) oder im
+[Q&A](https://github.com/nerocash/nerocash/discussions/categories/q-a) hier auf Github vorhanden sein!
  
 ## Lizenz ⚖️
  
-NonceCash Core wird unter den Bedingungen der MIT-Lizenz veröffentlicht.
+Nerocash Core wird unter den Bedingungen der MIT-Lizenz veröffentlicht.
 Siehe: [COPYING](COPYING) für mehr Informationen.

@@ -1,18 +1,18 @@
-NonceCash Core version 1.14.6 is now available from:
+Nerocash Core version 1.14.6 is now available from:
 
-  <https://github.com/noncecash/noncecash/releases/tag/v1.14.6/>
+  <https://github.com/nerocash/nerocash/releases/tag/v1.14.6/>
 
 This is a new minor version release, including important security updates and
-changes to network efficiency. All NonceCash Core users - miners, services,
+changes to network efficiency. All Nerocash Core users - miners, services,
 relay operators and wallet users - are strongly recommended to upgrade.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/noncecash/noncecash/issues>
+  <https://github.com/nerocash/nerocash/issues>
 
 To receive notifications about updates, subscribe to the release mailing list:
 
-  <https://sourceforge.net/projects/noncecash/lists/noncecash-releases>
+  <https://sourceforge.net/projects/nerocash/lists/nerocash-releases>
 
 Releases are also announced on reddit:
 
@@ -21,10 +21,10 @@ Releases are also announced on reddit:
 Compatibility
 ==============
 
-NonceCash Core is extensively tested on Ubuntu Server LTS, Intel-based macOS
+Nerocash Core is extensively tested on Ubuntu Server LTS, Intel-based macOS
 and Windows 10.
 
-NonceCash Core should also work on most other Unix-like systems but is not
+Nerocash Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes
@@ -67,7 +67,7 @@ Fee Recommendation
 ------------------
 
 This release changes the recommended dust limit for all participants on the
-NonceCash network from 1 NNCC to 0.01 NNCC. The full recommendation can be found
+Nerocash network from 1 NNCC to 0.01 NNCC. The full recommendation can be found
 [in the documentation](fee-recommendation.md).
 
 This change has been implemented in the wallet as the default value of
@@ -113,7 +113,7 @@ addresses and return an error.
 Users can remove existing addnode records from the software by running:
 
 ```
-noncecash-cli addnode <address> remove
+nerocash-cli addnode <address> remove
 ```
 
 Features
@@ -130,7 +130,7 @@ got lost.
 The method can be called with:
 
 ```
-noncecash-cli liststucktransactions
+nerocash-cli liststucktransactions
 ```
 
 ### Add pruning configuration to the UI
@@ -167,7 +167,7 @@ and will automatically adapt to a maximum that the host OS allows.
 To change the maximum number of connections, run:
 
 ```
-noncecash-cli setmaxconnections <desired_amount>
+nerocash-cli setmaxconnections <desired_amount>
 ```
 
 ### Improve the traffic graph in the UI
@@ -190,7 +190,7 @@ NOTE: rescanning the blockchain takes a lot of time.
 To use the rescan functionality, use:
 
 ```
-noncecash-cli rescan <start_block>
+nerocash-cli rescan <start_block>
 ```
 
 It will inform of the state before and after when the process finishes:
@@ -237,7 +237,7 @@ Significant updates have been provided to the following languages:
 * Tamil
 
 Policies and tooling have been updated to enable translators better in their
-efforts to make NonceCash more accessible to people that do not speak English.
+efforts to make Nerocash more accessible to people that do not speak English.
 
 RPC API Changes
 ---------------
@@ -281,7 +281,7 @@ Minor Changes
   stuck transactions based on peer-to-peer traffic, but this does not work
   since 1.14.2, and can be misleading (showing false positives and negatives.)
 * Improved and updated the [bip list](bips.md) documentation that explains the
-  protocol features implemented by NonceCash Core.
+  protocol features implemented by Nerocash Core.
 * Greatly improved the `gitian-build` script to ease doing deterministic builds
   for everyone, and the [documentation](gitian-building.md) of that process.
 

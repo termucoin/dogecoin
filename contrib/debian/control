@@ -1,4 +1,4 @@
-Source: noncecash
+Source: nerocash
 Section: utils
 Priority: optional
 Maintainer: Matt Corallo <matt@mattcorallo.com>
@@ -26,15 +26,15 @@ Build-Depends: debhelper,
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: http://www.noncecash.com/
-Vcs-Git: git://github.com/noncecash/noncecash.git
-Vcs-Browser: http://github.com/noncecash/noncecash
+Homepage: http://www.nerocash.com/
+Vcs-Git: git://github.com/nerocash/nerocash.git
+Vcs-Browser: http://github.com/nerocash/nerocash
 
 Package: noncecashd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- NonceCash is a free open source peer-to-peer electronic cash system that
+ Nerocash is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -44,30 +44,30 @@ Description: peer-to-peer network based digital currency - daemon
  requires 20+ GB of space, slowly growing.
  .
  This package provides the daemon, noncecashd, and the CLI tool
- noncecash-cli to interact with the daemon.
+ nerocash-cli to interact with the daemon.
 
-Package: noncecash-qt
+Package: nerocash-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- NonceCash is a free open source peer-to-peer electronic cash system that
+ Nerocash is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- This package provides NonceCash-Qt, a GUI for NonceCash based on Qt.
+ This package provides Nerocash-Qt, a GUI for Nerocash based on Qt.
 
-Package: noncecash-tx
+Package: nerocash-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- NonceCash is a free open source peer-to-peer electronic cash system that
+ Nerocash is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- This package provides noncecash-tx, a command-line transaction creation
- tool which can be used without a noncecash daemon.  Some means of
+ This package provides nerocash-tx, a command-line transaction creation
+ tool which can be used without a nerocash daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

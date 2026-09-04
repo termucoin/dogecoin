@@ -1,10 +1,10 @@
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "arith_uint256.h"
 #include "chainparams.h"
-#include "noncecash.h"
+#include "nerocash.h"
 #include "test/test_bitcoin.h"
 
 #include <boost/test/unit_test.hpp>

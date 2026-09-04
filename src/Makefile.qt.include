@@ -2,7 +2,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/noncecash-qt
+bin_PROGRAMS += qt/nerocash-qt
 EXTRA_LIBRARIES += qt/libnoncecashqt.a
 
 # bitcoin qt core #
@@ -223,9 +223,9 @@ RES_ICONS = \
   qt/res/icons/address-book.png \
   qt/res/icons/about.png \
   qt/res/icons/about_qt.png \
-  qt/res/icons/noncecash.ico \
+  qt/res/icons/nerocash.ico \
   qt/res/icons/bitcoin_testnet.ico \
-  qt/res/icons/noncecash.png \
+  qt/res/icons/nerocash.png \
   qt/res/icons/chevron.png \
   qt/res/icons/clock1.png \
   qt/res/icons/clock2.png \
@@ -444,9 +444,9 @@ CLEAN_QT = $(nodist_qt_libnoncecashqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcd
 CLEANFILES += $(CLEAN_QT)
 
 noncecash_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libnoncecashqt_a_OBJECTS) $(qt_noncecash_qt_OBJECTS) qt/noncecash-qt$(EXEEXT) $(LIBNONCECASHQT)
+	rm -f $(CLEAN_QT) $(qt_libnoncecashqt_a_OBJECTS) $(qt_noncecash_qt_OBJECTS) qt/nerocash-qt$(EXEEXT) $(LIBNONCECASHQT)
 
-noncecash_qt : qt/noncecash-qt$(EXEEXT)
+noncecash_qt : qt/nerocash-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

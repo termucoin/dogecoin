@@ -1,26 +1,26 @@
-NonceCash Core version 1.14.4 is now available from:
+Nerocash Core version 1.14.4 is now available from:
 
-  <https://github.com/noncecash/noncecash/releases/tag/v1.14.4/>
+  <https://github.com/nerocash/nerocash/releases/tag/v1.14.4/>
 
 This is a new minor version release, including various bugfixes and performance improvements. It is a recommended
 update for all users.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/noncecash/noncecash/issues>
+  <https://github.com/nerocash/nerocash/issues>
 
 To receive security and update notifications, please watch reddit or Twitter:
 
-  * https://www.reddit.com/r/noncecash/
-  * @NonceCash on Twitter for high priority announcements
-  * @noncecash\_devs on Twitter for updates on development work
+  * https://www.reddit.com/r/nerocash/
+  * @Nerocash on Twitter for high priority announcements
+  * @nerocash\_devs on Twitter for updates on development work
 
 Compatibility
 ==============
 
-NonceCash Core is extensively tested on Ubuntu Server LTS, Mac OS X and Windows 10.
+Nerocash Core is extensively tested on Ubuntu Server LTS, Mac OS X and Windows 10.
 
-NonceCash Core should also work on most other Unix-like systems but is not
+Nerocash Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes
@@ -32,7 +32,7 @@ Enabling Future Fee Reductions
 This release preparing the network for a reduction of the recommended fees by
 reducing the default fee requirement 1000x for transaction relay and 100x for
 mining. At the same time it increases freedom for miner, wallet and node
-operators to agree on fees regardless of defaults coded into the NonceCash Core
+operators to agree on fees regardless of defaults coded into the Nerocash Core
 software by solidifying fine-grained controls for operators to deviate from
 built-in defaults.
 
@@ -44,7 +44,7 @@ The main highlights for these enhancements are:
 * Transaction sizes are no longer rounded up to the nearest kilobyte when
   deciding if a transaction can be accepted from another node and in applying
   fee-filter requests from peers, when relaying transactions.
-* The default setting shipped with noncecash core for relay fee has been reduced
+* The default setting shipped with nerocash core for relay fee has been reduced
   to 0.001 NNCC (was: 1 NNCC). This can be changed by operators using the
   `-mintxrelayfee=<amount>` option.
 * Spam management has been delegated to miners, where currently a default fee

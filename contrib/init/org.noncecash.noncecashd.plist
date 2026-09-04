@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.noncecash.noncecashd</string>
+	<string>org.nerocash.noncecashd</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/noncecashd</string>

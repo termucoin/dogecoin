@@ -1,11 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: NonceCash Core
-Source: https://github.com/noncecash/noncecash
+Upstream-Name: Nerocash Core
+Source: https://github.com/nerocash/nerocash
 
 Files: *
-Copyright: 2009-2024, Bitcoin Core and NonceCash Core Developers
+Copyright: 2009-2024, Bitcoin Core and Nerocash Core Developers
 License: Expat
-Comment: The Bitcoin Core and NonceCash Core Developers encompasses all
+Comment: The Bitcoin Core and Nerocash Core Developers encompasses all
          contributors to the project, listed in the release notes or the git log
 
 Files: debian/*

@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "noncecash" user
+All three Linux startup configurations assume the existence of a "nerocash" user
 and group.  They must be created before attempting to use these scripts.
 The OS X configuration assumes noncecashd will be set up for the current user.
 
@@ -44,7 +44,7 @@ This allows for running noncecashd without having to do any manual configuration
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/noncecash.conf`.
+see `contrib/debian/examples/nerocash.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,23 +54,23 @@ see `contrib/debian/examples/noncecash.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/noncecashd`  
-Configuration file:  `/etc/noncecash/noncecash.conf`  
+Configuration file:  `/etc/nerocash/nerocash.conf`  
 Data directory:      `/var/lib/noncecashd`  
 PID file:            `/var/run/noncecashd/noncecashd.pid` (OpenRC and Upstart) or `/var/lib/noncecashd/noncecashd.pid` (systemd)  
 Lock file:           `/var/lock/subsys/noncecashd` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the noncecash user and group.  It is advised for security
+should all be owned by the nerocash user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-noncecash user and group.  Access to noncecash-cli and other noncecashd rpc clients
+nerocash user and group.  Access to nerocash-cli and other noncecashd rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/noncecashd`  
-Configuration file:  `~/Library/Application Support/NonceCash/noncecash.conf`  
-Data directory:      `~/Library/Application Support/NonceCash`
-Lock file:           `~/Library/Application Support/NonceCash/.lock`
+Configuration file:  `~/Library/Application Support/Nerocash/nerocash.conf`  
+Data directory:      `~/Library/Application Support/Nerocash`
+Lock file:           `~/Library/Application Support/Nerocash/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
@@ -109,14 +109,14 @@ setting the NONCECASHD and FLAGS environment variables in the file
 
 4e) Mac OS X
 
-Copy org.noncecash.noncecashd.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.noncecash.noncecashd.plist`.
+Copy org.nerocash.noncecashd.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.nerocash.noncecashd.plist`.
 
 This Launch Agent will cause noncecashd to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run noncecashd as the current user.
-You will need to modify org.noncecash.noncecashd.plist if you intend to use it as a
-Launch Daemon with a dedicated noncecash user.
+You will need to modify org.nerocash.noncecashd.plist if you intend to use it as a
+Launch Daemon with a dedicated nerocash user.
 
 5. Auto-respawn
 -----------------------------------

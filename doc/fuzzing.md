@@ -1,4 +1,4 @@
-Fuzz-testing NonceCash Core
+Fuzz-testing Nerocash Core
 ==========================
 
 A special test harness `test_noncecash_fuzzy` is provided to provide an easy
@@ -20,7 +20,7 @@ export AFLPATH=$PWD
 Instrumentation
 ----------------
 
-To build NonceCash Core using AFL instrumentation (this assumes that the
+To build Nerocash Core using AFL instrumentation (this assumes that the
 `AFLPATH` was set as above):
 ```
 ./configure --disable-ccache --disable-shared --enable-tests CC=${AFLPATH}/afl-gcc CXX=${AFLPATH}/afl-g++
@@ -51,7 +51,7 @@ Example inputs for Bitcoin Core are available from:
 - https://download.visucore.com/bitcoin/bitcoin_fuzzy_in.tar.xz
 - http://strateman.ninja/fuzzing.tar.xz
 
-Extract these (or other starting inputs) into the `inputs` directory before starting fuzzing. These will need adapting to NonceCash before use.
+Extract these (or other starting inputs) into the `inputs` directory before starting fuzzing. These will need adapting to Nerocash before use.
 
 Fuzzing
 --------

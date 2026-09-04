@@ -44,9 +44,9 @@ From the root of the repository, run:
 make
 ```
 
-This builds `noncecashd` and `noncecash-cli`.
+This builds `noncecashd` and `nerocash-cli`.
 
-To also build the Qt GUI (`noncecash-qt`), install the GUI requirements above and run:
+To also build the Qt GUI (`nerocash-qt`), install the GUI requirements above and run:
 
 ```sh
 ./autogen.sh

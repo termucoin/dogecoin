@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -162,7 +162,7 @@ void OverviewPage::UpdateTip()
         tr("Always do your own research before using an external cryptocurrency service"),
         tr("Never share your private key with anyone"),
         tr("Who owns the private keys, owns the coins"),
-        tr("To see ongoing development and contribute, check out the NonceCash Core repository on GitHub"),
+        tr("To see ongoing development and contribute, check out the Nerocash Core repository on GitHub"),
         tr("Services that claim to double your noncecashs are always ponzi schemes")
     };
 

@@ -1,7 +1,7 @@
 # /etc/conf.d/noncecashd: config file for /etc/init.d/noncecashd
 
 # Config file location
-#NONCECASHD_CONFIGFILE="/etc/noncecash/noncecash.conf"
+#NONCECASHD_CONFIGFILE="/etc/nerocash/nerocash.conf"
 
 # What directory to write pidfile to?  (created and owned by $NONCECASHD_USER)
 #NONCECASHD_PIDDIR="/var/run/noncecashd"
@@ -13,8 +13,8 @@
 #NONCECASHD_DATADIR="/var/lib/noncecashd"
 
 # User and group to own noncecashd process
-#NONCECASHD_USER="noncecash"
-#NONCECASHD_GROUP="noncecash"
+#NONCECASHD_USER="nerocash"
+#NONCECASHD_GROUP="nerocash"
 
 # Path to noncecashd executable
 #NONCECASHD_BIN="/usr/bin/noncecashd"

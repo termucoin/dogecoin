@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,7 +20,7 @@
 extern void noui_connect();
 
 static int qt_argc = 1;
-static const char* qt_argv = "noncecash-qt";
+static const char* qt_argv = "nerocash-qt";
 
 // This is all you need to run all the tests
 int main(int argc, char *argv[])

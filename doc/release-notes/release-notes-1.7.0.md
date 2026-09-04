@@ -1,8 +1,8 @@
-# NonceCash Core 1.7 Alpha
+# Nerocash Core 1.7 Alpha
 =========================
 
-NonceCash Core 1.7 is a complete re-architecture of NonceCash, changing from
-using the Litecoin client as its base, to Bitcoin 0.9. It's still NonceCash,
+Nerocash Core 1.7 is a complete re-architecture of Nerocash, changing from
+using the Litecoin client as its base, to Bitcoin 0.9. It's still Nerocash,
 with the same Scrypt PoW algorithm, same reward schedule, but there are a 
 lot of changes under the hood.
 
@@ -21,19 +21,19 @@ First and foremost, please note that downgrading from 1.7 to 1.6 is not trivial.
 1.7 now uses Berkeley DB 5.1 as its default database (in place of 4.8), and as
 such may create database files which are incompatible with previous versions.
 
-Rebranding to NonceCash Core
+Rebranding to Nerocash Core
 ---------------------------
 
-Following in the footsteps of Bitcoin (Core), the NonceCash reference client
-has been rebranded as "NonceCash Core". This helps separate its identity
-from NonceCash (the network).
+Following in the footsteps of Bitcoin (Core), the Nerocash reference client
+has been rebranded as "Nerocash Core". This helps separate its identity
+from Nerocash (the network).
 
-noncecash-cli
+nerocash-cli
 ------------
 
 Where previously commands were sent to noncecashd by running
 "noncecashd <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
-a separate "noncecash-cli" executable which is used instead. This avoids the risk
+a separate "nerocash-cli" executable which is used instead. This avoids the risk
 of accidentally trying to start two daemons at the same time, for example.
 
 
@@ -48,9 +48,9 @@ Testnet
 -------
 
 As mentioned at the start of this document, the alpha-client is for use with the
-NonceCash testnet only. This is an alternative NonceCash blockchain which is
+Nerocash testnet only. This is an alternative Nerocash blockchain which is
 not used for real transactions, and instead is intended for testing of experimental
-clients. Wallets and addresses are incompatible with the normal NonceCash
+clients. Wallets and addresses are incompatible with the normal Nerocash
 network, in order to isolate the two.
 
 As "TestNncc" is essentially valueless, it can be acquired easily for testing,

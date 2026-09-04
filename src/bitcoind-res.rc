@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "NonceCash"
-            VALUE "FileDescription",    "noncecashd (NonceCash node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Nerocash"
+            VALUE "FileDescription",    "noncecashd (Nerocash node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "noncecashd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

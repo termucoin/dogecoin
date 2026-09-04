@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
-// Copyright (c) 2026 The NonceCash Core developers
+// Copyright (c) 2026 The Nerocash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,10 +49,10 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "NonceCash"
-#define QAPP_ORG_DOMAIN "noncecash.org"
-#define QAPP_APP_NAME_DEFAULT "NonceCash-Qt"
-#define QAPP_APP_NAME_TESTNET "NonceCash-Qt-testnet"
+#define QAPP_ORG_NAME "Nerocash"
+#define QAPP_ORG_DOMAIN "nerocash.org"
+#define QAPP_APP_NAME_DEFAULT "Nerocash-Qt"
+#define QAPP_APP_NAME_TESTNET "Nerocash-Qt-testnet"
 
 /* One gigabyte (GB) in bytes */
 static constexpr uint64_t GB_BYTES{1000000000};

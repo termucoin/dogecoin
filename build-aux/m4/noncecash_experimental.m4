@@ -1,4 +1,4 @@
-dnl Copyright (c) 2022 The NonceCash Core developers
+dnl Copyright (c) 2022 The Nerocash Core developers
 dnl Distributed under the MIT software license, see the accompanying
 dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
