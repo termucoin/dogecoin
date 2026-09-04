@@ -217,7 +217,7 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
         <translation>%1 zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich Nerocashów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
     </message>
     <message>
@@ -1078,7 +1078,7 @@
         <translation>Ostatnie transakcje mogą nie być jeszcze widoczne, a zatem saldo portfela może być nieprawidłowe. Te informacje będą poprawne, gdy portfel zakończy synchronizację z siecią nerocash, zgodnie z poniższym opisem.</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Próba wydania nerocashów, których dotyczą niewyświetlone jeszcze transakcje, nie zostanie zaakceptowana przez sieć.</translation>
     </message>
 </context>
@@ -1475,7 +1475,7 @@
         <translation>Aby zobaczyć ciągły rozwój i wnieść swój wkład, sprawdź repozytorium Nerocash Core na GitHub</translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
         <translation>Usługi, które obiecują podwoić Twoje monety Nerocash, są zawsze schematami ponzi</translation>
     </message>
 </context>
@@ -2790,7 +2790,7 @@ Use this functionality with extreme caution.</source>
         <translation>Usuń ten wpis</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Opłata zostanie odjęta od kwoty wysyłanej. Odbiorca otrzyma mniej niż Nerocashów wpisanych w polu kwoty. Jeśli wybrano kilku odbiorców, opłata jest podzielona równo.</translation>
     </message>
     <message>
@@ -2859,7 +2859,7 @@ Use this functionality with extreme caution.</source>
         <translation>Podpi&amp;sz Wiadomość</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>

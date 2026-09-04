@@ -241,8 +241,8 @@
         <translation>Aviso: a tecla Caps Lock está ligada!</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
-        <translation>%1 irá fechar agora para concluir o processo de criptografia. Lembre-se de que criptografar a sua carteira não poderá proteger totalmente os seus noncecashs de serem roubados por malware que tiver a infectar o seu computador.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
+        <translation>%1 irá fechar agora para concluir o processo de criptografia. Lembre-se de que criptografar a sua carteira não poderá proteger totalmente os seus nerocash de serem roubados por malware que tiver a infectar o seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1058,8 +1058,8 @@
         <translation>As transações recentes podem ainda não estar visíveis e, portanto, o saldo da sua carteira pode estar incorreto. Essas informações estarão corretas assim que a sua carteira terminar de sincronizar com a rede nerocash, conforme detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A tentativa de gastar noncecashs afetados por transações ainda não exibidas não será aceita pela rede.</translation>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A tentativa de gastar nerocash afetados por transações ainda não exibidas não será aceita pela rede.</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
@@ -1460,8 +1460,8 @@
         <translation>Para ver o desenvolvimento contínuo e contribuir, veja o repositório Nerocash Core no GitHub</translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
-        <translation>Serviços que afirmam duplicar as suas noncecashs são sempre esquemas ponzi</translation>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
+        <translation>Serviços que afirmam duplicar as suas nerocash são sempre esquemas ponzi</translation>
     </message>
 </context>
 <context>
@@ -2769,8 +2769,8 @@ Use this functionality with extreme caution.</source>
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos noncecashs do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos nerocash do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2838,7 +2838,7 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>

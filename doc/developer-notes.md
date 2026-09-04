@@ -128,7 +128,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play noncecashs" on the test network, if you
+Run with the -testnet option to run with "play nerocash" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -186,7 +186,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 9882 for connections and services them.
 
-- NonceCashMiner : Generates noncecashs (if wallet is enabled).
+- NonceCashMiner : Generates nerocash (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 

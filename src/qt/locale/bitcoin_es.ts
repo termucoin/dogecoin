@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Nerocash para enviar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar noncecashs.</translation>
+        <translation>Estas son sus direcciones Nerocash para enviar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar nerocash.</translation>
     </message>
     <message>
         <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -217,7 +217,7 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
         <translation>%1 se cerrará ahora para terminar el proceso de cifrado. Recuerde que cifrar su monedero no puede proteger completamente su monedero de ser robado por malware que infecte su ordenador.</translation>
     </message>
     <message>
@@ -368,7 +368,7 @@
     </message>
     <message>
         <source>Send coins to a Nerocash address</source>
-        <translation>Enviar noncecashs a una dirección Nerocash</translation>
+        <translation>Enviar nerocash a una dirección Nerocash</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1030,8 +1030,8 @@
         <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de nerocash, como se detalla abajo.</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>La red no aceptará el intentar gastar noncecashs que están afectados por transacciones aún no mostradas.</translation>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>La red no aceptará el intentar gastar nerocash que están afectados por transacciones aún no mostradas.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1285,7 +1285,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían noncecashs.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían nerocash.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1439,7 +1439,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2458,7 +2458,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar noncecashs</translation>
+        <translation>Enviar nerocash</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2764,8 +2764,8 @@ Use this functionality with extreme caution.</source>
         <translation>Eliminar esta transacción</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comisión será deducida de la cantidad que sea mandada. El destinatario recibirá menos noncecashs de la cantidad introducida en el campo Cantidad. Si hay varios destinatarios, la comisión será distribuida a partes iguales.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La comisión será deducida de la cantidad que sea mandada. El destinatario recibirá menos nerocash de la cantidad introducida en el campo Cantidad. Si hay varios destinatarios, la comisión será distribuida a partes iguales.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2833,7 +2833,7 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Firmar mensaje</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Puede firmar los mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa de manera vaga o aleatoria, pues los ataques de phishing pueden tratar de engañarle firmando su identidad a través de ellos. Sólo firme declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
@@ -3171,7 +3171,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los noncecashs generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a &quot;no aceptado&quot; y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los nerocash generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a &quot;no aceptado&quot; y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>

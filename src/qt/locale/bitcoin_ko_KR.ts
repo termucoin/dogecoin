@@ -217,7 +217,7 @@
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
         <translation>암호화 처리 과정을 끝내기 위해 %1 을/를 종료합니다. 지갑 암호화는 컴퓨터를 감염시키는 악성 코드로 인해 도지코인 도난당하는 것을 온전히 보호할 수 없습니다.</translation>
     </message>
     <message>
@@ -1033,7 +1033,7 @@
         <translation>유형</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>아직 표시되지 않은 거래의 영향을 받는 도지코인을 사용하려고 하는 것은 네트워크에서 허용되지 않습니다.</translation>
     </message>
     <message>
@@ -1470,7 +1470,7 @@
         <translation type="vanished">진행 중인 개발을 확인하고 기여하려면 GitHub에서 도지코인 저장소를 확인하세요!</translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
         <translation>도지코인을 두 배로 늘리는 서비스는 항상 폰지 사기입니다.</translation>
     </message>
     <message>
@@ -2809,7 +2809,7 @@ Use this functionality with extreme caution.</source>
         <translation>항목 지우기</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>수수료가 송금되는 금액에서 공제됩니다. 수령자는 금액 필드에서 입력한 금액보다 적은 금액을 받게 됩니다. 받는 사람이 여러 명인 경우 수수료는 균등하게 나누어집니다.</translation>
     </message>
     <message>
@@ -2878,7 +2878,7 @@ Use this functionality with extreme caution.</source>
         <translation>메시지 서명(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>주소로 메시지/계약서에 서명하여 보낸 도지코인을 받을 수 있음을 증명할 수 있습니다. 피싱 공격으로 말미암아 여러분의 서명을 통해 속아 넘어가게 할 수 있으므로, 서명하지 않은 모든 모호한 요소를 주의하세요. 조항들이 완전 무결한지 확인 후 동의하는 경우에만 서명하세요.</translation>
     </message>
     <message>

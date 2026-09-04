@@ -253,7 +253,7 @@
         <translation>Attenzione: è attivo il tasto blocco maiuscole !</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
         <translation>%1 si chiuderá per completare il processo di criptatura. Ricordati che criptare il portafoglio potrebbe non proteggere i tuoi nerocash nel caso in cui il tuo computer sia infetto da malware.</translation>
     </message>
 </context>
@@ -1046,7 +1046,7 @@
         <translation>Le transazioni recenti potrebbero non essere ancora visibili, quindi il saldo totale del tuo portafoglio potrebbe non essere corretto. Il saldo risulterà corretto quando il tuo portafoglio avrà completato la sincronizzazione con la rete nerocash, come indicato più sotto.</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Il tentativo di spendere nerocash legati a transazioni non ancora visualizzate non verrà accettato dalla rete</translation>
     </message>
     <message>
@@ -1436,7 +1436,7 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
         <translation>Fai le dovute ricerche prima di utilizzare qualsiasi servizio criptovalute.</translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
         <translation>Tutti i servizi che promettono di moltiplicare i tuoi Nerocash sono delle truffe.</translation>
     </message>
     <message>
@@ -2759,7 +2759,7 @@ Use this functionality with extreme caution.</source>
         <translation>Rimuovi questa voce</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>La commissione sarà sottratta dall&apos;importo che si sta inviando. Il beneficiario riceverà un totale di nerocash inferiore al valore inserito. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà divisa in parti uguali.</translation>
     </message>
     <message>
@@ -2828,7 +2828,7 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Firma Messaggio</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Puoi firmare messaggi/accordi con i tuoi indirizzi per dimostrare di poterli utilizzare per ricevere Nerocash. Si consiglia di fare attenzione a non firmare dichiarazioni vaghe o casuali che potrebbero essere utilizzate in attacchi phishing. Si raccomanda di firmare esclusivamente dichiarazioni dettagliate e delle quali si condivide in pieno il contenuto.</translation>
     </message>
     <message>

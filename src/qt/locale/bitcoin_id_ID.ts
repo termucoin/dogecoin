@@ -217,7 +217,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
         <translation>%1 sekarang akan tertutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompetmu tidak dapat sepenuhnya melindungi dari pencurian nerocash oleh malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
@@ -1022,7 +1022,7 @@
         <translation>Transaksi terakhir mungkin belum diperlihatkan, karena mungkin saja saldo dompet kamu salah. Informasi ini akan menjadi benar setelah dompetmu tersinkronisasi dengan jaringa nerocash, seperti tertampil dibawah.</translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Mencoba untuk menggunakan koin-koin yang masuk kedalam kategori &quot;transaksi yang belum ditampilkan&quot; tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
@@ -1431,7 +1431,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2750,7 +2750,7 @@ Use this functionality with extreme caution.</source>
         <translation>Hapus masukan ini</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Biaya tersebut akan dipotong dari jumlah yang dikirimkan. Penerima akan menerima nerocash lebih sedikit daripada yang kamu masukkan diisian jumlah. Jika beberapa penerima dipilih sekaligus, biayanya akan dibagi rata.</translation>
     </message>
     <message>
@@ -2819,7 +2819,7 @@ Use this functionality with extreme caution.</source>
         <translation>&amp;Tandakan Pesan</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Kamu bisa menandatangani pesan / perjanjian dengan alamat tujuan untuk membuktikan bahwa kamu dapat menerima nerocash. Berhati-hatilah untuk tidak menandatangani apa pun yang samar atau acak, karena serangan phishing mungkin mencoba menipumy agar menyerahkan identitas. Tetap wasapada dan hanya tanda tangani pernyataan yang detail dan kamu pahami. </translation>
     </message>
     <message>

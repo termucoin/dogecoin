@@ -217,8 +217,8 @@
         <translation>Le portefeuille est chiffré</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your noncecashs from being stolen by malware infecting your computer.</source>
-        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre portefeuille ne peut pas protéger entièrement vos noncecashs contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
+        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre portefeuille ne peut pas protéger entièrement vos nerocash contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1045,8 +1045,8 @@
         <translation>Les transactions récentes ne sont peut-être pas encore visibles, et par conséquent, le solde de votre portefeuille est peut-être erroné. Cette information sera juste une fois que votre portefeuille aura fini de se synchroniser avec le réseau Nerocash, comme décrit ci-dessous. </translation>
     </message>
     <message>
-        <source>Attempting to spend noncecashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Toute tentative de dépense de noncecashs affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
+        <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Toute tentative de dépense de nerocash affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1478,8 +1478,8 @@
         <translation>Pour voir le développement en cours et contribuer, consultez le dépôt Nerocash sur GitHub !</translation>
     </message>
     <message>
-        <source>Services that claim to double your noncecashs are always ponzi schemes</source>
-        <translation>Les services qui prétendent doubler vos noncecashs sont toujours des systèmes de ponzi.</translation>
+        <source>Services that claim to double your nerocash are always ponzi schemes</source>
+        <translation>Les services qui prétendent doubler vos nerocash sont toujours des systèmes de ponzi.</translation>
     </message>
     <message>
         <source>Never share your wallet.dat file with anyone</source>
@@ -2827,8 +2827,8 @@ Utilisez cette fonctionnalité avec une extrême prudence.</translation>
         <translation>Retirer cette entrée</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less noncecashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de noncecashs que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de nerocash que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2896,8 +2896,8 @@ Utilisez cette fonctionnalité avec une extrême prudence.</translation>
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive noncecashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des noncecashs à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d&apos;hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l&apos;usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d&apos;accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nerocash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des nerocash à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d&apos;hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l&apos;usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d&apos;accord.</translation>
     </message>
     <message>
         <source>The Nerocash address to sign the message with</source>
