@@ -211,7 +211,7 @@ public:
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 708658;
         consensus.BIP34Hash = uint256S("0x0");
-        consensus.BIP65Height = 1854705; // 0
+        consensus.BIP65Height = 185472; // 0
         consensus.BIP66Height = 708658; // 0 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 24 * 60 * 60; // pre-digishield: 2 days
