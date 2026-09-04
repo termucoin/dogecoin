@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-Nerocash Core [NNCC, Ð]  
+Nerocash Core [NRC, Ð]  
 </h1>
 
 Nerocash là một loại tiền điện tử hướng tới cộng đồng được lấy cảm hứng từ meme Shiba Inu. Phần mềm Nerocash Core cho phép bất kỳ ai vận hành node trong Nerocash blockchain networks và sử dụng phương pháp băm Scrypt cho Proof of Work. Nó được điều chỉnh từ Bitcoin Core và các loại tiền điện tử khác.
@@ -39,7 +39,7 @@ Các nguồn lực phát triển chính::
   theo dõi công việc đã lên kế hoạch và đang tiến hành cho các bản phát hành sắp tới.
 * [GitHub Discussion](https://github.com/nerocash/nerocash/discussions) được sử dụng để
   để thảo luận về các tính năng, được lên kế hoạch và chưa được kế hoạch, liên quan đến
-  sự phát triển của phần mềm Nerocash Core, các giao thức nền tảng và NNCC asset.
+  sự phát triển của phần mềm Nerocash Core, các giao thức nền tảng và NRC asset.
 
 ### Phiên bản Chiến lược
 Số phiên bản tuân theo ngữ nghĩa ```major.minor.patch```.

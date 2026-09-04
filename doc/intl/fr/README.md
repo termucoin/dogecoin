@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-Nerocash Core [NNCC, Ð]  
+Nerocash Core [NRC, Ð]  
 </h1>
 
 **IMPORTANT : À partir d'août 2024, la branche `master` est devenue la branche principale d'intégration et est devenue instable. Veuillez consulter une version _taguée_ avant de compiler des binaires de production.**
@@ -34,7 +34,7 @@ Principales ressources de développement :
 * [GitHub Projects](https://github.com/nerocash/nerocash/projects) est utilisé pour
   suivre les travaux prévus et en cours pour les prochaines versions.
 * [GitHub Discussion](https://github.com/nerocash/nerocash/discussions) est utilisé pour
-  discuter des caractéristiques, planifiées et non planifiées, liées à la fois au développement du logiciel Nerocash Core, les protocoles sous-jacents et l'actif NNCC.
+  discuter des caractéristiques, planifiées et non planifiées, liées à la fois au développement du logiciel Nerocash Core, les protocoles sous-jacents et l'actif NRC.
 
 ### Stratégie de version
 

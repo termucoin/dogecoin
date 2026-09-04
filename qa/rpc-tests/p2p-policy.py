@@ -110,8 +110,8 @@ class P2PPolicyTests(BitcoinTestFramework):
         self.nodes[0].generate(101)
 
         ### test constants ###
-        koinu = Decimal("0.00000001")          # 1 Koinu expressed in NNCC
-        ten = Decimal("10.0")                  # uniform 10 NNCC seed moneys
+        koinu = Decimal("0.00000001")          # 1 Koinu expressed in NRC
+        ten = Decimal("10.0")                  # uniform 10 NRC seed moneys
 
         ### parameters from fee policy ###
         relay_fee = Decimal("0.001")           # DEFAULT_MIN_RELAY_TX_FEE
@@ -129,7 +129,7 @@ class P2PPolicyTests(BitcoinTestFramework):
             self.utxo.append(txid)
         self.nodes[0].generate(1)
 
-        # test legacy output of 1 NNCC output and 1 NNCC fee
+        # test legacy output of 1 NRC output and 1 NRC fee
         output = { self.tgtAddr : 1, self.srcAddr: 8 }
         self.run_relay_test(output)
 

@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-Nerocash Core [NNCC, Ð]  
+Nerocash Core [NRC, Ð]  
 </h1>
 
 Nerocash é uma criptomoeda gerida pela comunidade que foi inspirada no meme Shiba Inu. O programa Nerocash Core permite qualquer um operar um nó na rede blockchain da Nerocash e utilizar o algoritmo de hash Scrypt para mineração usando Prova de Trabalho (Proof of Work). O Nerocash Core é uma adaptação do Bitcoin Core e de outras criptomoedas.
@@ -31,7 +31,7 @@ A Nerocash Core é um programa de código aberto gerido pela comunidade. O proce
 Recursos principais de Desenvolvimento:
 
 * [Projetos do Github](https://github.com/nerocash/nerocash/projects) é utilizado para conduzir trabalhos planejados ou que estejam em desenvolvimento para as próximas atualizações.
-* [Discussão do Github](https://github.com/nerocash/nerocash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa Nerocash Core, os protocolos adjacentes e o criptoativo NNCC.
+* [Discussão do Github](https://github.com/nerocash/nerocash/discussions) é usado para discutir sobre funcionalidades, planejadas ou não, relacionadas ao desenvolvimento do programa Nerocash Core, os protocolos adjacentes e o criptoativo NRC.
 
 ### Estratégia das Versões
 Os numeros de compilação seguem a seguinte semantica:  ```major.minor.patch```

@@ -67,19 +67,19 @@ Fee Recommendation
 ------------------
 
 This release changes the recommended dust limit for all participants on the
-Nerocash network from 1 NNCC to 0.01 NNCC. The full recommendation can be found
+Nerocash network from 1 NRC to 0.01 NRC. The full recommendation can be found
 [in the documentation](fee-recommendation.md).
 
 This change has been implemented in the wallet as the default value of
 `-discardthreshold`, resulting in the following default logic:
 
-1. The wallet will attempt to not create any outputs smaller than 0.03 NNCC as
+1. The wallet will attempt to not create any outputs smaller than 0.03 NRC as
    change if possible.
-2. If after signing there is more than 0.01 NNCC left in the change output, the
+2. If after signing there is more than 0.01 NRC left in the change output, the
    wallet will keep the output as-is.
-3. If the change output drops under 0.01 NNCC, the wallet will discard the
+3. If the change output drops under 0.01 NRC, the wallet will discard the
    change and instead give it to miners as fee.
-4. Any output under 0.01 NNCC will not be accepted as valid by default.
+4. Any output under 0.01 NRC will not be accepted as valid by default.
 
 Breaking changes
 ----------------

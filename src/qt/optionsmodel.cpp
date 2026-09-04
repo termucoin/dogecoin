@@ -75,7 +75,7 @@ void OptionsModel::Init(bool resetSettings)
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
-        settings.setValue("strThirdPartyTxUrls", "https://nnccchain.info/tx/%s|https://chain.so/tx/NNCC/%s");
+        settings.setValue("strThirdPartyTxUrls", "https://nnccchain.info/tx/%s|https://chain.so/tx/NRC/%s");
     strThirdPartyTxUrls = settings.value("strThirdPartyTxUrls", "").toString();
 
     if (!settings.contains("fCoinControlFeatures"))

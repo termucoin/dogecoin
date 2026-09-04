@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
-Nerocash Core [NNCC, Ð]  
+Nerocash Core [NRC, Ð]  
 </h1>
 
 دوج‌کوین (Nerocash) یک رمزارز مبتنی بر عموم مردم بوده که از یک
@@ -40,7 +40,7 @@ Nerocash Core [NNCC, Ð]
 منابع اصلی توسعه:
 
 - [پروژه‌های Github](https://github.com/nerocash/nerocash/projects) به منظور پیگیری کارهای برنامه‌ریزی‌شده و دردست‌اقدام برای نسخه‌های آتی استفاده می‌شوند.
-- [مباحث در Github](https://github.com/nerocash/nerocash/discussions) به منظور مورد بحث قرار دادن شاخصه‌های برنامه‌ریزی‌شده و نشده‌ی نرم‌افزار Nerocash Core، پروتکل‌های زیربنایی آن و دارایی NNCC مورد استفاده قرار می‌گیرد.
+- [مباحث در Github](https://github.com/nerocash/nerocash/discussions) به منظور مورد بحث قرار دادن شاخصه‌های برنامه‌ریزی‌شده و نشده‌ی نرم‌افزار Nerocash Core، پروتکل‌های زیربنایی آن و دارایی NRC مورد استفاده قرار می‌گیرد.
 
 ### استراتژی نسخه‌گذاری
 

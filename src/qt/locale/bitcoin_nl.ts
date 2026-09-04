@@ -1578,8 +1578,8 @@ p, li { white-space: pre-wrap; }
         <translation>Papieren portemonnee laden</translation>
     </message>
     <message>
-        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of NNCC you wish to send to each wallet:</source>
-        <translation>Het printproces van de papieren portemonnee is begonnen.&lt;br/&gt;Wacht tot de portemonnees volledig zijn afgedrukt en controleer of alles correct is afgedrukt.&lt;br/&gt;Controleer op verkeerde uitlijning, inktuitvloeiing, vegen of iets anders dat de privésleutels onleesbaar kan maken.&lt;br/&gt;Voer nu het aantal NNCC in dat u naar elke portemonnee wilt verzenden:</translation>
+        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of NRC you wish to send to each wallet:</source>
+        <translation>Het printproces van de papieren portemonnee is begonnen.&lt;br/&gt;Wacht tot de portemonnees volledig zijn afgedrukt en controleer of alles correct is afgedrukt.&lt;br/&gt;Controleer op verkeerde uitlijning, inktuitvloeiing, vegen of iets anders dat de privésleutels onleesbaar kan maken.&lt;br/&gt;Voer nu het aantal NRC in dat u naar elke portemonnee wilt verzenden:</translation>
     </message>
     <message>
         <source>Paper wallet %1</source>

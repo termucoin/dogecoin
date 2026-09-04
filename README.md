@@ -17,7 +17,7 @@ Nerocash Core
 
 ## What is Nerocash?
 
-**Nerocash (NNCC)** is an innovative, decentralized cryptocurrency designed to function as a primary medium of exchange. Nerocash provides a secure, transparent, and immutable ledger for global peer-to-peer transactions.
+**Nerocash (NRC)** is an innovative, decentralized cryptocurrency designed to function as a primary medium of exchange. Nerocash provides a secure, transparent, and immutable ledger for global peer-to-peer transactions.
 
 The mission of Nerocash is to provide a functional alternative to traditional currencies by offering a scalable payment infrastructure that is not controlled by any central authority. 
 

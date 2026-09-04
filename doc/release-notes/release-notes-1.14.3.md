@@ -67,10 +67,10 @@ Add size_on_disk, prune_target_size, automatic_pruning to getblockchaininfo
 Add query options to listunspent RPC call
 -----------------------------------------
 
-* Return unspents greater or equal than a specific amount in NNCC: minimumAmount (default = 0).
-* Return unspents lower or equal than a specific amount in NNCC: maximumAmount (default=unlimited).
+* Return unspents greater or equal than a specific amount in NRC: minimumAmount (default = 0).
+* Return unspents lower or equal than a specific amount in NRC: maximumAmount (default=unlimited).
 * Return unspents with a total number lower or equal than a specific number: maximumCount (default=0=unlimited).
-* Return unspents which total is greater or equal than a specific amount in NNCC: minimumSumAmount (default=unlimited).
+* Return unspents which total is greater or equal than a specific amount in NRC: minimumSumAmount (default=unlimited).
 
 Minor changes
 =============
