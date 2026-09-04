@@ -31,8 +31,8 @@ from Nerocash (the network).
 nerocash-cli
 ------------
 
-Where previously commands were sent to noncecashd by running
-"noncecashd <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
+Where previously commands were sent to nerocashd by running
+"nerocashd <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
 a separate "nerocash-cli" executable which is used instead. This avoids the risk
 of accidentally trying to start two daemons at the same time, for example.
 

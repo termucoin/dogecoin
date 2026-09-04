@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  noncecashd The nerocash core server.
+#  nerocashd The nerocash core server.
 #
 #
 # chkconfig: 345 80 20
-# description: noncecashd
-# processname: noncecashd
+# description: nerocashd
+# processname: nerocashd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/noncecashd, see below
-if [ -f /etc/sysconfig/noncecashd ]; then
-        . /etc/sysconfig/noncecashd
+# you can override defaults in /etc/sysconfig/nerocashd, see below
+if [ -f /etc/sysconfig/nerocashd ]; then
+        . /etc/sysconfig/nerocashd
 fi
 
 RETVAL=0
 
-prog=noncecashd
-# you can override the lockfile via NONCECASHD_LOCKFILE in /etc/sysconfig/noncecashd
-lockfile=${NONCECASHD_LOCKFILE-/var/lock/subsys/noncecashd}
+prog=nerocashd
+# you can override the lockfile via NEROCASHD_LOCKFILE in /etc/sysconfig/nerocashd
+lockfile=${NEROCASHD_LOCKFILE-/var/lock/subsys/nerocashd}
 
-# noncecashd defaults to /usr/bin/noncecashd, override with NONCECASHD_BIN
-noncecashd=${NONCECASHD_BIN-/usr/bin/noncecashd}
+# nerocashd defaults to /usr/bin/nerocashd, override with NEROCASHD_BIN
+nerocashd=${NEROCASHD_BIN-/usr/bin/nerocashd}
 
-# noncecashd opts default to -disablewallet, override with NONCECASHD_OPTS
-noncecashd_opts=${NONCECASHD_OPTS--disablewallet}
+# nerocashd opts default to -disablewallet, override with NEROCASHD_OPTS
+nerocashd_opts=${NEROCASHD_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $noncecashd $noncecashd_opts
+    daemon $DAEMONOPTS $nerocashd $nerocashd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

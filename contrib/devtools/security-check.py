@@ -210,7 +210,7 @@ BASE_PE = [
     ('NX', check_NX),
     #('RELOC_SECTION', check_PE_RELOC_SECTION),
     # Note: RELOC_SECTION is newer than our source and currently doesn't pass
-    #       on cli tools and tests, but does work for noncecashd / nerocash-qt
+    #       on cli tools and tests, but does work for nerocashd / nerocash-qt
     #('CONTROL_FLOW', check_PE_control_flow),
     # Note: CONTROL_FLOW can be re-enabled when we build with gcc8 or higher
 ]

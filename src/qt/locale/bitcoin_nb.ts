@@ -209,7 +209,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1599,7 +1599,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Send NonceCashs</translation>
+        <translation type="unfinished">Send Nerocashs</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2458,7 +2458,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send NonceCashs</translation>
+        <translation>Send Nerocashs</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2801,7 +2801,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
-        <translation>En melding som var tilknyttet noncecashen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Nerocash-nettverket.</translation>
+        <translation>En melding som var tilknyttet nerocashen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Nerocash-nettverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -3489,7 +3489,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Send NonceCashs</translation>
+        <translation type="unfinished">Send Nerocashs</translation>
     </message>
 </context>
 <context>

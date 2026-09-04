@@ -205,8 +205,8 @@
         <translation>Potvrďte zašifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE NONCECASHY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE NEROCASHY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -218,7 +218,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nerocash from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou noncecashov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
+        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou nerocashov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -524,7 +524,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení NonceCashu pomocou príkazového riadku</translation>
+        <translation>Ukáž %1 zoznam možných nastavení Nerocashu pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -1043,7 +1043,7 @@
     </message>
     <message>
         <source>Attempting to spend nerocash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokus o minutie noncecashov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
+        <translation>Pokus o minutie nerocashov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1249,7 +1249,7 @@
     </message>
     <message>
         <source>Connect to the Nerocash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k NonceCashovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <translation>Pripojiť k Nerocashovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -2473,7 +2473,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať NonceCashs</translation>
+        <translation>Poslať Nerocashs</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2812,7 +2812,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej noncecashov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej nerocashov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>

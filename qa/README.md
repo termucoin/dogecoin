@@ -54,9 +54,9 @@ Possible options, which apply to each individual test run:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave noncecashds and test.* datadir on exit or error
-  --noshutdown          Don't stop noncecashds after the test execution
-  --srcdir=SRCDIR       Source directory containing noncecashd/nerocash-cli
+  --nocleanup           Leave nerocashds and test.* datadir on exit or error
+  --noshutdown          Don't stop nerocashds after the test execution
+  --srcdir=SRCDIR       Source directory containing nerocashd/nerocash-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -81,7 +81,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall noncecashd
+killall nerocashd
 ```
 
 Writing tests

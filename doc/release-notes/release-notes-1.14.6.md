@@ -16,7 +16,7 @@ To receive notifications about updates, subscribe to the release mailing list:
 
 Releases are also announced on reddit:
 
-  <https://www.reddit.com/r/noncecashdev/>
+  <https://www.reddit.com/r/nerocashdev/>
 
 Compatibility
 ==============
@@ -300,7 +300,7 @@ Credit goes to all awesome contributors to this release, alphabetically:
 * Chuanyi
 * Chun Kuan Lee
 * Dakoda Greaves
-* NonceCashItalia
+* NerocashItalia
 * nnccspacewizard
 * Ed Tubbs
 * Evan Klitzke

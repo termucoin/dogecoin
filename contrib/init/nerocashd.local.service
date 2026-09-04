@@ -2,7 +2,7 @@
 #
 # The relevant paths are:
 #
-#/usr/local/bin/noncecashd
+#/usr/local/bin/nerocashd
 #/usr/local/etc/nerocash/
 #/var/local/nerocash/
 
@@ -12,7 +12,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/noncecashd -conf=/usr/local/etc/nerocash/nerocash.conf -datadir=/var/local/nerocash
+ExecStart=/usr/local/bin/nerocashd -conf=/usr/local/etc/nerocash/nerocash.conf -datadir=/var/local/nerocash
 
 KillSignal=SIGINT
 Restart=always
@@ -40,7 +40,7 @@ TemporaryFileSystem=/:ro
 BindReadOnlyPaths=/etc/ /lib/ /lib64/
 
 # Add daemon paths
-BindReadOnlyPaths=/usr/local/bin/noncecashd /usr/local/etc/nerocash/
+BindReadOnlyPaths=/usr/local/bin/nerocashd /usr/local/etc/nerocash/
 BindPaths=/var/local/nerocash/
 
 ### Restrict access to system.

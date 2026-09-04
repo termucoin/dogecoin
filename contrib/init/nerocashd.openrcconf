@@ -1,33 +1,33 @@
-# /etc/conf.d/noncecashd: config file for /etc/init.d/noncecashd
+# /etc/conf.d/nerocashd: config file for /etc/init.d/nerocashd
 
 # Config file location
-#NONCECASHD_CONFIGFILE="/etc/nerocash/nerocash.conf"
+#NEROCASHD_CONFIGFILE="/etc/nerocash/nerocash.conf"
 
-# What directory to write pidfile to?  (created and owned by $NONCECASHD_USER)
-#NONCECASHD_PIDDIR="/var/run/noncecashd"
+# What directory to write pidfile to?  (created and owned by $NEROCASHD_USER)
+#NEROCASHD_PIDDIR="/var/run/nerocashd"
 
 # What filename to give the pidfile
-#NONCECASHD_PIDFILE="${NONCECASHD_PIDDIR}/noncecashd.pid"
+#NEROCASHD_PIDFILE="${NEROCASHD_PIDDIR}/nerocashd.pid"
 
-# Where to write noncecashd data (be mindful that the blockchain is large)
-#NONCECASHD_DATADIR="/var/lib/noncecashd"
+# Where to write nerocashd data (be mindful that the blockchain is large)
+#NEROCASHD_DATADIR="/var/lib/nerocashd"
 
-# User and group to own noncecashd process
-#NONCECASHD_USER="nerocash"
-#NONCECASHD_GROUP="nerocash"
+# User and group to own nerocashd process
+#NEROCASHD_USER="nerocash"
+#NEROCASHD_GROUP="nerocash"
 
-# Path to noncecashd executable
-#NONCECASHD_BIN="/usr/bin/noncecashd"
+# Path to nerocashd executable
+#NEROCASHD_BIN="/usr/bin/nerocashd"
 
-# Nice value to run noncecashd under
-#NONCECASHD_NICE=0
+# Nice value to run nerocashd under
+#NEROCASHD_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-NONCECASHD_OPTS="-disablewallet"
+NEROCASHD_OPTS="-disablewallet"
 
-# The timeout in seconds OpenRC will wait for noncecashd to terminate
+# The timeout in seconds OpenRC will wait for nerocashd to terminate
 # after a SIGTERM has been raised.
 # Note that this will be mapped as argument to start-stop-daemon's
 # '--retry' option, which means you can specify a retry schedule
 # here. For more information see man 8 start-stop-daemon.
-NONCECASHD_SIGTERM_TIMEOUT=60
+NEROCASHD_SIGTERM_TIMEOUT=60

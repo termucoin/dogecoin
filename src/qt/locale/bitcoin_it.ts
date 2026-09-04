@@ -205,7 +205,7 @@
         <translation>Conferma la criptatura del portafoglio</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation>Attenzione: se cripti il portafoglio e perdi la password, &lt;b&gt;PERDERAI TUTTI I TUOI NEROCASH&lt;/b&gt;!</translation>
     </message>
     <message>

@@ -19,7 +19,7 @@
 
 #ifdef ENABLE_WALLET
 
-CFeeRate GetNonceCashFeeRate(int priority)
+CFeeRate GetNerocashFeeRate(int priority)
 {
     switch(priority)
     {
@@ -40,7 +40,7 @@ CFeeRate GetNonceCashFeeRate(int priority)
     return CWallet::minTxFee;
 }
 
-const std::string GetNonceCashPriorityLabel(int priority)
+const std::string GetNerocashPriorityLabel(int priority)
 {
     switch(priority)
     {
@@ -64,7 +64,7 @@ const std::string GetNonceCashPriorityLabel(int priority)
 
 #endif
 
-CAmount GetNonceCashMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowFree)
+CAmount GetNerocashMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowFree)
 {
     {
         LOCK(mempool.cs);
@@ -77,7 +77,7 @@ CAmount GetNonceCashMinRelayFee(const CTransaction& tx, unsigned int nBytes, boo
     }
 
     CAmount nMinFee = ::minRelayTxFeeRate.GetFee(nBytes);
-    nMinFee += GetNonceCashDustFee(tx.vout, nDustLimit);
+    nMinFee += GetNerocashDustFee(tx.vout, nDustLimit);
 
     if (fAllowFree)
     {
@@ -94,7 +94,7 @@ CAmount GetNonceCashMinRelayFee(const CTransaction& tx, unsigned int nBytes, boo
     return nMinFee;
 }
 
-CAmount GetNonceCashDustFee(const std::vector<CTxOut> &vout, const CAmount dustLimit) {
+CAmount GetNerocashDustFee(const std::vector<CTxOut> &vout, const CAmount dustLimit) {
     CAmount nFee = 0;
 
     // To limit dust spam, add the dust limit for each output

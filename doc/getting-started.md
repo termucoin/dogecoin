@@ -1,6 +1,6 @@
 ## Getting started
 
-This tutorial will help you to go through the basics to use Nerocash Core after you completed the [installation instructions](/INSTALL.md). You now have `noncecashd` or `nerocash-qt` executables available to run a node, and `nerocash-cli`/`nerocash-tx` tools to help you transact NRC.
+This tutorial will help you to go through the basics to use Nerocash Core after you completed the [installation instructions](/INSTALL.md). You now have `nerocashd` or `nerocash-qt` executables available to run a node, and `nerocash-cli`/`nerocash-tx` tools to help you transact NRC.
 
 > **Note:** For simplicity, this guide assumes that executables can be found under the `PATH` environment variable.
 If needed, you can specify their location by typing `PATH=$PATH:/path/to/executables`, or prepend the full path to the command like:
@@ -26,9 +26,9 @@ If needed, you can specify their location by typing `PATH=$PATH:/path/to/executa
 
 ## Starting a Nerocash node
 
-To start your node, you can run a headless server using `noncecashd`:
+To start your node, you can run a headless server using `nerocashd`:
 ```console
-aldianokto:~$ noncecashd -daemon
+aldianokto:~$ nerocashd -daemon
 ```
 
 Or you can use the Graphical User Interface (GUI), `nerocash-qt`:
@@ -310,11 +310,11 @@ The `vout` structure will give you information about where the transaction outpu
 
 There are many parameters that can be configured to tune your node to your liking. There are two ways to change the configuration.
 
-Using `noncecashd -help` will display all available configuration parameters that can be added as arguments:
+Using `nerocashd -help` will display all available configuration parameters that can be added as arguments:
 
 **Command example :**
 ```console
-aldianokto:~$ noncecashd -daemon -paytxfee=0.01 -sendfreetransactions=1 -maxconnections=150
+aldianokto:~$ nerocashd -daemon -paytxfee=0.01 -sendfreetransactions=1 -maxconnections=150
 ```
 
 Configuration can be persisted by creating a `nerocash.conf` file. Create it in the directory defined with the `datadir` setting, `$HOME/.nerocash` by default, or specify the file location with `-conf`.
@@ -338,7 +338,7 @@ When trying out new things, for example to test your application that interacts 
 **Testnet** : The test network, with peers.  
 **Regtest** : The regression test network, to test with only local peers and create blocks on-demand.
 
-When not specifying any network, *Mainnet* is the network used by default. To enable *testnet*, use the `noncecashd -testnet`.
+When not specifying any network, *Mainnet* is the network used by default. To enable *testnet*, use the `nerocashd -testnet`.
 
 To enable *regtest*, use the `-regtest` option.
 

@@ -205,7 +205,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -506,7 +506,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Nerocash command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista NonceCashin komentorivivalinnoista</translation>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Nerocashin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -986,7 +986,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Nerocash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 lataa ja tallentaa kopion NonceCashin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <translation>%1 lataa ja tallentaa kopion Nerocashin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1396,7 +1396,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien NonceCashien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Nerocashien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1595,7 +1595,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Lähetä NonceCasheja</translation>
+        <translation type="unfinished">Lähetä Nerocasheja</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2454,7 +2454,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä NonceCasheja</translation>
+        <translation>Lähetä Nerocasheja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2773,7 +2773,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less nerocash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän noncecasheja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän nerocasheja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3485,7 +3485,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Lähetä NonceCasheja</translation>
+        <translation type="unfinished">Lähetä Nerocasheja</translation>
     </message>
 </context>
 <context>

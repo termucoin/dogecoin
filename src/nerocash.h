@@ -7,8 +7,8 @@
 #include "chainparams.h"
 
 bool AllowDigishieldMinDifficultyForBlock(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params);
-CAmount GetNonceCashBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash);
-unsigned int CalculateNonceCashNextWorkRequired(const CBlockIndex* pindexLast, int64_t nLastRetargetTime, const Consensus::Params& params);
+CAmount GetNerocashBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash);
+unsigned int CalculateNerocashNextWorkRequired(const CBlockIndex* pindexLast, int64_t nLastRetargetTime, const Consensus::Params& params);
 
 /**
  * Check proof-of-work of a block header, taking auxpow into account.

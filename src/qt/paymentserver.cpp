@@ -47,7 +47,7 @@ const int IPC_SOCKET_HASH = GetRandInt(INT_MAX);
 //
 static QString ipcServerName()
 {
-    QString name("NonceCashQt");
+    QString name("NerocashQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

@@ -84,7 +84,7 @@ ELF_INTERPRETER_NAMES: Dict[lief.ELF.ARCH, Dict[lief.ENDIANNESS, str]] = {
 
 # Allowed NEEDED libraries
 ELF_ALLOWED_LIBRARIES = {
-# noncecashd and nerocash-qt
+# nerocashd and nerocash-qt
 'libgcc_s.so.1', # GCC base support
 'libc.so.6', # C library
 'libpthread.so.0', # threading

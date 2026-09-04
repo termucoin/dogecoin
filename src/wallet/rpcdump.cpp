@@ -87,10 +87,10 @@ UniValue importprivkey(const JSONRPCRequest& request)
 
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 4)
         throw runtime_error(
-            "importprivkey \"noncecashprivkey\" ( \"label\" ) ( rescan )\n"
+            "importprivkey \"nerocashprivkey\" ( \"label\" ) ( rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
-            "1. \"noncecashprivkey\"  (string, required) The private key (see dumpprivkey)\n"
+            "1. \"nerocashprivkey\"  (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
             "4. height               (numeric, optional, default=1) If rescanning, the block height from which to start\n"

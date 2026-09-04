@@ -96,11 +96,11 @@
     </message>
     <message>
         <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut merupakan alamat - alamat NonceCashmu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <translation>Berikut merupakan alamat - alamat Nerocashmu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
         <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Berikut merupakan alamat - alamat NonceCashmu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
+        <translation>Berikut merupakan alamat - alamat Nerocashmu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -205,7 +205,7 @@
         <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation>Peringatan: Jika kamu mengenkripsi dompet ini dan melupakan kata sandi anda, Kamu akan &lt;b&gt;KEHILANGAN SEMUA NEROCASH ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -380,7 +380,7 @@
     </message>
     <message>
         <source>Sign messages with your Nerocash addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat NonceCashmu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Nerocashmu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>

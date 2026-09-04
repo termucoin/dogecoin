@@ -186,7 +186,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 9882 for connections and services them.
 
-- NonceCashMiner : Generates nerocash (if wallet is enabled).
+- NerocashMiner : Generates nerocash (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 

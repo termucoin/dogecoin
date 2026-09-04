@@ -107,7 +107,7 @@ using namespace std;
 const int64_t nStartupTime = GetTime();
 
 const char * const BITCOIN_CONF_FILENAME = "nerocash.conf";
-const char * const BITCOIN_PID_FILENAME = "noncecashd.pid";
+const char * const BITCOIN_PID_FILENAME = "nerocashd.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;

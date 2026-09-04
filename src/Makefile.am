@@ -24,23 +24,23 @@ BITCOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BDB_CPPFLAGS) $(BOOST_CPPFLAG
 BITCOIN_INCLUDES += -I$(srcdir)/secp256k1/include
 BITCOIN_INCLUDES += $(UNIVALUE_CFLAGS)
 
-LIBNONCECASH_SERVER=libnoncecash_server.a
-LIBNONCECASH_COMMON=libnoncecash_common.a
-LIBNONCECASH_CONSENSUS=libnoncecash_consensus.a
-LIBNONCECASH_CLI=libnoncecash_cli.a
-LIBNONCECASH_UTIL=libnoncecash_util.a
-LIBNONCECASH_CRYPTO=crypto/libnoncecash_crypto.a
-LIBNONCECASHQT=qt/libnoncecashqt.a
+LIBNEROCASH_SERVER=libnerocash_server.a
+LIBNEROCASH_COMMON=libnerocash_common.a
+LIBNEROCASH_CONSENSUS=libnerocash_consensus.a
+LIBNEROCASH_CLI=libnerocash_cli.a
+LIBNEROCASH_UTIL=libnerocash_util.a
+LIBNEROCASH_CRYPTO=crypto/libnerocash_crypto.a
+LIBNEROCASHQT=qt/libnerocashqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
-LIBNONCECASH_ZMQ=libnoncecash_zmq.a
+LIBNEROCASH_ZMQ=libnerocash_zmq.a
 endif
 if BUILD_BITCOIN_LIBS
-LIBNONCECASHCONSENSUS=libnoncecashconsensus.la
+LIBNEROCASHCONSENSUS=libnerocashconsensus.la
 endif
 if ENABLE_WALLET
-LIBNONCECASH_WALLET=libnoncecash_wallet.a
+LIBNEROCASH_WALLET=libnerocash_wallet.a
 endif
 
 $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
@@ -49,16 +49,16 @@ $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES += \
-  $(LIBNONCECASH_CRYPTO) \
-  $(LIBNONCECASH_UTIL) \
-  $(LIBNONCECASH_COMMON) \
-  $(LIBNONCECASH_CONSENSUS) \
-  $(LIBNONCECASH_SERVER) \
-  $(LIBNONCECASH_CLI) \
-  $(LIBNONCECASH_WALLET) \
-  $(LIBNONCECASH_ZMQ)
+  $(LIBNEROCASH_CRYPTO) \
+  $(LIBNEROCASH_UTIL) \
+  $(LIBNEROCASH_COMMON) \
+  $(LIBNEROCASH_CONSENSUS) \
+  $(LIBNEROCASH_SERVER) \
+  $(LIBNEROCASH_CLI) \
+  $(LIBNEROCASH_WALLET) \
+  $(LIBNEROCASH_ZMQ)
 
-lib_LTLIBRARIES = $(LIBNONCECASHCONSENSUS)
+lib_LTLIBRARIES = $(LIBNEROCASHCONSENSUS)
 
 bin_PROGRAMS =
 noinst_PROGRAMS =
@@ -66,7 +66,7 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += noncecashd
+  bin_PROGRAMS += nerocashd
 endif
 
 if BUILD_BITCOIN_UTILS
@@ -185,12 +185,12 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh $(abs_top_builddir)/src/obj/build.h \
 	  $(abs_top_srcdir)
-libnoncecash_util_a-clientversion.$(OBJEXT): obj/build.h
+libnerocash_util_a-clientversion.$(OBJEXT): obj/build.h
 
 # server: shared between bitcoind and bitcoin-qt
-libnoncecash_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
-libnoncecash_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_server_a_SOURCES = \
+libnerocash_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
+libnerocash_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_server_a_SOURCES = \
   addrman.cpp \
   addrdb.cpp \
   bloom.cpp \
@@ -232,9 +232,9 @@ libnoncecash_server_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
-libnoncecash_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-libnoncecash_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_zmq_a_SOURCES = \
+libnerocash_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
+libnerocash_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_zmq_a_SOURCES = \
   zmq/zmqabstractnotifier.cpp \
   zmq/zmqnotificationinterface.cpp \
   zmq/zmqpublishnotifier.cpp
@@ -243,9 +243,9 @@ endif
 
 # wallet: shared between bitcoind and bitcoin-qt, but only linked
 # when wallet enabled
-libnoncecash_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libnoncecash_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_wallet_a_SOURCES = \
+libnerocash_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libnerocash_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_wallet_a_SOURCES = \
   wallet/crypter.cpp \
   wallet/db.cpp \
   wallet/rpcdump.cpp \
@@ -257,9 +257,9 @@ libnoncecash_wallet_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
-crypto_libnoncecash_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_CONFIG_INCLUDES)
-crypto_libnoncecash_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libnoncecash_crypto_a_SOURCES = \
+crypto_libnerocash_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_CONFIG_INCLUDES)
+crypto_libnerocash_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+crypto_libnerocash_crypto_a_SOURCES = \
   crypto/aes.cpp \
   crypto/aes.h \
   crypto/chacha20.h \
@@ -282,13 +282,13 @@ crypto_libnoncecash_crypto_a_SOURCES = \
 
 # only include SSE2 scrypt sources if USE_SCRYPT_SSE2 is defined
 if USE_SCRYPT_SSE2
-crypto_libnoncecash_crypto_a_SOURCES += crypto/scrypt-sse2.cpp
+crypto_libnerocash_crypto_a_SOURCES += crypto/scrypt-sse2.cpp
 endif
 
 # consensus: shared between all executables that validate any consensus rules.
-libnoncecash_consensus_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libnoncecash_consensus_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_consensus_a_SOURCES = \
+libnerocash_consensus_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libnerocash_consensus_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_consensus_a_SOURCES = \
   amount.h \
   arith_uint256.cpp \
   arith_uint256.h \
@@ -323,9 +323,9 @@ libnoncecash_consensus_a_SOURCES = \
   version.h
 
 # common: shared between bitcoind, and bitcoin-qt and non-server tools
-libnoncecash_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libnoncecash_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_common_a_SOURCES = \
+libnerocash_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libnerocash_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_common_a_SOURCES = \
   amount.cpp \
   arith_uint256.cpp \
   auxpow.cpp \
@@ -352,9 +352,9 @@ libnoncecash_common_a_SOURCES = \
 # util: shared between all executables.
 # This library *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
-libnoncecash_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libnoncecash_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_util_a_SOURCES = \
+libnerocash_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libnerocash_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_util_a_SOURCES = \
   support/lockedpool.cpp \
   chainparamsbase.cpp \
   clientversion.cpp \
@@ -375,99 +375,99 @@ libnoncecash_util_a_SOURCES = \
 
 if GLIBC_BACK_COMPAT
 
-libnoncecash_util_a_SOURCES += compat/glibc_compat.cpp
+libnerocash_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 
 endif
 
 # cli: shared between bitcoin-cli and bitcoin-qt
-libnoncecash_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libnoncecash_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnoncecash_cli_a_SOURCES = \
+libnerocash_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libnerocash_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocash_cli_a_SOURCES = \
   rpc/client.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libnoncecash_util_a_SOURCES = $(srcdir)/obj/build.h
+nodist_libnerocash_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-noncecashd_SOURCES = bitcoind.cpp
-noncecashd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-noncecashd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-noncecashd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+nerocashd_SOURCES = bitcoind.cpp
+nerocashd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+nerocashd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nerocashd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-noncecashd_SOURCES += bitcoind-res.rc
+nerocashd_SOURCES += bitcoind-res.rc
 endif
 
-noncecashd_LDADD = \
-  $(LIBNONCECASH_SERVER) \
-  $(LIBNONCECASH_COMMON) \
+nerocashd_LDADD = \
+  $(LIBNEROCASH_SERVER) \
+  $(LIBNEROCASH_COMMON) \
   $(LIBUNIVALUE) \
-  $(LIBNONCECASH_UTIL) \
-  $(LIBNONCECASH_WALLET) \
-  $(LIBNONCECASH_ZMQ) \
-  $(LIBNONCECASH_CONSENSUS) \
-  $(LIBNONCECASH_CRYPTO) \
+  $(LIBNEROCASH_UTIL) \
+  $(LIBNEROCASH_WALLET) \
+  $(LIBNEROCASH_ZMQ) \
+  $(LIBNEROCASH_CONSENSUS) \
+  $(LIBNEROCASH_CRYPTO) \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-noncecashd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+nerocashd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-noncecash_cli_SOURCES = bitcoin-cli.cpp
-noncecash_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-noncecash_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-noncecash_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+nerocash_cli_SOURCES = bitcoin-cli.cpp
+nerocash_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+nerocash_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nerocash_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-noncecash_cli_SOURCES += bitcoin-cli-res.rc
+nerocash_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-noncecash_cli_LDADD = \
-  $(LIBNONCECASH_CLI) \
+nerocash_cli_LDADD = \
+  $(LIBNEROCASH_CLI) \
   $(LIBUNIVALUE) \
-  $(LIBNONCECASH_UTIL) \
-  $(LIBNONCECASH_CRYPTO)
+  $(LIBNEROCASH_UTIL) \
+  $(LIBNEROCASH_CRYPTO)
 
-noncecash_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+nerocash_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-noncecash_tx_SOURCES = bitcoin-tx.cpp
-noncecash_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-noncecash_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-noncecash_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+nerocash_tx_SOURCES = bitcoin-tx.cpp
+nerocash_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+nerocash_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nerocash_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-noncecash_tx_SOURCES += bitcoin-tx-res.rc
+nerocash_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-noncecash_tx_LDADD = \
+nerocash_tx_LDADD = \
   $(LIBUNIVALUE) \
-  $(LIBNONCECASH_COMMON) \
-  $(LIBNONCECASH_UTIL) \
-  $(LIBNONCECASH_CONSENSUS) \
-  $(LIBNONCECASH_CRYPTO) \
+  $(LIBNEROCASH_COMMON) \
+  $(LIBNEROCASH_UTIL) \
+  $(LIBNEROCASH_CONSENSUS) \
+  $(LIBNEROCASH_CRYPTO) \
   $(LIBSECP256K1)
 
-noncecash_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+nerocash_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
-libnoncecashconsensus_la_SOURCES = $(crypto_libnoncecash_crypto_a_SOURCES) $(libnoncecash_consensus_a_SOURCES)
+libnerocashconsensus_la_SOURCES = $(crypto_libnerocash_crypto_a_SOURCES) $(libnerocash_consensus_a_SOURCES)
 
 if GLIBC_BACK_COMPAT
-  libnoncecashconsensus_la_SOURCES += compat/glibc_compat.cpp
+  libnerocashconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libnoncecashconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libnoncecashconsensus_la_LIBADD = $(LIBSECP256K1)
-libnoncecashconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
-libnoncecashconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnerocashconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libnerocashconsensus_la_LIBADD = $(LIBSECP256K1)
+libnerocashconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
+libnerocashconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

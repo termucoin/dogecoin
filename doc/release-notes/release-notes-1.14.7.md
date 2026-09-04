@@ -198,7 +198,7 @@ Bug Fixes
 
 * Fixed a bug where `-maxtxfee` was not being respected outside of the wallet,
   which caused problems with the `sendrawtransaction` RPC call. (#3088)
-* Fixed the example `noncecashd.service` file (#3066)
+* Fixed the example `nerocashd.service` file (#3066)
 * Fixed a bug where misnamed signal handlers were causing excessive warnings
   in Nerocash Qt logs (#3063)
 * Fixed a bug where extremely long wallet labels could cause Qt popups to flow

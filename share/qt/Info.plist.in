@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.nerocash.NonceCashPayment</string>
+      <string>com.nerocash.NerocashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>nerocash</string>
@@ -71,7 +71,7 @@
         <string>application/nerocash-paymentrequest</string>
         <key>public.filename-extension</key>
         <array>
-          <string>noncecashpaymentrequest</string>
+          <string>nerocashpaymentrequest</string>
         </array>
       </dict>
     </dict>

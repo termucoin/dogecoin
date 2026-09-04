@@ -205,7 +205,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3692,7 +3692,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég noncecashod.</translation>
+        <translation>Nincs elég nerocashod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

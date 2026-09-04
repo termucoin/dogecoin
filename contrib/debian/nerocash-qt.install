@@ -1,6 +1,6 @@
 usr/local/bin/nerocash-qt usr/bin
-share/pixmaps/noncecash32.xpm usr/share/pixmaps
-share/pixmaps/noncecash16.xpm usr/share/pixmaps
-share/pixmaps/noncecash128.png usr/share/pixmaps
+share/pixmaps/nerocash32.xpm usr/share/pixmaps
+share/pixmaps/nerocash16.xpm usr/share/pixmaps
+share/pixmaps/nerocash128.png usr/share/pixmaps
 debian/nerocash-qt.desktop usr/share/applications
 debian/nerocash-qt.protocol usr/share/kde4/services/

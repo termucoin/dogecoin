@@ -58,11 +58,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("Mega-NonceCashs (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case kBTC: return QString("Kilo-NonceCashs (1" THIN_SP_UTF8 "000)");
-    case BTC: return QString("NonceCashs");
-    case mBTC: return QString("Milli-NonceCashs (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-NonceCashs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case MBTC: return QString("Mega-Nerocashs (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case kBTC: return QString("Kilo-Nerocashs (1" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Nerocashs");
+    case mBTC: return QString("Milli-Nerocashs (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Nerocashs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

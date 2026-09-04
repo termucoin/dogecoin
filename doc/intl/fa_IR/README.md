@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash256.svg" alt="Nerocash" width="256"/>
+<img src="https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/nerocash256.svg" alt="Nerocash" width="256"/>
 <br/><br/>
 Nerocash Core [NRC, Ð]  
 </h1>

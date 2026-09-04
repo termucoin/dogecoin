@@ -12,7 +12,7 @@ Please report bugs using the issue tracker at github:
 
 To receive security and update notifications, please watch reddit or Twitter:
 
-  * https://www.reddit.com/r/noncecashdev/
+  * https://www.reddit.com/r/nerocashdev/
   * @Nerocash on Twitter for high priority announcements
   * @nerocash\_devs on Twitter for updates on development work
 

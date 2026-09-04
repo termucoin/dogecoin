@@ -253,7 +253,7 @@ echo
 echo "db5 build complete."
 echo
 # shellcheck disable=SC2016
-echo 'When compiling noncecashd, run `./configure` in the following way:'
+echo 'When compiling nerocashd, run `./configure` in the following way:'
 echo
 echo "  export BDB_PREFIX='${BDB_PREFIX}'"
 # shellcheck disable=SC2016

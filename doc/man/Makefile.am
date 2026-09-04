@@ -1,7 +1,7 @@
 dist_man1_MANS=
 
 if BUILD_BITCOIND
-  dist_man1_MANS+=noncecashd.1
+  dist_man1_MANS+=nerocashd.1
 endif
 
 if ENABLE_QT

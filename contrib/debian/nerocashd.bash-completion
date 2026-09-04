@@ -1,2 +1,2 @@
-contrib/noncecashd.bash-completion	noncecashd
+contrib/nerocashd.bash-completion	nerocashd
 contrib/nerocash-cli.bash-completion	nerocash-cli

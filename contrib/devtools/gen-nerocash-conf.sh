@@ -7,22 +7,22 @@ export LC_ALL=C
 TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 BUILDDIR=${BUILDDIR:-$TOPDIR}
 BINDIR=${BINDIR:-$BUILDDIR/src}
-NONCECASHD=${NONCECASHD:-$BINDIR/noncecashd}
+NEROCASHD=${NEROCASHD:-$BINDIR/nerocashd}
 SHARE_DIR=${SHARE_DIR:-$TOPDIR/share}
 EXAMPLE_CONF_FILE=${EXAMPLE_CONF_FILE:-$SHARE_DIR/nerocash.conf}
 
-[ ! -x "$NONCECASHD" ] && echo "$NONCECASHD not found or not executable." && exit 1
+[ ! -x "$NEROCASHD" ] && echo "$NEROCASHD not found or not executable." && exit 1
 
 DIRTY=""
-VERSION_OUTPUT=$($NONCECASHD --version)
+VERSION_OUTPUT=$($NEROCASHD --version)
 if [[ $VERSION_OUTPUT == *"dirty"* ]]; then
-  DIRTY="${DIRTY}${NONCECASHD}\n"
+  DIRTY="${DIRTY}${NEROCASHD}\n"
 fi
 
 if [ -n "$DIRTY" ]
 then
-  echo -e "WARNING: $NONCECASHD was built from a dirty tree.\n"
-  echo -e "To safely generate a nerocash.conf file, please commit your changes to $NONCECASHD, rebuild, then run this script again.\n"
+  echo -e "WARNING: $NEROCASHD was built from a dirty tree.\n"
+  echo -e "To safely generate a nerocash.conf file, please commit your changes to $NEROCASHD, rebuild, then run this script again.\n"
 fi
 
 echo 'Generating example nerocash.conf file in share/'
@@ -46,10 +46,10 @@ cat > "${EXAMPLE_CONF_FILE}" << 'EOF'
 ### Options
 EOF
 
-# parse the output from noncecashd --help
+# parse the output from nerocashd --help
 # adding newlines is a bit funky to ensure portability for BSD
 # see here for more details: https://stackoverflow.com/a/24575385
-${NONCECASHD} --help \
+${NEROCASHD} --help \
     | sed '1,/Print this help message and exit/d' \
     | sed -E 's/^[[:space:]]{2}\-/#/' \
     | sed -E 's/^[[:space:]]{7}/# /' \

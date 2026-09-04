@@ -603,7 +603,7 @@ void SendCoinsDialog::updateGlobalFeeVariables()
 
         // show the estimated required time for confirmation
         // Nerocash: We manually set height well past the last hard fork here
-        ui->confirmationTargetLabel->setText(GetNonceCashPriorityLabel(nPriority).c_str());
+        ui->confirmationTargetLabel->setText(GetNerocashPriorityLabel(nPriority).c_str());
     }
     else
     {
@@ -642,7 +642,7 @@ void SendCoinsDialog::updateFeeLabel()
         return;
 
     int nPriority = ui->sliderSmartFee->value();
-    CFeeRate feeRate = GetNonceCashFeeRate(nPriority);
+    CFeeRate feeRate = GetNerocashFeeRate(nPriority);
     if (feeRate <= CFeeRate(0)) // not enough data => minfee
     {
         ui->labelPriority->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(),

@@ -38,7 +38,7 @@ bool AllowDigishieldMinDifficultyForBlock(const CBlockIndex* pindexLast, const C
     return (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2);
 }
 
-unsigned int CalculateNonceCashNextWorkRequired(const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
+unsigned int CalculateNerocashNextWorkRequired(const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
 {
     int nHeight = pindexLast->nHeight + 1;
     const int64_t retargetTimespan = params.nPowTargetTimespan;
@@ -122,7 +122,7 @@ bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& 
     return true;
 }
 
-CAmount GetNonceCashBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash)
+CAmount GetNerocashBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash)
 {
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
     // Force block reward to zero when right shift is undefined.

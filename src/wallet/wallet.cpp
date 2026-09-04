@@ -2701,7 +2701,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
                     nFeeNeeded = GetMinimumFee(txNew, nBytes, currentConfirmationTarget, mempool);
                 } else {
                     // Force the fee rate higher
-                    nFeeNeeded = GetNonceCashPriorityFee(txNew, nBytes, nPriority);
+                    nFeeNeeded = GetNerocashPriorityFee(txNew, nBytes, nPriority);
                 }
                 if (coinControl && nFeeNeeded > 0 && coinControl->nMinimumTotalFee > nFeeNeeded) {
                     nFeeNeeded = coinControl->nMinimumTotalFee;
@@ -2880,7 +2880,7 @@ bool CWallet::AddAccountingEntry(const CAccountingEntry& acentry, CWalletDB *pwa
 CAmount CWallet::GetRequiredFee(const CMutableTransaction& tx, unsigned int nTxBytes)
 {
     // Nerocash: Add an increased fee for each output that is lower than the discard threshold
-    return std::max(minTxFee.GetFee(nTxBytes) + GetNonceCashDustFee(tx.vout, discardThreshold), ::minRelayTxFeeRate.GetFee(nTxBytes));
+    return std::max(minTxFee.GetFee(nTxBytes) + GetNerocashDustFee(tx.vout, discardThreshold), ::minRelayTxFeeRate.GetFee(nTxBytes));
 }
 
 CAmount CWallet::GetRequiredFee(unsigned int nTxBytes)
@@ -2921,17 +2921,17 @@ CAmount CWallet::GetMinimumFee(const CMutableTransaction& tx, unsigned int nTxBy
 }
 
 
-CAmount CWallet::GetNonceCashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nPriority)
+CAmount CWallet::GetNerocashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nPriority)
 {
     // payTxFee is the user-set global for desired feerate
-    return GetNonceCashPriorityFee(tx, nTxBytes, nPriority, payTxFee.GetFee(nTxBytes));
+    return GetNerocashPriorityFee(tx, nTxBytes, nPriority, payTxFee.GetFee(nTxBytes));
 }
-CAmount CWallet::GetNonceCashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nPriority, CAmount targetFee)
+CAmount CWallet::GetNerocashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nPriority, CAmount targetFee)
 {
     CAmount nFeeNeeded = targetFee;
     // User didn't set: use -txconfirmtarget to estimate...
     if (nFeeNeeded == 0) {
-        nFeeNeeded = GetNonceCashFeeRate(nPriority).GetFee(nTxBytes);
+        nFeeNeeded = GetNerocashFeeRate(nPriority).GetFee(nTxBytes);
     }
     // prevent user from paying a fee below minRelayTxFee or minTxFee
     // Nerocash: as we're adapting minTxFee to never be higher than

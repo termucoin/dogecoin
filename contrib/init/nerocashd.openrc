@@ -5,23 +5,23 @@
 if [ -d "/var/lib/nerocash/.nerocash" ]; then
 	BITCOIND_DEFAULT_DATADIR="/var/lib/nerocash/.nerocash"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/noncecashd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/nerocashd"
 fi
 
 BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/nerocash/nerocash.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/noncecashd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/noncecashd.pid}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/nerocashd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/nerocashd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
 BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-nerocash}}
 BITCOIND_GROUP=${BITCOIND_GROUP:-nerocash}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/noncecashd}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/nerocashd}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
 name="Bitcoin Core Daemon"
 description="Bitcoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/noncecashd"
+command="/usr/bin/nerocashd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run noncecashd."
+		eerror "ERROR: You must set a secure rpcpassword to run nerocashd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

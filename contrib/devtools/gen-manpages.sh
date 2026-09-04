@@ -4,7 +4,7 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/noncecashd}
+BITCOIND=${BITCOIND:-$SRCDIR/nerocashd}
 BITCOINCLI=${BITCOINCLI:-$SRCDIR/nerocash-cli}
 BITCOINTX=${BITCOINTX:-$SRCDIR/nerocash-tx}
 BITCOINQT=${BITCOINQT:-$SRCDIR/qt/nerocash-qt}
@@ -15,7 +15,7 @@ BITCOINQT=${BITCOINQT:-$SRCDIR/qt/nerocash-qt}
 BTCVER=($($BITCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
-# This gets autodetected fine for noncecashd if --version-string is not set,
+# This gets autodetected fine for nerocashd if --version-string is not set,
 # but has different outcomes for nerocash-qt and nerocash-cli.
 echo "[COPYRIGHT]" > footer.h2m
 $BITCOIND --version | sed -n '1!p' >> footer.h2m

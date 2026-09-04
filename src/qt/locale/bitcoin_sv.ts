@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>These are your Nerocash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Nerocash adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar NonceCashs.</translation>
+        <translation>Detta är dina Nerocash adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Nerocashs.</translation>
     </message>
     <message>
         <source>These are your Nerocash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -206,7 +206,7 @@ Var vänlig och försök igen.</translation>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
         <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA NEROCASH&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -2302,7 +2302,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nerocash network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över NonceCashnätverket.</translation>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Nerocashnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2761,7 +2761,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The Nerocash address to send the payment to</source>
-        <translation>NonceCashadress att sända betalning till</translation>
+        <translation>Nerocashadress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2805,7 +2805,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
-        <translation>Ett meddelande som bifogades nerocash-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över NonceCashnätverket.</translation>
+        <translation>Ett meddelande som bifogades nerocash-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Nerocashnätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2854,7 +2854,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The Nerocash address to sign the message with</source>
-        <translation>NonceCashadress att signera meddelandet med</translation>
+        <translation>Nerocashadress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2910,7 +2910,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>The Nerocash address the message was signed with</source>
-        <translation>NonceCashadressen som meddelandet signerades med</translation>
+        <translation>Nerocashadressen som meddelandet signerades med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Nerocash address</source>

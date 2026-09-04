@@ -205,8 +205,8 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA NONCECASHID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA NEROCASHID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -340,7 +340,7 @@
     </message>
     <message>
         <source>Send coins to a Nerocash address</source>
-        <translation>Saada münte NonceCashi aadressile</translation>
+        <translation>Saada münte Nerocashi aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -392,11 +392,11 @@
     </message>
     <message>
         <source>Sign messages with your Nerocash addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma NonceCashi aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Nerocashi aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud NonceCashi aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Nerocashi aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -416,11 +416,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and nerocash: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja noncecashi: URId)</translation>
+        <translation>Loo maksepäring (genereerib QR koodid ja nerocashi: URId)</translation>
     </message>
     <message>
         <source>Open a nerocash: URI or payment request</source>
-        <translation>Ava noncecashi: URI või maksepäring</translation>
+        <translation>Ava nerocashi: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -429,8 +429,8 @@
     <message numerus="yes">
         <source>%n active connection(s) to Nerocash network</source>
         <translation>
-            <numerusform>%n aktiivne ühendus NonceCashi võrku</numerusform>
-            <numerusform>%n aktiivset ühendust NonceCashi võrku</numerusform>
+            <numerusform>%n aktiivne ühendus Nerocashi võrku</numerusform>
+            <numerusform>%n aktiivset ühendust Nerocashi võrku</numerusform>
         </translation>
     </message>
     <message>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>Automatically open the Nerocash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>NonceCashi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>Nerocashi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2862,7 +2862,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this Nerocash address</source>
-        <translation>Allkirjasta sõnum NonceCashi aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum Nerocashi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2886,7 +2886,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Nerocash address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NonceCashi aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Nerocashi aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3539,7 +3539,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Nerocash Core</source>
-        <translation>NonceCashi tuumik</translation>
+        <translation>Nerocashi tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

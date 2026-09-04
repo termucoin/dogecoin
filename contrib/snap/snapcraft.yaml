@@ -19,7 +19,7 @@ architectures:
 
 apps:
   d:
-    command: noncecashd
+    command: nerocashd
     plugs: [home, removable-media, network, network-bind]
     environment:
       # Override HOME so the datadir is located at ~/snap/nerocash-core/common/.nerocash/ instead of ~/snap/nerocash-core/current/.nerocash/, and each new version of the snap won't have a different data directory: https://docs.snapcraft.io/environment-variables/7983
@@ -41,7 +41,7 @@ apps:
     environment:
       HOME: $SNAP_USER_COMMON
   test:
-    command: test_noncecash
+    command: test_nerocash
     plugs: [home, removable-media, network]
     environment:
       HOME: $SNAP_USER_COMMON
@@ -99,7 +99,7 @@ parts:
       fi
       tar -xvf nerocash-${SNAPCRAFT_PROJECT_VERSION}-${BUILD_ARCH_TRIPLET}.tar.gz
       echo "Running tests..."
-      if ! (nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/test_noncecash); then
+      if ! (nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/test_nerocash); then
         echo "Nerocash tests failed."
         return
       else
@@ -109,15 +109,15 @@ parts:
       cat release-notes.md
       echo "Installing Nerocash Core..."
       echo "Version ${SNAPCRAFT_PROJECT_VERSION}"
-      install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/noncecashd
+      install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/nerocashd
       if ! ([ "$BUILD_ARCH_TRIPLET" = "aarch64-linux-gnu" ]); then # there is no official nerocash-qt build on arm64
         install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/nerocash-qt
       fi
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/nerocash-cli
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/nerocash-tx
-      install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/test_noncecash
-      wget https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/noncecash128.png
-      install -m 0644 -D -t $SNAPCRAFT_PART_INSTALL/share/pixmaps noncecash128.png
+      install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin nerocash-${SNAPCRAFT_PROJECT_VERSION}/bin/test_nerocash
+      wget https://raw.githubusercontent.com/nerocash/nerocash/master/share/pixmaps/nerocash128.png
+      install -m 0644 -D -t $SNAPCRAFT_PART_INSTALL/share/pixmaps nerocash128.png
     build-packages:
       - wget
     after:

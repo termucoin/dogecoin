@@ -1,7 +1,7 @@
 Fuzz-testing Nerocash Core
 ==========================
 
-A special test harness `test_noncecash_fuzzy` is provided to provide an easy
+A special test harness `test_nerocash_fuzzy` is provided to provide an easy
 entry point for fuzzers and the like. In this document we'll describe how to
 use it with AFL.
 
@@ -26,7 +26,7 @@ To build Nerocash Core using AFL instrumentation (this assumes that the
 ./configure --disable-ccache --disable-shared --enable-tests CC=${AFLPATH}/afl-gcc CXX=${AFLPATH}/afl-g++
 export AFL_HARDEN=1
 cd src/
-make test/test_noncecash_fuzzy
+make test/test_nerocash_fuzzy
 ```
 We disable ccache because we don't want to pollute the ccache with instrumented
 objects, and similarly don't want to use non-instrumented cached objects linked

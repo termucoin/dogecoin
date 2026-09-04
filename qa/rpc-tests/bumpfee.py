@@ -34,7 +34,7 @@ class BumpFeeTest(BitcoinTestFramework):
 
         # Encrypt wallet for test_locked_wallet_fails test
         self.nodes[1].encryptwallet(WALLET_PASSPHRASE)
-        noncecashd_processes[1].wait()
+        nerocashd_processes[1].wait()
         self.nodes[1] = start_node(1, self.options.tmpdir, extra_args[1])
         self.nodes[1].walletpassphrase(WALLET_PASSPHRASE, WALLET_PASSPHRASE_TIMEOUT)
 
@@ -71,7 +71,7 @@ class BumpFeeTest(BitcoinTestFramework):
         test_rebumping(rbf_node, dest_address)
         test_rebumping_not_replaceable(rbf_node, dest_address)
         test_unconfirmed_not_spendable(rbf_node, rbf_node_address)
-        test_noncecash_wallet_minchange(rbf_node, dest_address)
+        test_nerocash_wallet_minchange(rbf_node, dest_address)
         test_locked_wallet_fails(rbf_node, dest_address)
         print("Success")
 
@@ -278,7 +278,7 @@ def test_locked_wallet_fails(rbf_node, dest_address):
     assert_raises_jsonrpc(-13, "Please enter the wallet passphrase with walletpassphrase first.",
                           rbf_node.bumpfee, rbfid)
 
-def test_noncecash_wallet_minchange(rbf_node, dest_address):
+def test_nerocash_wallet_minchange(rbf_node, dest_address):
     input = Decimal("10.00000000")
     discard_threshold = Decimal("0.01000000")    # DEFAULT_DISCARD_THRESHOLD
     min_fee = Decimal("0.01000000")              # DEFAULT_TRANSACTION_FEE

@@ -5,12 +5,12 @@
 /**
  * Utility functions for RPC commands
  */
-#ifndef NONCECASH_WALLET_UTIL_H
-#define NONCECASH_WALLET_UTIL_H
+#ifndef NEROCASH_WALLET_UTIL_H
+#define NEROCASH_WALLET_UTIL_H
 
 #include "fs.h"
 #include "util.h"
 
 fs::path GetBackupDirFromInput(std::string strUserFilename);
 
-#endif // NONCECASH_WALLET_UTIL_H
+#endif // NEROCASH_WALLET_UTIL_H

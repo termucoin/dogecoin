@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_NONCECASH_FEES_H
-#define BITCOIN_NONCECASH_FEES_H
+#ifndef BITCOIN_NEROCASH_FEES_H
+#define BITCOIN_NEROCASH_FEES_H
 
 #include "amount.h"
 #include "chain.h"
@@ -22,10 +22,10 @@ enum FeeRatePreset
 };
 
 /** Estimate fee rate needed to get into the next nBlocks */
-CFeeRate GetNonceCashFeeRate(int priority);
-const std::string GetNonceCashPriorityLabel(int priority);
+CFeeRate GetNerocashFeeRate(int priority);
+const std::string GetNerocashPriorityLabel(int priority);
 #endif // ENABLE_WALLET
-CAmount GetNonceCashMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowFree);
-CAmount GetNonceCashDustFee(const std::vector<CTxOut> &vout, const CAmount dustLimit);
+CAmount GetNerocashMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowFree);
+CAmount GetNerocashDustFee(const std::vector<CTxOut> &vout, const CAmount dustLimit);
 
-#endif // BITCOIN_NONCECASH_FEES_H
+#endif // BITCOIN_NEROCASH_FEES_H

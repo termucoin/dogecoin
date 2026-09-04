@@ -205,8 +205,8 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NONCECASHS&lt;/b&gt;!</source>
-        <translation>Uwaga: jeśli zaszyfrujesz swój portfel i zgubisz hasło &lt;b&gt;STRACISZ WSZYSTKIE SWOJE NONCECASHY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NEROCASHS&lt;/b&gt;!</source>
+        <translation>Uwaga: jeśli zaszyfrujesz swój portfel i zgubisz hasło &lt;b&gt;STRACISZ WSZYSTKIE SWOJE NEROCASHY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <source>Send coins to a Nerocash address</source>
-        <translation>Wyślij monety na adres NonceCashowy</translation>
+        <translation>Wyślij monety na adres Nerocashowy</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -412,11 +412,11 @@
     </message>
     <message>
         <source>Sign messages with your Nerocash addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem NonceCashowym, aby udowodnić jego posiadanie</translation>
+        <translation>Podpisz wiadomości swoim adresem Nerocashowym, aby udowodnić jego posiadanie</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Nerocash addresses</source>
-        <translation>Zweryfikuj wiadomość, aby upewnić się, że została podpisana podanym adresem NonceCashowym.</translation>
+        <translation>Zweryfikuj wiadomość, aby upewnić się, że została podpisana podanym adresem Nerocashowym.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -436,7 +436,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and nerocash: URIs)</source>
-        <translation>Żądaj płatności (generuje kod QR oraz NonceCashowe URI)</translation>
+        <translation>Żądaj płatności (generuje kod QR oraz Nerocashowe URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <source>Open a nerocash: URI or payment request</source>
-        <translation>Otwórz NonceCashowe: URI lub żądanie zapłaty</translation>
+        <translation>Otwórz Nerocashowe: URI lub żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1823,7 +1823,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Enter a Nerocash address (e.g. %1)</source>
-        <translation>Wprowadź adres NonceCashowy (np. %1)</translation>
+        <translation>Wprowadź adres Nerocashowy (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2548,7 +2548,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nerocash transactions than the network can process.</source>
-        <translation>Zapłacenie tylko minimalnej opłaty jest nadal wystarczające, dopóki jest mniejszy wolumen transakcji niż miejsca w blokach. Należy jednak mieć świadomość, że może skończyć się to niezatwierdzeniem nigdy transakcji, gdy jest większe zapotrzebowanie na transakcje NonceCasha niż sieć może przetworzyć.</translation>
+        <translation>Zapłacenie tylko minimalnej opłaty jest nadal wystarczające, dopóki jest mniejszy wolumen transakcji niż miejsca w blokach. Należy jednak mieć świadomość, że może skończyć się to niezatwierdzeniem nigdy transakcji, gdy jest większe zapotrzebowanie na transakcje Nerocasha niż sieć może przetworzyć.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2815,7 +2815,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>A message that was attached to the nerocash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nerocash network.</source>
-        <translation>Wiadomość, która została dołączona do URI NonceCasha, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Nerocash.</translation>
+        <translation>Wiadomość, która została dołączona do URI Nerocasha, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Nerocash.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -3609,7 +3609,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Nerocash Core</source>
-        <translation>Rdzeń NonceCasha</translation>
+        <translation>Rdzeń Nerocasha</translation>
     </message>
     <message>
         <source>The %s developers</source>

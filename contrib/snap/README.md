@@ -25,9 +25,9 @@ sudo snap install nerocash-core
 ### Usage
 ```
 nerocash-unofficial.cli # for nerocash-cli
-nerocash-unofficial.d # for noncecashd
+nerocash-unofficial.d # for nerocashd
 nerocash-unofficial.qt # for nerocash-qt
-nerocash-unofficial.test # for test_noncecash
+nerocash-unofficial.test # for test_nerocash
 nerocash-unofficial.tx # for nerocash-tx
 ```
 

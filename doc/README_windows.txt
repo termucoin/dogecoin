@@ -19,5 +19,5 @@ depending on the speed of your computer and network connection, the synchronizat
 process can take anywhere from a few hours to a day or more.
 
 See the Nerocash wiki at:
-  https://www.reddit.com/r/nerocash/wiki/noncecashcoreguide
+  https://www.reddit.com/r/nerocash/wiki/nerocashcoreguide
 for more help and information.

@@ -7,6 +7,6 @@ Comment[tr]=Nerocash, eşten eşe kriptografik sanal para birimi
 Exec=nerocash-qt %u
 Terminal=false
 Type=Application
-Icon=noncecash128
+Icon=nerocash128
 MimeType=x-scheme-handler/nerocash;
 Categories=Office;Finance;

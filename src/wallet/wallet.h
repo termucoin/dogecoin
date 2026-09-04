@@ -815,11 +815,11 @@ public:
     /**
      * Nerocash: Get a fee targeting a specific transaction speed.
      */
-    CAmount GetNonceCashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed);
+    CAmount GetNerocashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed);
     /**
      * Nerocash: Get a fee targeting a specific transaction speed.
      */
-    static CAmount GetNonceCashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed, CAmount targetFee);
+    static CAmount GetNerocashPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed, CAmount targetFee);
     /**
      * Return the minimum required fee taking into account the
      * floating relay fee and user set minimum transaction fee

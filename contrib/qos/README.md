@@ -2,4 +2,4 @@
 
 This is a Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Nerocash network. It limits outbound TCP traffic with a source or destination port of 9883, but not if the destination IP is within a LAN.
 
-This means one can have an always-on noncecashd instance running, and another local noncecashd/nerocash-qt instance which connects to this node and receives blocks from it.
+This means one can have an always-on nerocashd instance running, and another local nerocashd/nerocash-qt instance which connects to this node and receives blocks from it.

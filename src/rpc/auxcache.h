@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef NONCECASH_AUXCACHE_H
-#define NONCECASH_AUXCACHE_H
+#ifndef NEROCASH_AUXCACHE_H
+#define NEROCASH_AUXCACHE_H
 
 #include "script/standard.h"  // for CScriptID
 #include "primitives/block.h" // for CBlock
@@ -41,4 +41,4 @@ public:
 
 };
 
-#endif //NONCECASH_AUXCACHE_H
+#endif //NEROCASH_AUXCACHE_H

@@ -3,7 +3,7 @@
 #
 # The relevant paths are:
 #
-#/opt/nerocash/noncecashd
+#/opt/nerocash/nerocashd
 #/etc/opt/nerocash/
 #/var/opt/nerocash/
 
@@ -13,7 +13,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/nerocash/bin/noncecashd -conf=/etc/opt/nerocash/nerocash.conf -datadir=/var/opt/nerocash
+ExecStart=/opt/nerocash/bin/nerocashd -conf=/etc/opt/nerocash/nerocash.conf -datadir=/var/opt/nerocash
 
 KillSignal=SIGINT
 Restart=always

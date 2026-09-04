@@ -92,7 +92,7 @@ sudo apt-get install libminiupnpc-dev
 
 ## Build steps
 
-According to installed dependencies, the following steps will compile `noncecashd`, `nerocash-cli` and `nerocash-qt`.
+According to installed dependencies, the following steps will compile `nerocashd`, `nerocash-cli` and `nerocash-qt`.
 
 ```bash
 ./autogen.sh

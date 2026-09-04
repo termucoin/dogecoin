@@ -6,7 +6,7 @@ or look for work that needs doing, please see:
 
 * [Help requests](https://github.com/nerocash/nerocash/labels/help%20wanted)
 * [Projects](https://github.com/nerocash/nerocash/projects)
-* [NonceCashdev on reddit](https://www.reddit.com/r/noncecashdev/)
+* [Nerocashdev on reddit](https://www.reddit.com/r/nerocashdev/)
 
 ## Branch Strategy
 

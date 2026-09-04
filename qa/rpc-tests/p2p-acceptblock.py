@@ -129,8 +129,8 @@ class TestNode(NodeConnCB):
 class AcceptBlockTest(BitcoinTestFramework):
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("NONCECASHD", "noncecashd"),
-                          help="noncecashd binary to test")
+                          default=os.getenv("NEROCASHD", "nerocashd"),
+                          help="nerocashd binary to test")
 
     def __init__(self):
         super().__init__()
