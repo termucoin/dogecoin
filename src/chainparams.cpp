@@ -107,7 +107,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000e993d2aa86cf246a49b"); // 5,050,000
-        consensus.defaultAssumeValid = uint256S("0xe7d4577405223918491477db725a393bcfc349d8ee63b0a4fde23cbfbfd81dea"); // 5,050,000
+        consensus.defaultAssumeValid = uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"); // 5,050,000
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0024;
@@ -145,12 +145,12 @@ public:
         nDefaultPort = 9883;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1386325540, 99943, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1788839289, 546231, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         assert(consensus.hashGenesisBlock == uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"));
-        assert(genesis.hashMerkleRoot == uint256S("0x0"));
+        assert(genesis.hashMerkleRoot == uint256S("0x046be3a46e28a7921b07edf2b1ab938ad0dc1aa79ffcc4d6297e2840d09305c1"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         // vSeeds.push_back(CDNSSeedData("multinncc.org", "seed.multinncc.org", true));
@@ -171,7 +171,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0x0"))
+            (      0, uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"))
         };
 
         chainTxData = ChainTxData{
