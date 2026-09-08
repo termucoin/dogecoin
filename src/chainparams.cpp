@@ -149,7 +149,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"));
         assert(genesis.hashMerkleRoot == uint256S("0x0"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
