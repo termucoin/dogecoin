@@ -107,7 +107,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000e993d2aa86cf246a49b"); // 5,050,000
-        consensus.defaultAssumeValid = uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"); // 5,050,000
+        consensus.defaultAssumeValid = uint256S("0x000003f683e2c148c6f8cce1016412b5e3e6045282a5080cc88eb10c8859997c"); // 5,050,000
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0024;
@@ -145,7 +145,7 @@ public:
         nDefaultPort = 9883;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1788839289, 546231, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1788865838, 527824, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
