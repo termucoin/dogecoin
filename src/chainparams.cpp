@@ -149,8 +149,8 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"));
-        assert(genesis.hashMerkleRoot == uint256S("0x046be3a46e28a7921b07edf2b1ab938ad0dc1aa79ffcc4d6297e2840d09305c1"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000003f683e2c148c6f8cce1016412b5e3e6045282a5080cc88eb10c8859997c"));
+        assert(genesis.hashMerkleRoot == uint256S("0x196f88fe1aefe92b1583833202a43abed5d5bb3a3b724dda7a4c9f838992dd47"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         // vSeeds.push_back(CDNSSeedData("multinncc.org", "seed.multinncc.org", true));
