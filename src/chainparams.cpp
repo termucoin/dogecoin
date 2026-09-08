@@ -171,7 +171,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0x00000ba65e0b50dbd39b767b01c77c227434096879f0dd7515924a64c661aa91"))
+            (      0, uint256S("0x000003f683e2c148c6f8cce1016412b5e3e6045282a5080cc88eb10c8859997c"))
         };
 
         chainTxData = ChainTxData{
@@ -233,7 +233,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000540f2f62ff9a26"); // 5,900,000
-        consensus.defaultAssumeValid = uint256S("0x000009d2ed07bdaf379cbd2d19b9e94ec9e7575fc8f65a5e598da5d657b83165"); // 5,900,000
+        consensus.defaultAssumeValid = uint256S("0x000003eed983bbaceb8c52db65ba23711549a5d05c27bd172b565b9242abc39f"); // 5,900,000
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0024;
@@ -302,7 +302,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x000009d2ed07bdaf379cbd2d19b9e94ec9e7575fc8f65a5e598da5d657b83165"))
+            ( 0, uint256S("0x000003eed983bbaceb8c52db65ba23711549a5d05c27bd172b565b9242abc39f"))
         };
 
         chainTxData = ChainTxData{
@@ -405,7 +405,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x29451003d5f9557ce040759d0969caae3edc48b9d0d7e5cde245f6b7d87f625d"))
+            ( 0, uint256S("0x3b40b1823084ae807e45221a43c712da935f7ac45e5b57519dac530df6c16dfa"))
         };
 
         chainTxData = ChainTxData{
