@@ -388,12 +388,12 @@ public:
         nDefaultPort = 15877;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1788840276, 2, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1788867131, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x29451003d5f9557ce040759d0969caae3edc48b9d0d7e5cde245f6b7d87f625d"));
-        assert(genesis.hashMerkleRoot == uint256S("0x046be3a46e28a7921b07edf2b1ab938ad0dc1aa79ffcc4d6297e2840d09305c1"));
+        assert(consensus.hashGenesisBlock == uint256S("0x3b40b1823084ae807e45221a43c712da935f7ac45e5b57519dac530df6c16dfa"));
+        assert(genesis.hashMerkleRoot == uint256S("0x196f88fe1aefe92b1583833202a43abed5d5bb3a3b724dda7a4c9f838992dd47"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
